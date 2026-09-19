@@ -1,0 +1,190 @@
+{
+  "verified_at_utc": "2026-09-17T11:05:57.871742+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "EGPDefs.lean",
+      "bytes": 1633,
+      "sha256": "5bc5b0bbf86a9b7ec5190506b7e2321346cf473626c73f667967eed04b92172d",
+      "passed": true,
+      "seconds": 5.453
+    },
+    {
+      "file": "EGPMatching.lean",
+      "bytes": 3640,
+      "sha256": "4d30d8cac81e7c0e6498a8e4b83cb1642f92b7850a84186301ee779e191924be",
+      "passed": true,
+      "seconds": 5.672
+    },
+    {
+      "file": "EGPCount.lean",
+      "bytes": 2821,
+      "sha256": "01926ef2e82a503efa3d02548542d92d40859f828fa8969ad315afccc7846705",
+      "passed": true,
+      "seconds": 6.313
+    },
+    {
+      "file": "EGPAssembly.lean",
+      "bytes": 11481,
+      "sha256": "da14d96c35ec136f2bdc32c24310e85779840cfa98a39a1cbf47737d3df89632",
+      "passed": true,
+      "seconds": 6.296
+    },
+    {
+      "file": "EGPInduction.lean",
+      "bytes": 3196,
+      "sha256": "ffaca4ae050eb34a082f5a98d62847ee0ad80989d3b74414ae18fb7d9cc98dbe",
+      "passed": true,
+      "seconds": 5.766
+    },
+    {
+      "file": "EGPSubmission.lean",
+      "bytes": 1567,
+      "sha256": "2d8aacaf2a234dc46e760e5432a33ce8a931e17d4e5294bb21b5cf104d2e7ea3",
+      "passed": true,
+      "seconds": 5.563
+    },
+    {
+      "file": "EGPGraph.lean",
+      "bytes": 1133,
+      "sha256": "e1281125a3be76ad48b04d7a721be8bb02f4687b3a6fa97c572440ad76689188",
+      "passed": true,
+      "seconds": 5.796
+    }
+  ],
+  "axiom_audit": {
+    "EGP.neighbors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.Clique": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.MatchingOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.covered": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.MaximalMatching": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.PartitionOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.trim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.matching_covered_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.matching_covered_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.exists_maximal_matching": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.matching_cost_le_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.floor_quarter_square_step": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.extensionParts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.extension_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.extension_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.extend_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.neighbors_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.exists_min_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.trim_symmetric": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.trim_irreflexive": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.partition_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.partition_bound_of_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.erdos_goodman_posa": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.finite_relation_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.simple_graph_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "typed_audit_source_sha256": "4ff60a447752a23270bad9783e70378f0c2d5694d4301683166ebff0a54daef3",
+  "passed": true,
+  "typed_endpoint_checks": [
+    "expanded_finite_vertex_partition",
+    "all_n_relation_partition",
+    "all_finite_simple_graph_partition",
+    "exact_floor_recurrence"
+  ]
+}

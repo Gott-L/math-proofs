@@ -1,0 +1,206 @@
+{
+  "checked_at_utc": "2026-09-17T12:14:28.657839+00:00",
+  "upstream_commit": "076e8e57707e813375e8f9da8bf989799ace9680",
+  "lean_binary_sha256": "f59b0c515f65dbf96526279d77fb43152f76bdd77f5fb94f387b75139fafe68c",
+  "lean_version_output": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "exporter_name": "lean4export-lean4.19-string-lowered",
+  "exporter_version": "3.1.0+lean4.19.string-lowered",
+  "format_version": "3.1.0",
+  "previous_gate_sha256": "d49ae5148c70b2da0cac32ff18cc547b629009c7bf568cfcaefc5ad429800e7e",
+  "original_export_sha256": "bf9c742f6def570ef5ccb51e6886d712e2d97db9bac21806d329a4f6537bafd5",
+  "actual_literals": [
+    {
+      "line": 170847,
+      "expression_reference": 153616,
+      "text": "PANIC at ",
+      "codepoints": [
+        80,
+        65,
+        78,
+        73,
+        67,
+        32,
+        97,
+        116,
+        32
+      ],
+      "equality_theorem": "StringLoweringCases.literal_0"
+    },
+    {
+      "line": 170851,
+      "expression_reference": 153620,
+      "text": " ",
+      "codepoints": [
+        32
+      ],
+      "equality_theorem": "StringLoweringCases.literal_1"
+    },
+    {
+      "line": 170856,
+      "expression_reference": 153625,
+      "text": ":",
+      "codepoints": [
+        58
+      ],
+      "equality_theorem": "StringLoweringCases.literal_2"
+    },
+    {
+      "line": 170871,
+      "expression_reference": 153640,
+      "text": ": ",
+      "codepoints": [
+        58,
+        32
+      ],
+      "equality_theorem": "StringLoweringCases.literal_3"
+    },
+    {
+      "line": 170960,
+      "expression_reference": 153716,
+      "text": "Init.GetElem",
+      "codepoints": [
+        73,
+        110,
+        105,
+        116,
+        46,
+        71,
+        101,
+        116,
+        69,
+        108,
+        101,
+        109
+      ],
+      "equality_theorem": "StringLoweringCases.literal_4"
+    },
+    {
+      "line": 170962,
+      "expression_reference": 153718,
+      "text": "_private.Init.GetElem.0.List.get!Internal",
+      "codepoints": [
+        95,
+        112,
+        114,
+        105,
+        118,
+        97,
+        116,
+        101,
+        46,
+        73,
+        110,
+        105,
+        116,
+        46,
+        71,
+        101,
+        116,
+        69,
+        108,
+        101,
+        109,
+        46,
+        48,
+        46,
+        76,
+        105,
+        115,
+        116,
+        46,
+        103,
+        101,
+        116,
+        33,
+        73,
+        110,
+        116,
+        101,
+        114,
+        110,
+        97,
+        108
+      ],
+      "equality_theorem": "StringLoweringCases.literal_5"
+    },
+    {
+      "line": 170974,
+      "expression_reference": 153730,
+      "text": "invalid index",
+      "codepoints": [
+        105,
+        110,
+        118,
+        97,
+        108,
+        105,
+        100,
+        32,
+        105,
+        110,
+        100,
+        101,
+        120
+      ],
+      "equality_theorem": "StringLoweringCases.literal_6"
+    }
+  ],
+  "compile_results": [
+    {
+      "module": "Export",
+      "arguments": [
+        "--trust=0",
+        "-DwarningAsError=true",
+        "-o",
+        "Export.olean",
+        "Export.lean"
+      ],
+      "exit_code": 0,
+      "log": "Export.lowering.compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "Main",
+      "arguments": [
+        "--trust=0",
+        "-DwarningAsError=true",
+        "-o",
+        "Main.olean",
+        "Main.lean"
+      ],
+      "exit_code": 0,
+      "log": "Main.lowering.compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "StringLoweringCases",
+      "arguments": [
+        "--trust=0",
+        "-DwarningAsError=true",
+        "-o",
+        "StringLoweringCases.olean",
+        "StringLoweringCases.lean"
+      ],
+      "exit_code": 0,
+      "log": "StringLoweringCases.lowering.compile.log",
+      "log_sha256": "c2f0f254e659f76750ff56c81a9b02b4e84fb53be7541aa2c1e7b4c70fbd3a48"
+    }
+  ],
+  "all_seven_rfl_equalities_kernel_checked": true,
+  "source_and_patch_sha256": {
+    "Export.lean": "070dd8c3abd862c2ac3b99cd9e69719e098e05fc0cd22540fc7a62ceda481e4b",
+    "Main.lean": "bd8e350903f1382b25fe767f9086dd9882000f01085f7046ea06545e7848842a",
+    "lean419.patch": "a3a6df2491158e5242737f7cb1af536ba323ef4824f4e6aff157fea8765a5136",
+    "string-lowering.patch": "38bbba084b98542ddf1c9e084f5f2998d4dd1c83236208b4d65006f965b341ed",
+    "StringLoweringCases.lean": "3e3e3331166f86ab2223e816beb466f89a42be2ac1353551cd4bb82f63f32e05",
+    "lowering_gate.py": "e3ce67dc09264af637635ce3a557a92fec0798ae3460fb194340e1163a1c34a4",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "artifact_sha256": {
+    "Export.olean": "8d07aaab7472cccd970a7ea64cc25f61b67c43415a26cb627d7d114cad08596f",
+    "Main.olean": "f47d62f73f0762e1816decc37105ed91671c77c8d4e1c307d1d3e316b8b1df2c",
+    "StringLoweringCases.olean": "a25355da7b436b4aa5326538c4666f8d07ff7bf80ff2dcdfc3d77947f35f9141"
+  },
+  "external_checker_run": false,
+  "full_packet_export_pending": true
+}

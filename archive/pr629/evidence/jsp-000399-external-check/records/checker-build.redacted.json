@@ -1,0 +1,20 @@
+{
+  "repository": "ammkrn/nanoda_lib",
+  "commit": "4c544ed4099c8227f07d5de77ad1e69fb0740a27",
+  "source_unchanged": true,
+  "command": [
+    "<pilot>/rust-runtime/bin/cargo",
+    "build",
+    "--release",
+    "--locked",
+    "--bin",
+    "nanoda_bin",
+    "-j",
+    "1"
+  ],
+  "exit_code": 0,
+  "seconds": 97.505,
+  "toolchain": "rustc 1.93.0 (254b59607 2026-01-19)\nbinary: rustc\ncommit-hash: 254b59607d4417e9dffbc307138ae5c86280fe4c\ncommit-date: 2026-01-19\nhost: x86_64-unknown-linux-gnu\nrelease: 1.93.0\nLLVM version: 21.1.8\n",
+  "binary_sha256": "bd60ccdb0f08f6a1115975c135ec4117dee3a4ff4daab9278f8e9e0d75871d2e",
+  "binary_bytes": 1294728
+}

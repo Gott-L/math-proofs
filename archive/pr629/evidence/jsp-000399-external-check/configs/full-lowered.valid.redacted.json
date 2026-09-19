@@ -1,0 +1,41 @@
+{
+  "export_file_path": "<pilot>/exports-lowered/export.ndjson",
+  "use_stdin": false,
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "unsafe_permit_all_axioms": false,
+  "unknown_pp_declar_hard_error": true,
+  "num_threads": 1,
+  "nat_extension": true,
+  "string_extension": false,
+  "pp_declars": [
+    "JSP399TwentySeven.triples_complete",
+    "JSP399TwentySeven.triples_nodup",
+    "JSP399TwentySeven.triples_length",
+    "JSP399Parametric.vector_triple_sums_perm",
+    "JSP399Parametric.every_additive_image_collision",
+    "JSP399Parametric.every_parameter_collision",
+    "JSP399Parametric.every_translated_parameter_collision",
+    "JSP399Parametric.example_is_nontrivial_collision",
+    "JSP399Parametric.exampleA_matches",
+    "JSP399Parametric.exampleB_matches_reverse"
+  ],
+  "pp_output_path": "<pilot>/results/full-lowered.valid.declarations.txt",
+  "pp_to_stdout": false,
+  "pp_options": {
+    "all": false,
+    "explicit": true,
+    "universes": true,
+    "notation": false,
+    "proofs": false,
+    "indent": 2,
+    "width": 160,
+    "declar_sep": "\n\n"
+  },
+  "print_success_message": true,
+  "print_axioms": true
+}

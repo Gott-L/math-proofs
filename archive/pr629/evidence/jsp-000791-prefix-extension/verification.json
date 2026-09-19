@@ -1,0 +1,264 @@
+{
+  "verified_at_utc": "2026-09-17T11:42:16.774717+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "E951Defs.lean",
+      "bytes": 1360,
+      "sha256": "648b8a165ce32b5d6219592cb8c2d87a564efb67b39b45b6d11ed4717ddc0a96",
+      "passed": true,
+      "seconds": 7.266
+    },
+    {
+      "file": "E951Weights.lean",
+      "bytes": 5223,
+      "sha256": "df4d4038b4e8247bc42a049ac91d5a41dafdd232e15c93f80c2a78c6fe533721",
+      "passed": true,
+      "seconds": 8.812
+    },
+    {
+      "file": "E951Intervals.lean",
+      "bytes": 6628,
+      "sha256": "8eb9f238448b01e2def856ae1a4f03caecc3a4607632f6935a5216e450fa6f9b",
+      "passed": true,
+      "seconds": 14.735
+    },
+    {
+      "file": "E951Append.lean",
+      "bytes": 2299,
+      "sha256": "804b4d4d29cfbdfee3a31d6db6eec88d551a155395e78ff33e1b28fa2b14c6c0",
+      "passed": true,
+      "seconds": 7.812
+    },
+    {
+      "file": "E951Sequence.lean",
+      "bytes": 7385,
+      "sha256": "23c3573036aa8751c626911118257f2ebfed225475edca80ce58eb65dda2408c",
+      "passed": true,
+      "seconds": 8.125
+    },
+    {
+      "file": "E951Series.lean",
+      "bytes": 3759,
+      "sha256": "f49fa7eb1e6e026053506c59ff5f257fd2ac2a9c38fe07e31c0231b4a247ee19",
+      "passed": true,
+      "seconds": 9.578
+    },
+    {
+      "file": "E951Extension.lean",
+      "bytes": 4477,
+      "sha256": "550b17561cffeabbeefd078e66e5f8034c876416990201ba77f05121ebec8d6f",
+      "passed": true,
+      "seconds": 11.75
+    }
+  ],
+  "axiom_audit": {
+    "E951.monomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.Separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.Avoids": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.sequenceMonomial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.SequenceSeparated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.monomial_ge_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.monomial_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.weight_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.weight_eq_prod": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.exists_hasSum_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.summable_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.tsum_ofReal_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.badSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.badSet_distance_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.badSet_volume_le_basic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.badSet_volume_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.monomial_snoc": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.separated_snoc": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.ExtensionStep": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.GoodPrefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.extendPrefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.prefixChain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.prefixChain_stable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.limitSequence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.limitSequence_agrees": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.limitSequence_strictMono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.sequenceMonomial_eq_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.sequenceSeparated_of_prefixes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.separated_restrict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.exists_sequence_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.geometric_tail_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.weighted_triple_sum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.forbiddenUnion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.forbiddenUnion_volume_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.exists_avoiding_above": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.extension_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E951.finite_prefix_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "typed_audit_source_sha256": "673ae03c7e0e48a2630b8404f5c6b1e79b73b6790c04f63d02aed8c0d4b9f7fa",
+  "passed": true,
+  "typed_endpoint_checks": [
+    "raw_unconditional_infinite_extension",
+    "raw_one_step_above_any_cutoff",
+    "raw_all_cross_power_avoidance",
+    "positive_geometric_weight_sum",
+    "outer_measure_interval_bound",
+    "geometric_tail_bound"
+  ]
+}

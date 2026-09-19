@@ -1,0 +1,22 @@
+name = "e357"
+version = "0.1.0"
+defaultTargets = ["E357"]
+moreLeanArgs = ["-s", "65536", "-DwarningAsError=true"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+
+[[lean_lib]]
+name = "E357DensityDefs"
+[[lean_lib]]
+name = "E357Intervals"
+[[lean_lib]]
+name = "E357DyadicBounds"
+[[lean_lib]]
+name = "E357Counting"
+[[lean_lib]]
+name = "E357DensityBridge"
+[[lean_lib]]
+name = "E357"

@@ -1,0 +1,226 @@
+{
+  "stage": "full",
+  "proof_repository": "Gott-L/awards",
+  "proof_commit": "86cf6d9a47a7134e9901c6464322eafddc89742e",
+  "proof_packet": "evidence/jsp-000399-parametric-27",
+  "roots_requested": [
+    "JSP399TwentySeven.triples_complete",
+    "JSP399TwentySeven.triples_nodup",
+    "JSP399TwentySeven.triples_length",
+    "JSP399Parametric.vector_triple_sums_perm",
+    "JSP399Parametric.every_additive_image_collision",
+    "JSP399Parametric.every_parameter_collision",
+    "JSP399Parametric.every_translated_parameter_collision",
+    "JSP399Parametric.example_is_nontrivial_collision",
+    "JSP399Parametric.exampleA_matches",
+    "JSP399Parametric.exampleB_matches_reverse"
+  ],
+  "module": "Jsp399Parametric",
+  "published_sources": {
+    "Jsp399TripleCore.lean": {
+      "sha256": "ec6d0d0bf114c025bbcd5a82a77d3b0401433a2df630438a3f60e602f76b7ee4",
+      "bytes": 4335
+    },
+    "Jsp399Witness.lean": {
+      "sha256": "4f1937d3fe11b213adb5fe3301e0bb0fd546238063993521fd26ca32da525503",
+      "bytes": 1371
+    },
+    "EncodedCoeffCertificate.lean": {
+      "sha256": "2d64c4d56c8963a45597d8f933fb71e08b0d8e3f08f7a6ff057c588faaa94f23",
+      "bytes": 441117
+    },
+    "Jsp399Parametric.lean": {
+      "sha256": "fd486be111060dafac013d577fc75152b4ff1139187f5def7332efd15d832e77",
+      "bytes": 12153
+    }
+  },
+  "fresh_modules_used": {
+    "Jsp399TripleCore": {
+      "source_sha256": "ec6d0d0bf114c025bbcd5a82a77d3b0401433a2df630438a3f60e602f76b7ee4",
+      "olean_sha256": "4d5a5af6e60602745e52bb5506497bb55243204b71eda91f4937754c5b5a7029",
+      "olean_bytes": 288616
+    },
+    "Jsp399Witness": {
+      "source_sha256": "4f1937d3fe11b213adb5fe3301e0bb0fd546238063993521fd26ca32da525503",
+      "olean_sha256": "f306c0a604e61f93269a144b64241bbf0bd0599098ed8a359ed1a5bbbdfbe3d7",
+      "olean_bytes": 93752
+    },
+    "EncodedCoeffCertificate": {
+      "source_sha256": "2d64c4d56c8963a45597d8f933fb71e08b0d8e3f08f7a6ff057c588faaa94f23",
+      "olean_sha256": "961e3764f96a140017eb17cbb623c93bd5677cbabdfe98642e22cb55a608c956",
+      "olean_bytes": 28377608
+    },
+    "Jsp399Parametric": {
+      "source_sha256": "fd486be111060dafac013d577fc75152b4ff1139187f5def7332efd15d832e77",
+      "olean_sha256": "be5c01a935a4950fe78e35e97db48935b23f93c549e53d150c1993497960c370",
+      "olean_bytes": 995552
+    }
+  },
+  "fresh_build_receipt": "proof-serial-receipt.json",
+  "fresh_build_receipt_sha256": "cf3c8f142c2fb35927cac042d7dbfc3b1bc31c8b9d40abfa2b164cf834450006",
+  "exporter_gate_sha256": "d49ae5148c70b2da0cac32ff18cc547b629009c7bf568cfcaefc5ad429800e7e",
+  "exporter_sha256": {
+    "Export.lean": "5101db7d300518b4e5e1ce51c955f6ffeb2fb90df3dd770ca95497ccf65ff641",
+    "Main.lean": "bd8e350903f1382b25fe767f9086dd9882000f01085f7046ea06545e7848842a",
+    "lean419.patch": "a3a6df2491158e5242737f7cb1af536ba323ef4824f4e6aff157fea8765a5136",
+    "Export.olean": "16c065504706cc257382763b778f08d34c3b6563e90f66921cc31ee560b30493",
+    "Main.olean": "f47d62f73f0762e1816decc37105ed91671c77c8d4e1c307d1d3e316b8b1df2c"
+  },
+  "export_driver_sha256": "dcaf3d8d78f07cce5a813ca2f7ce8e19944fe0099273c8c47f016534741f8a4b",
+  "lean_binary_sha256": "f59b0c515f65dbf96526279d77fb43152f76bdd77f5fb94f387b75139fafe68c",
+  "command": [
+    "<lean-toolchain>/bin/lean.exe",
+    "--trust=0",
+    "-s",
+    "65536",
+    "-j",
+    "1",
+    "-DElab.async=false",
+    "--run",
+    "<pilot>/exporter/Main.lean",
+    "Jsp399Parametric",
+    "--",
+    "--",
+    "JSP399TwentySeven.triples_complete",
+    "JSP399TwentySeven.triples_nodup",
+    "JSP399TwentySeven.triples_length",
+    "JSP399Parametric.vector_triple_sums_perm",
+    "JSP399Parametric.every_additive_image_collision",
+    "JSP399Parametric.every_parameter_collision",
+    "JSP399Parametric.every_translated_parameter_collision",
+    "JSP399Parametric.example_is_nontrivial_collision",
+    "JSP399Parametric.exampleA_matches",
+    "JSP399Parametric.exampleB_matches_reverse"
+  ],
+  "maximum_export_bytes": 104857600,
+  "external_checker_run": false,
+  "external_checker_pass": false,
+  "entire_packet_checked": false,
+  "export_exit_code": 0,
+  "elapsed_seconds": 8.546,
+  "export_bytes": 10375541,
+  "export_sha256": "bf9c742f6def570ef5ccb51e6886d712e2d97db9bac21806d329a4f6537bafd5",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "checked_at_utc": "2026-09-17T12:09:13.506532+00:00",
+  "metadata": {
+    "lean": {
+      "version": "4.19.0",
+      "githash": "6caaee842e9495688c1567e78c0e68dbb96942aa"
+    },
+    "format": {
+      "version": "3.1.0"
+    },
+    "exporter": {
+      "version": "3.1.0+lean4.19-pilot",
+      "name": "lean4export-lean4.19-backport"
+    }
+  },
+  "json_rows": 201665,
+  "names": 15208,
+  "expressions": 183706,
+  "string_literal_records": 7,
+  "declaration_count": 2882,
+  "roots": [
+    {
+      "kind": "thm",
+      "name": "JSP399TwentySeven.triples_complete",
+      "line": 28172,
+      "name_reference": 2135,
+      "type_reference": 24703,
+      "value_reference": 25222,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399TwentySeven.triples_nodup",
+      "line": 41850,
+      "name_reference": 3147,
+      "type_reference": 37956,
+      "value_reference": 38003,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399TwentySeven.triples_length",
+      "line": 41872,
+      "name_reference": 3150,
+      "type_reference": 38012,
+      "value_reference": 38023,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.vector_triple_sums_perm",
+      "line": 194025,
+      "name_reference": 15081,
+      "type_reference": 176166,
+      "value_reference": 176239,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.every_additive_image_collision",
+      "line": 194285,
+      "name_reference": 15082,
+      "type_reference": 176290,
+      "value_reference": 176492,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.every_parameter_collision",
+      "line": 196140,
+      "name_reference": 15099,
+      "type_reference": 178261,
+      "value_reference": 178326,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.every_translated_parameter_collision",
+      "line": 196801,
+      "name_reference": 15106,
+      "type_reference": 178913,
+      "value_reference": 178976,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.example_is_nontrivial_collision",
+      "line": 201274,
+      "name_reference": 15199,
+      "type_reference": 183296,
+      "value_reference": 183330,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.exampleA_matches",
+      "line": 201481,
+      "name_reference": 15202,
+      "type_reference": 183514,
+      "value_reference": 183531,
+      "level_parameters": []
+    },
+    {
+      "kind": "thm",
+      "name": "JSP399Parametric.exampleB_matches_reverse",
+      "line": 201665,
+      "name_reference": 15207,
+      "type_reference": 183692,
+      "value_reference": 183705,
+      "level_parameters": []
+    }
+  ],
+  "axioms": [
+    "Quot.sound",
+    "propext",
+    "Classical.choice"
+  ],
+  "inventory_sha256": "de690a4980f24668305f6ec6a82dc29e2132b3353fec5df785e09cc11058a3ad",
+  "export_gate_passed": false,
+  "failures": [
+    "string literal compatibility not established"
+  ],
+  "scope_label": "Ten current packet roots exported; independent checking remains pending"
+}

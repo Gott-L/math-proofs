@@ -1,0 +1,734 @@
+{
+  "utc": "2026-09-17T10:05:55.514790+00:00",
+  "success": true,
+  "sources_unchanged_after_review": true,
+  "review_kind": "same-team AI cross-module source review and separate fresh compilation",
+  "proof_author_role": "reviewer did not author the seven proof modules",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "source_sha256": {
+    "E1087Core.lean": "1783d6e17ef631c53e9c5b25e7eca942ee7fdb6060de74f228f230faa0fbca93",
+    "E1087Incidence.lean": "3049c4c84be80d60165db2eb63ef3a41854c719457850811472bca3bd428f72d",
+    "E1087Meaning.lean": "26be44f15eec860114d4450bf7566086d37bfd40c5d4ec0c081a6abb32f622c4",
+    "E1087Quadruples.lean": "973e50feed0566a47defee98395deb920cb6898b3343c7ec59ac778cc7a3520f",
+    "E1087ColorBound.lean": "8d59e494d1f758ffc67363a016e69505ea53dbbbec889320710fc02ba1604e99",
+    "E1087Plane.lean": "d668c0ba61586265042db353ae8e21e448e3dede572c0e1e43fe02ee03a8d369",
+    "E1087.lean": "be084ab346910c57f5b11e2c0c7028a31b2ba8e69d6949c556687b6bfbf462af"
+  },
+  "audit_source_sha256": {
+    "Audit.lean": "6b55497fb0b7ea568ae4dadf961f196966b674a586655dfe81883ba15c9cf419",
+    "AxiomAudit.lean": "b76b9be2cf2ba26af963971db0f2b637384b18b1dfe9e018abf85f093ed37ac1"
+  },
+  "import_isolation": {
+    "fresh_local_olean_directory": true,
+    "excluded_project_build_path": true,
+    "dependency_library_paths_count": 9,
+    "dependency_caches_reused_not_rebuilt": true
+  },
+  "proof_declarations_audited": [
+    "Erdos1087.edges",
+    "Erdos1087.equalPairs",
+    "Erdos1087.support",
+    "Erdos1087.trianglePairs",
+    "Erdos1087.disjointPairs",
+    "Erdos1087.weight",
+    "Erdos1087.totalWeight",
+    "Erdos1087.badFourSets",
+    "Erdos1087.badCount",
+    "Erdos1087.mem_edges",
+    "Erdos1087.mem_equalPairs",
+    "Erdos1087.support_pair",
+    "Erdos1087.support_subset",
+    "Erdos1087.support_card",
+    "Erdos1087.equalPairs_card_partition",
+    "Erdos1087.support_subset_iff",
+    "Erdos1087.equalPairs_restrict",
+    "Erdos1087.card_four_supersets_three",
+    "Erdos1087.card_four_supersets_four",
+    "Erdos1087.totalWeight_as_support_sum",
+    "Erdos1087.totalWeight_identity",
+    "Erdos1087.badCount_le_totalWeight",
+    "Erdos1087.totalWeight_le_mul_badCount",
+    "Erdos1087.pair_mem_equalPairs_iff",
+    "Erdos1087.weight_pos_iff",
+    "Erdos1087.weight_pos_iff_card_image_lt",
+    "Erdos1087.four_set_degenerate_iff",
+    "Erdos1087.triangle_pair_unique_apex",
+    "Erdos1087.orderedQuadruples",
+    "Erdos1087.edgeOrientations",
+    "Erdos1087.selectedTwo",
+    "Erdos1087.orderedDistinct",
+    "Erdos1087.IsMonochromatic",
+    "Erdos1087.edgeOrientations_pair",
+    "Erdos1087.edgeOrientations_card",
+    "Erdos1087.sameColorPairs",
+    "Erdos1087.sameColorPairs_card",
+    "Erdos1087.orderedQuadruples_card",
+    "Erdos1087.monochromaticPairs",
+    "Erdos1087.mem_monochromaticPairs",
+    "Erdos1087.monochromatic_pairs_le_ten",
+    "Erdos1087.sqDist",
+    "Erdos1087.planeColor",
+    "Erdos1087.sqDist_self",
+    "Erdos1087.sqDist_comm",
+    "Erdos1087.sqDist_pos",
+    "Erdos1087.planeColor_pair",
+    "Erdos1087.no_four_equidistant",
+    "Erdos1087.four_set_has_different_edge_colors",
+    "Erdos1087.weight_plane_le_ten",
+    "Erdos1087.sharpP0",
+    "Erdos1087.sharpP1",
+    "Erdos1087.sharpP2",
+    "Erdos1087.sharpP3",
+    "Erdos1087.sharpSet",
+    "Erdos1087.shortEdges",
+    "Erdos1087.sharpSet_card",
+    "Erdos1087.shortEdges_card",
+    "Erdos1087.shortEdges_subset",
+    "Erdos1087.shortEdges_color",
+    "Erdos1087.sharpSet_weight",
+    "Erdos1087.sharpSet_badCount",
+    "Erdos1087.planeDistance",
+    "Erdos1087.sqDist_nonneg",
+    "Erdos1087.planeDistance_pos_iff",
+    "Erdos1087.planeDistance_eq_iff",
+    "Erdos1087.planeEdgeLength",
+    "Erdos1087.planeEdgeLength_pair",
+    "Erdos1087.planeColor_nonneg",
+    "Erdos1087.edge_length_color_card",
+    "Erdos1087.planar_degenerate_iff",
+    "Erdos1087.planeQuadruples",
+    "Erdos1087.planeQuadruples_eq",
+    "Erdos1087.two_mul_edges_card",
+    "Erdos1087.planar_quadruples_identity",
+    "Erdos1087.planar_weighted_identity",
+    "Erdos1087.planar_comparison",
+    "Erdos1087.planar_sharpness"
+  ],
+  "typed_review_checks": [
+    "E1087InternalReview.edges_definition",
+    "E1087InternalReview.equalPairs_definition",
+    "E1087InternalReview.support_definition",
+    "E1087InternalReview.triangle_definition",
+    "E1087InternalReview.disjoint_definition",
+    "E1087InternalReview.weight_definition",
+    "E1087InternalReview.totalWeight_definition",
+    "E1087InternalReview.incidence_identity",
+    "E1087InternalReview.distance_definition",
+    "E1087InternalReview.unordered_edge_length",
+    "E1087InternalReview.raw_quadruples_identity",
+    "E1087InternalReview.raw_bad_count",
+    "E1087InternalReview.raw_planar_comparison",
+    "E1087InternalReview.weighted_identity",
+    "E1087InternalReview.exact_sharpness"
+  ],
+  "axiom_results": {
+    "Erdos1087.edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.equalPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.trianglePairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.disjointPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.badFourSets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.badCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.mem_edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.mem_equalPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.equalPairs_card_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support_subset_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.equalPairs_restrict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.card_four_supersets_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.card_four_supersets_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight_as_support_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.badCount_le_totalWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight_le_mul_badCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.pair_mem_equalPairs_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight_pos_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight_pos_iff_card_image_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.four_set_degenerate_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.triangle_pair_unique_apex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.orderedQuadruples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.edgeOrientations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.selectedTwo": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.orderedDistinct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.IsMonochromatic": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos1087.edgeOrientations_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.edgeOrientations_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sameColorPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sameColorPairs_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.orderedQuadruples_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.monochromaticPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.mem_monochromaticPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.monochromatic_pairs_le_ten": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeColor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist_comm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeColor_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.no_four_equidistant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.four_set_has_different_edge_colors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight_plane_le_ten": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpP0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpP1": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpP2": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpP3": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges_color": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet_badCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeDistance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeDistance_pos_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeDistance_eq_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeEdgeLength": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeEdgeLength_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeColor_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.edge_length_color_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_degenerate_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeQuadruples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeQuadruples_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.two_mul_edges_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_quadruples_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_weighted_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_comparison": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_sharpness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.edges_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.equalPairs_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.support_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.triangle_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.disjoint_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.weight_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.totalWeight_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.incidence_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.distance_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.unordered_edge_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.raw_quadruples_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.raw_bad_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.raw_planar_comparison": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.weighted_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E1087InternalReview.exact_sharpness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "all_axiom_audits_passed": true,
+  "commands": [
+    {
+      "source": "E1087Core.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087Core.olean",
+        "E1087Core.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.89,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E1087Incidence.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087Incidence.olean",
+        "E1087Incidence.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.922,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E1087Meaning.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087Meaning.olean",
+        "E1087Meaning.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.672,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E1087Quadruples.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087Quadruples.olean",
+        "E1087Quadruples.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.187,
+      "stdout": "'Erdos1087.edgeOrientations_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sameColorPairs_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.orderedQuadruples_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "E1087ColorBound.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087ColorBound.olean",
+        "E1087ColorBound.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.063,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E1087Plane.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087Plane.olean",
+        "E1087Plane.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 17.078,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E1087.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E1087.olean",
+        "E1087.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.344,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "Audit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "Audit.olean",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.078,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "AxiomAudit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "AxiomAudit.olean",
+        "AxiomAudit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 17.641,
+      "stdout": "'Erdos1087.edges' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.equalPairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.trianglePairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.disjointPairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.totalWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.badFourSets' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.badCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.mem_edges' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.mem_equalPairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.support_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.support_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.support_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.equalPairs_card_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.support_subset_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.equalPairs_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.card_four_supersets_three' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.card_four_supersets_four' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.totalWeight_as_support_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.totalWeight_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.badCount_le_totalWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.totalWeight_le_mul_badCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.pair_mem_equalPairs_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.weight_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.weight_pos_iff_card_image_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.four_set_degenerate_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.triangle_pair_unique_apex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.orderedQuadruples' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.edgeOrientations' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.selectedTwo' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.orderedDistinct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.IsMonochromatic' depends on axioms: [propext, Quot.sound]\n'Erdos1087.edgeOrientations_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.edgeOrientations_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sameColorPairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sameColorPairs_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.orderedQuadruples_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.monochromaticPairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.mem_monochromaticPairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.monochromatic_pairs_le_ten' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sqDist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeColor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sqDist_self' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sqDist_comm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sqDist_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeColor_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.no_four_equidistant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.four_set_has_different_edge_colors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.weight_plane_le_ten' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpP0' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpP1' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpP2' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpP3' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpSet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.shortEdges' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpSet_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.shortEdges_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.shortEdges_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.shortEdges_color' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpSet_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sharpSet_badCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeDistance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.sqDist_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeDistance_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeDistance_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeEdgeLength' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeEdgeLength_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeColor_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.edge_length_color_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planar_degenerate_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeQuadruples' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planeQuadruples_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.two_mul_edges_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planar_quadruples_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planar_weighted_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planar_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1087.planar_sharpness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.edges_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.equalPairs_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.support_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.triangle_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.disjoint_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.weight_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.totalWeight_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.incidence_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.distance_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.unordered_edge_length' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.raw_quadruples_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.raw_bad_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.raw_planar_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.weighted_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E1087InternalReview.exact_sharpness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    }
+  ]
+}

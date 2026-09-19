@@ -1,0 +1,175 @@
+{
+  "reviewed_at_utc": "2026-09-17T08:57:33.586973+00:00",
+  "method": "fresh local source compilation; old local compiled-proof search directory excluded",
+  "reviewer_disclosure": "Internal same-team review; reviewer authored DensityDefs compatibility module",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "flags": [
+    "-s",
+    "65536",
+    "-DwarningAsError=true"
+  ],
+  "modules": [
+    {
+      "file": "E357DensityDefs.lean",
+      "sha256": "606c9229d92e09087523ed6b1fb1a9f5c332afd1dd59390b54f113b4734c61da",
+      "bytes": 3053,
+      "seconds": 6.797,
+      "passed": true,
+      "output": ""
+    },
+    {
+      "file": "E357Intervals.lean",
+      "sha256": "c8220e90ccfa8f1d51b93f921f226a686501950ec47a4dacbae5ae422c557d00",
+      "bytes": 3219,
+      "seconds": 5.828,
+      "passed": true,
+      "output": "'Erdos357.blockSum_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.blockSum_le_of_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    },
+    {
+      "file": "E357DyadicBounds.lean",
+      "sha256": "e9455ba7fa42b119acd39f50f29c8af3375c54ced069eafcaeefc3e89c464f7f",
+      "bytes": 3374,
+      "seconds": 5.953,
+      "passed": true,
+      "output": "'Erdos357.dyadicBlock_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_length_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_sum_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    },
+    {
+      "file": "E357Counting.lean",
+      "sha256": "94b1f4660670a65f4e209080b53cf3f8f126db0fa5d2267a061ac38dc9741879",
+      "bytes": 2705,
+      "seconds": 7.734,
+      "passed": true,
+      "output": "'Erdos357.no_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    },
+    {
+      "file": "E357DensityBridge.lean",
+      "sha256": "b392346a5fc0a014bf4682cac59da641ffd4468b2e599650f8213ea46c904061",
+      "bytes": 3390,
+      "seconds": 8.203,
+      "passed": true,
+      "output": ""
+    },
+    {
+      "file": "E357.lean",
+      "sha256": "a68d29b3f4b7ebf089bbc3abc989a68eb25c0523db3a546e5c25155b983045ec",
+      "bytes": 928,
+      "seconds": 6.797,
+      "passed": true,
+      "output": "'Erdos357.erdos_357.variants.infinite_set_lower_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    }
+  ],
+  "axiom_audits": {
+    "Set.partialDensity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.lowerDensity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.partialDensity_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.lowerDensity_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.ncard_Iio_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.partialDensity_nat_univ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.lowerDensity_nat_eq_liminf": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.HasDistinctSums": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos357.blockSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.blockSum_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.blockSum_le_of_linear_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_length_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_sum_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.no_linear_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.count_range_Iio_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.exists_linear_bound_of_lowerDensity_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.erdos_357.variants.infinite_set_lower_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "typed_audit_sha256": "f960f4232a899592549c1863b5fc04368fd4378c435867abeb89f187e6a3d4b5",
+  "excluded_local_build_path": "<shared-project>/.lake/build/lib/lean",
+  "typed_checks": [
+    "generic_distinct_sums_expanded_forall",
+    "generic_raw_liminf_definition_rfl",
+    "exact_registered_theorem",
+    "expanded_hypothesis_and_original_ambient_liminf",
+    "expanded_hypothesis_and_standard_natural_raw_liminf"
+  ],
+  "audit_output": "'Set.partialDensity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Set.lowerDensity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Set.partialDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Set.lowerDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Set.ncard_Iio_nat' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Set.partialDensity_nat_univ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Set.lowerDensity_nat_eq_liminf' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.HasDistinctSums' depends on axioms: [propext, Quot.sound]\n'Erdos357.blockSum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.blockSum_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.blockSum_le_of_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_length_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_sum_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.dyadicBlock_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.no_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.count_range_Iio_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.exists_linear_bound_of_lowerDensity_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos357.erdos_357.variants.infinite_set_lower_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "passed": true,
+  "publication_note": "Only the absolute local build-directory label was redacted; proof results and source hashes are unchanged."
+}

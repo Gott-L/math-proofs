@@ -1,0 +1,27 @@
+{
+  "upstream_repository": "56647563/awards",
+  "upstream_commit": "5130380a1d7f3ed00b827c666c79c89e202c3fdc",
+  "upstream_directory": "submissions/jsp-000883",
+  "upstream_license": "Apache-2.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "ported_sources": {
+    "OneCarry.lean": {
+      "upstream_sha256": "ec6a6bb22ea189a9b5c0b932ccfc900ee6e510eeb19192e653f77019bd0436b8",
+      "adapted_sha256": "5bb8a45686bf867b65913f31d71de7bd8a44a41e0d98f2650db2e948b6bb7352",
+      "body_matches_after_documented_interface_changes": true
+    },
+    "FiniteConstruction.lean": {
+      "upstream_sha256": "327763ef936e71d44ad29a3b509b5b2413a994c43f732fe55385f42c60f6ab28",
+      "adapted_sha256": "8c6b482b71bff076bd06abcae5e06c15fff09272325739951cae36eed529dca8",
+      "body_matches_after_documented_interface_changes": true
+    },
+    "Simultaneous.lean": {
+      "upstream_sha256": "0154b8d348a50a296a60310f02f7809bdea11c401f5c4a0e66a4b82681f8413d",
+      "adapted_sha256": "e926e2f083729b8d8f5229095d8700177527ad4df999842e985e97663384d469",
+      "body_matches_after_documented_interface_changes": true
+    }
+  },
+  "new_compatibility_source_sha256": "d0af426bc14878c6421f8f2c7620f473131afe0ce17f05c7942c3f8f9cbe0d4a",
+  "cache_added_artifacts_this_port": 6,
+  "shared_environment_measured_bytes": 1552784601
+}

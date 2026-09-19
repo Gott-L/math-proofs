@@ -1,0 +1,45 @@
+{
+  "compiler": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "fresh_temporary_directory": true,
+  "external_libraries": [],
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "source_file": "Jsp399TripleCore.lean",
+      "source_sha256": "ec6d0d0bf114c025bbcd5a82a77d3b0401433a2df630438a3f60e602f76b7ee4",
+      "source_bytes": 4335,
+      "command": "lean -s 65536 -DwarningAsError=true -o Jsp399TripleCore.olean Jsp399TripleCore.lean",
+      "exit_code": 0,
+      "axiom_audit_passed": true,
+      "output": "'JSP399TwentySeven.triples_complete' depends on axioms: [propext, Quot.sound]\n'JSP399TwentySeven.triples_nodup' depends on axioms: [propext, Quot.sound]\n'JSP399TwentySeven.triples_length' does not depend on any axioms\n'JSP399TwentySeven.sortWithFuel_perm' depends on axioms: [propext]\n"
+    },
+    {
+      "source_file": "Jsp399Witness.lean",
+      "source_sha256": "4f1937d3fe11b213adb5fe3301e0bb0fd546238063993521fd26ca32da525503",
+      "source_bytes": 1371,
+      "command": "lean -s 65536 -DwarningAsError=true -o Jsp399Witness.olean Jsp399Witness.lean",
+      "exit_code": 0,
+      "axiom_audit_passed": true,
+      "output": "'JSP399TwentySeven.A_strict' does not depend on any axioms\n'JSP399TwentySeven.B_strict' does not depend on any axioms\n'JSP399TwentySeven.A_positive' does not depend on any axioms\n'JSP399TwentySeven.B_positive' does not depend on any axioms\n'JSP399TwentySeven.different_sets' depends on axioms: [propext]\n"
+    },
+    {
+      "source_file": "EncodedCoeffCertificate.lean",
+      "source_sha256": "2d64c4d56c8963a45597d8f933fb71e08b0d8e3f08f7a6ff057c588faaa94f23",
+      "source_bytes": 441117,
+      "command": "lean -s 65536 -DwarningAsError=true -o EncodedCoeffCertificate.olean EncodedCoeffCertificate.lean",
+      "exit_code": 0,
+      "axiom_audit_passed": true,
+      "output": "'JSP399CoeffCertificate.encoded_sums_A' does not depend on any axioms\n'JSP399CoeffCertificate.encoded_sums_B' does not depend on any axioms\n'JSP399CoeffCertificate.sorted_encoded_sums_equal' does not depend on any axioms\n'JSP399CoeffCertificate.encoded_triple_sums_perm' depends on axioms: [propext]\n"
+    },
+    {
+      "source_file": "Jsp399Parametric.lean",
+      "source_sha256": "fd486be111060dafac013d577fc75152b4ff1139187f5def7332efd15d832e77",
+      "source_bytes": 12153,
+      "command": "lean -s 65536 -DwarningAsError=true -o Jsp399Parametric.olean Jsp399Parametric.lean",
+      "exit_code": 0,
+      "axiom_audit_passed": true,
+      "output": "'JSP399Parametric.vector_triple_sums_perm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP399Parametric.every_additive_image_collision' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP399Parametric.every_parameter_collision' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP399Parametric.every_translated_parameter_collision' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP399Parametric.example_is_nontrivial_collision' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+    }
+  ],
+  "limitations": "Same Lean distribution and kernel; not an independent kernel implementation or official prize verification."
+}

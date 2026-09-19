@@ -1,0 +1,15 @@
+Content and records license — CC BY 4.0
+
+Copyright (c) 2026 Contributors
+
+The newly written README, review prose, and verification records in this packet
+are licensed under the Creative Commons Attribution 4.0 International license.
+Credit the contributors, identify the source revision, link the license, and
+indicate changes as required by that license.
+
+Canonical license and terms:
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+This follows the parent repository's separation of content and software licenses.
+Lean source, verification scripts, and build configuration are covered by LICENSE
+(MIT). Cited third-party works retain their original rights.

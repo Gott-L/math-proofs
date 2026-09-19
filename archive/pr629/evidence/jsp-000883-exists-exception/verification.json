@@ -1,0 +1,91 @@
+{
+  "verified_at_utc": "2026-09-17T08:20:18.993071+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "MaxValuation.lean",
+      "bytes": 2227,
+      "sha256": "66e32302bd59ee29a90dfd4c153533722d3b7fb17efb5feb15d83c3fbe4f45c0",
+      "passed": true,
+      "seconds": 5.625
+    },
+    {
+      "file": "OffsetProduct.lean",
+      "bytes": 3553,
+      "sha256": "5da16eeca986e223efe9f1992c29a2fcf17e1b3e5a98feae81f76ac6544447f9",
+      "passed": true,
+      "seconds": 5.891
+    },
+    {
+      "file": "Erdos1063.lean",
+      "bytes": 3233,
+      "sha256": "afc8f3291c91351165dbccaf641f23d8cc81a61664f8435ed7e385f098863342",
+      "passed": true,
+      "seconds": 5.968
+    }
+  ],
+  "axiom_audit": {
+    "Erdos1063.factorization_le_dist_of_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.dist_sub_sub_of_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.factorization_le_offset_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.factorization_prod_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prod_dist_range": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prod_offset_distances": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prod_offset_distances_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.sum_factorization_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exists_exception_of_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.erdos_1063.variants.exists_exception": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "passed": true,
+  "typed_endpoint_checks": [
+    "stronger_n_ge_k",
+    "exact_upstream_n_ge_2k"
+  ]
+}

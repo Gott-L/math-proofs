@@ -1,0 +1,7 @@
+'LiteralReview.actual_literal_0' does not depend on any axioms
+'LiteralReview.actual_literal_1' does not depend on any axioms
+'LiteralReview.actual_literal_2' does not depend on any axioms
+'LiteralReview.actual_literal_3' does not depend on any axioms
+'LiteralReview.actual_literal_4' does not depend on any axioms
+'LiteralReview.actual_literal_5' does not depend on any axioms
+'LiteralReview.actual_literal_6' does not depend on any axioms

@@ -1,0 +1,1474 @@
+{
+  "source_repository": "Gott-L/awards",
+  "source_branch": "codex/proof-archive-nine",
+  "source_commit": "44a7aae060332841d74ef99c335482890b7f4499",
+  "source_pr": "https://github.com/TheJustinSunPrize/awards/pull/629",
+  "kind": "unchanged historical research archive",
+  "file_count": 244,
+  "files": [
+    {
+      "path": "archive/pr629/evidence/gott-l-formalization-index.md",
+      "original_path": "evidence/gott-l-formalization-index.md",
+      "git_blob": "d3f0fb8988066dcaf45232ffbbfda39330af55d3",
+      "bytes": 14516
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/.gitignore",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/.gitignore",
+      "git_blob": "1b9947a1a453d1fc117d8aa0f9cb2a4be7d05d58",
+      "bytes": 60
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/E336Criterion.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/E336Criterion.lean",
+      "git_blob": "0851a4f9e27e37bf523d11071e8df1531206f5fd",
+      "bytes": 2551
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/E336Defs.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/E336Defs.lean",
+      "git_blob": "8c28bf72e51f5c7801eeba9427484df027a68f7c",
+      "bytes": 2103
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/E336Differences.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/E336Differences.lean",
+      "git_blob": "c6f5d9d3c425bdfd785f31ac0cc28c06842c24dc",
+      "bytes": 5778
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/E336Necessity.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/E336Necessity.lean",
+      "git_blob": "6ab01a010e74824a4b4ba14d5983ba6520912d6b",
+      "bytes": 3777
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/E336Padding.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/E336Padding.lean",
+      "git_blob": "f9e2064c8fab418a76a15fe71525294415585947",
+      "bytes": 3254
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/LICENSE",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/LICENSE",
+      "git_blob": "8f71f43fee3f78649d238238cbde51e6d7055c82",
+      "bytes": 11358
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/NOTICE",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/NOTICE",
+      "git_blob": "6c516c4a21c1754b8890bf8dbe733247d8a2964d",
+      "bytes": 790
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/PROOF_OUTLINE.md",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/PROOF_OUTLINE.md",
+      "git_blob": "25644d4a69bdcca1483a11c10296851161f5fd72",
+      "bytes": 2940
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/README.md",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/README.md",
+      "git_blob": "8fc586a62d44e9893ee2378b492b3c1ca72220ce",
+      "bytes": 5169
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/SOURCES.md",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/SOURCES.md",
+      "git_blob": "413c314d47adeed41968bec3986ce593f6ae5a9a",
+      "bytes": 3549
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/TypedAudit.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/TypedAudit.lean",
+      "git_blob": "50b8670231b9982d68ab22459e9003601830440b",
+      "bytes": 2968
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/internal-review.md",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/internal-review.md",
+      "git_blob": "7b47e3410faeab2c332ee5b3a5d56ddda07707b0",
+      "bytes": 7727
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/lake-manifest.json",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/lake-manifest.json",
+      "git_blob": "5febe341d48c71d81640489a9a6f38bb821a7c50",
+      "bytes": 3632
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/lakefile.toml",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/lakefile.toml",
+      "git_blob": "deb44da675323d17bd01df2efc67905998891a1b",
+      "bytes": 413
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/lean-toolchain",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/mathematical-review.md",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/mathematical-review.md",
+      "git_blob": "af66047ae58a6ebc025999e377595ef46814b9b3",
+      "bytes": 10668
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/review-a/Audit.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/review-a/Audit.lean",
+      "git_blob": "ec7fa2f35f431de39f334dc29565d6a44e72077a",
+      "bytes": 4869
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/review-a/AxiomAudit.lean",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/review-a/AxiomAudit.lean",
+      "git_blob": "8a94aefb23930621733d84604b5ece74fff008e0",
+      "bytes": 2290
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/review-a/receipt.json",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/review-a/receipt.json",
+      "git_blob": "e7e74901418465ab747b528e77f1bf18d15cf511",
+      "bytes": 18862
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/review_full_a.py",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/review_full_a.py",
+      "git_blob": "1379170366e170e19c636696081cbb72291fadaf",
+      "bytes": 9315
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/verification.json",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/verification.json",
+      "git_blob": "d531ccc9da89a2559c8cc0fc2fa01013b1eecf9f",
+      "bytes": 5577
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000279-exact-order-criterion/verify.py",
+      "original_path": "evidence/jsp-000279-exact-order-criterion/verify.py",
+      "git_blob": "dbb5e7017f77ad375d54c90fc81bfc406b2a5748",
+      "bytes": 9197
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/.gitignore",
+      "original_path": "evidence/jsp-000295-lower-density/.gitignore",
+      "git_blob": "f50f738aea5835af837060e7040172a6025bce2a",
+      "bytes": 51
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/E357.lean",
+      "original_path": "evidence/jsp-000295-lower-density/E357.lean",
+      "git_blob": "b25a18a0cd5d9558973c37900ccdc5ec0f77d73c",
+      "bytes": 928
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/E357Counting.lean",
+      "original_path": "evidence/jsp-000295-lower-density/E357Counting.lean",
+      "git_blob": "813d28d7bf927b937660f54a1d58ee6bc4f2145a",
+      "bytes": 2705
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/E357DensityBridge.lean",
+      "original_path": "evidence/jsp-000295-lower-density/E357DensityBridge.lean",
+      "git_blob": "b63ba4a5fceb5a919d0ab12d58ee6452bd6a20c8",
+      "bytes": 3390
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/E357DensityDefs.lean",
+      "original_path": "evidence/jsp-000295-lower-density/E357DensityDefs.lean",
+      "git_blob": "d3c2c1f385b1da2a23bef240025856f384c05a21",
+      "bytes": 3053
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/E357DyadicBounds.lean",
+      "original_path": "evidence/jsp-000295-lower-density/E357DyadicBounds.lean",
+      "git_blob": "4fb88d73c453cfd78e93a644e3523a9740e52cb4",
+      "bytes": 3374
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/E357Intervals.lean",
+      "original_path": "evidence/jsp-000295-lower-density/E357Intervals.lean",
+      "git_blob": "a44010c1c9ab3e2b91a73605d9c7651840d986d6",
+      "bytes": 3219
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/LICENSE",
+      "original_path": "evidence/jsp-000295-lower-density/LICENSE",
+      "git_blob": "c0ee81299bd368b4c38a7947d1651a1e32348313",
+      "bytes": 11558
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000295-lower-density/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/NOTICE",
+      "original_path": "evidence/jsp-000295-lower-density/NOTICE",
+      "git_blob": "459b5e31d114368c26810796db4b04ff601204be",
+      "bytes": 814
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/README.md",
+      "original_path": "evidence/jsp-000295-lower-density/README.md",
+      "git_blob": "48cbf7f3bb8611c6907e807001f3d69b2d4c81e6",
+      "bytes": 8201
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/ReplayTypedAudit.lean",
+      "original_path": "evidence/jsp-000295-lower-density/ReplayTypedAudit.lean",
+      "git_blob": "3cdc333ca93883e432fd84f6c247c07ad4761dc9",
+      "bytes": 3121
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/internal-replay.json",
+      "original_path": "evidence/jsp-000295-lower-density/internal-replay.json",
+      "git_blob": "11d35f2accd2b2f4267ad98aacca53b62c146887",
+      "bytes": 7265
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/internal-review.md",
+      "original_path": "evidence/jsp-000295-lower-density/internal-review.md",
+      "git_blob": "45f179aaa9038ef9059d950751584d1c5d226022",
+      "bytes": 11228
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/lake-manifest.json",
+      "original_path": "evidence/jsp-000295-lower-density/lake-manifest.json",
+      "git_blob": "46d09298e3c12bbacdfe35c3e9664b5730d0dd22",
+      "bytes": 3625
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/lakefile.toml",
+      "original_path": "evidence/jsp-000295-lower-density/lakefile.toml",
+      "git_blob": "145951f03c892a90ba57ef78e907ef939be01a5d",
+      "bytes": 470
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/lean-toolchain",
+      "original_path": "evidence/jsp-000295-lower-density/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/prior-review.md",
+      "original_path": "evidence/jsp-000295-lower-density/prior-review.md",
+      "git_blob": "79ee13b02c68c089291e661dd9121489f730fd11",
+      "bytes": 8642
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/setup-metadata.json",
+      "original_path": "evidence/jsp-000295-lower-density/setup-metadata.json",
+      "git_blob": "3496a9a571137ba74221b9fef62d3d16f59d86e2",
+      "bytes": 3329
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/verification.json",
+      "original_path": "evidence/jsp-000295-lower-density/verification.json",
+      "git_blob": "d5acbad4267569f72aab82f519ed8ecff672a094",
+      "bytes": 4122
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000295-lower-density/verify.py",
+      "original_path": "evidence/jsp-000295-lower-density/verify.py",
+      "git_blob": "936098ba695404c20913f3b595a07119930a829f",
+      "bytes": 7902
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/LICENSE",
+      "original_path": "evidence/jsp-000399-external-check/LICENSE",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "bytes": 11357
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/MANIFEST.json",
+      "original_path": "evidence/jsp-000399-external-check/MANIFEST.json",
+      "git_blob": "0563f2a28591f86aabc7da953447721b5d0f4769",
+      "bytes": 7057
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/NOTICE",
+      "original_path": "evidence/jsp-000399-external-check/NOTICE",
+      "git_blob": "c25d4b9aefe511e4a24f1a371984c59d9f1349d6",
+      "bytes": 1252
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/PUBLIC-PROVENANCE.json",
+      "original_path": "evidence/jsp-000399-external-check/PUBLIC-PROVENANCE.json",
+      "git_blob": "3f556db5fbb4c69675f8da14ae271f355df44490",
+      "bytes": 19376
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/README.md",
+      "original_path": "evidence/jsp-000399-external-check/README.md",
+      "git_blob": "0acf40c0f1d65e1e3abff4d82babf4add595120f",
+      "bytes": 12411
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/checker-source-manifest.json",
+      "original_path": "evidence/jsp-000399-external-check/checker-source-manifest.json",
+      "git_blob": "8085e8bbd6025d9530f7cd561044d94f355191ac",
+      "bytes": 5238
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/configs/full-lowered.unpermitted-axiom.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/configs/full-lowered.unpermitted-axiom.redacted.json",
+      "git_blob": "8cb3385acd9fbe8dd0457188d6af927ea669cbc3",
+      "bytes": 1242
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/configs/full-lowered.valid.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/configs/full-lowered.valid.redacted.json",
+      "git_blob": "96b655cb5842f33214f59dec264fd6573827ed92",
+      "bytes": 1214
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/configs/full-lowered.wrong-proof.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/configs/full-lowered.wrong-proof.redacted.json",
+      "git_blob": "4a6f99df79c1468cb3ed594f78ce54d0573f08c4",
+      "bytes": 1230
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/exporter/Export.lean",
+      "original_path": "evidence/jsp-000399-external-check/exporter/Export.lean",
+      "git_blob": "40fa45ef4ce49d8b46e315f6e5146c306ef8dec4",
+      "bytes": 16721
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/exporter/Main.lean",
+      "original_path": "evidence/jsp-000399-external-check/exporter/Main.lean",
+      "git_blob": "806fcf7b107c111d454db9ac29c09e73bf2e25aa",
+      "bytes": 751
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/licenses/lean4export-LICENSE",
+      "original_path": "evidence/jsp-000399-external-check/licenses/lean4export-LICENSE",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "bytes": 11357
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/licenses/nanoda-LICENSE",
+      "original_path": "evidence/jsp-000399-external-check/licenses/nanoda-LICENSE",
+      "git_blob": "19dc35b2433851a0e8fd866a5d323b2ba18c12ed",
+      "bytes": 10141
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/literal-checks/ActualLiterals.lean",
+      "original_path": "evidence/jsp-000399-external-check/literal-checks/ActualLiterals.lean",
+      "git_blob": "ab6faf9b379233a9802d3cc0a37bb1f00d02fe9e",
+      "bytes": 1986
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/literal-checks/exporter-generated-cases.lean",
+      "original_path": "evidence/jsp-000399-external-check/literal-checks/exporter-generated-cases.lean",
+      "git_blob": "2068a5066a318b4da8937559f077a3c36e284bca",
+      "bytes": 1933
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/literal-checks/kernel.stderr.txt",
+      "original_path": "evidence/jsp-000399-external-check/literal-checks/kernel.stderr.txt",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/literal-checks/kernel.stdout.txt",
+      "original_path": "evidence/jsp-000399-external-check/literal-checks/kernel.stdout.txt",
+      "git_blob": "271d593ffba58fb46c463da39800e7cc22f0ad29",
+      "bytes": 441
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/literal-checks/result.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/literal-checks/result.redacted.json",
+      "git_blob": "f897e7667b5777116d1b2c2a63a16ff714552bd5",
+      "bytes": 1681
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.unpermitted-axiom.declarations.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.unpermitted-axiom.declarations.txt",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.unpermitted-axiom.stderr.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.unpermitted-axiom.stderr.txt",
+      "git_blob": "25245844b7d1858e21b06e44569cb336d9713075",
+      "bytes": 125
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.unpermitted-axiom.stdout.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.unpermitted-axiom.stdout.txt",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.valid.declarations.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.valid.declarations.txt",
+      "git_blob": "4f4fcb3afb7f2d14fa5be6ed267439eb825d7a7b",
+      "bytes": 6244
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.valid.stderr.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.valid.stderr.txt",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.valid.stdout.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.valid.stdout.txt",
+      "git_blob": "f6d10a18606efbb3725c1d83db5df6bd7e0956ca",
+      "bytes": 41
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.wrong-proof.declarations.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.wrong-proof.declarations.txt",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.wrong-proof.stderr.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.wrong-proof.stderr.txt",
+      "git_blob": "f4439d7c2ed70a7c91d5e4cc2655f2276d598b47",
+      "bytes": 168
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/logs/full-lowered.wrong-proof.stdout.txt",
+      "original_path": "evidence/jsp-000399-external-check/logs/full-lowered.wrong-proof.stdout.txt",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/patches/lean419.patch",
+      "original_path": "evidence/jsp-000399-external-check/patches/lean419.patch",
+      "git_blob": "f2bb19cc7581c7c64cd0d1a969b0b419947564e8",
+      "bytes": 4692
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/patches/string-lowering.patch",
+      "original_path": "evidence/jsp-000399-external-check/patches/string-lowering.patch",
+      "git_blob": "7d92624f8a4ae079f5819aefecd860139e1ce21b",
+      "bytes": 3333
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/records/checker-build.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/records/checker-build.redacted.json",
+      "git_blob": "f7c9a2a63d490d9ada6f9102c0a58dadc061ceba",
+      "bytes": 652
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/records/checker-result.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/records/checker-result.redacted.json",
+      "git_blob": "e6dcf1949445af277ea6fe308e9a3d3c68409b82",
+      "bytes": 11614
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/records/export-result.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/records/export-result.redacted.json",
+      "git_blob": "582b8c6af1c7d3ec4b16a9a079ceff69d063caba",
+      "bytes": 7713
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/records/initial-export-compatibility-failure.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/records/initial-export-compatibility-failure.redacted.json",
+      "git_blob": "341f99b218203dc6dcce69073b2d321ab5489831",
+      "bytes": 7553
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/records/lowering-gate.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/records/lowering-gate.redacted.json",
+      "git_blob": "5a213da269e92da33ad6d5ae9a554d1ce97673c7",
+      "bytes": 5176
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/records/proof-fresh.redacted.json",
+      "original_path": "evidence/jsp-000399-external-check/records/proof-fresh.redacted.json",
+      "git_blob": "9d06becc21fd5c70992663c3046369c99d9328b7",
+      "bytes": 4463
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/reviews/string-lowering.md",
+      "original_path": "evidence/jsp-000399-external-check/reviews/string-lowering.md",
+      "git_blob": "442a49ac6dd59a6bc5a2f2196bd6c9b7b8397def",
+      "bytes": 8001
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/reviews/structural-comparison.json",
+      "original_path": "evidence/jsp-000399-external-check/reviews/structural-comparison.json",
+      "git_blob": "e7a7d93aec3d22c396a26594cce894b33d7d8106",
+      "bytes": 987
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/reviews/target-audit.md",
+      "original_path": "evidence/jsp-000399-external-check/reviews/target-audit.md",
+      "git_blob": "d5c052899642739bcdbe07104c9e13dfd441fbec",
+      "bytes": 14048
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/scripts/compare_exports.py",
+      "original_path": "evidence/jsp-000399-external-check/scripts/compare_exports.py",
+      "git_blob": "5935e00cbea35a1a2fc6930a6183c861e3300075",
+      "bytes": 7485
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/scripts/export_current.recorded.py",
+      "original_path": "evidence/jsp-000399-external-check/scripts/export_current.recorded.py",
+      "git_blob": "1e2ab0e97f4d1cc3869f350e8e2f8a0763c0dcb2",
+      "bytes": 12993
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/scripts/lowering_gate.recorded.py",
+      "original_path": "evidence/jsp-000399-external-check/scripts/lowering_gate.recorded.py",
+      "git_blob": "e46055ae8dc2579a090f6a88bd05127d49283564",
+      "bytes": 4793
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/scripts/replay.py",
+      "original_path": "evidence/jsp-000399-external-check/scripts/replay.py",
+      "git_blob": "e3f171bd438c483c51100c78117d62b86b32be6f",
+      "bytes": 10390
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/scripts/run_nanoda.recorded.py",
+      "original_path": "evidence/jsp-000399-external-check/scripts/run_nanoda.recorded.py",
+      "git_blob": "94f5833a8a659c64939a4168b16e839122d02f5f",
+      "bytes": 21715
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/upstream-source-manifest.json",
+      "original_path": "evidence/jsp-000399-external-check/upstream-source-manifest.json",
+      "git_blob": "6fdfa43f7efe13b580c413b71ebbe9fc498682f5",
+      "bytes": 2148
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-external-check/verify_supplement.py",
+      "original_path": "evidence/jsp-000399-external-check/verify_supplement.py",
+      "git_blob": "24368bb0447f9c60a945660256249771c4e4cf83",
+      "bytes": 1016
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/.gitignore",
+      "original_path": "evidence/jsp-000399-parametric-27/.gitignore",
+      "git_blob": "d87650339264230471018cfe9d57d95dd8ea99a8",
+      "bytes": 36
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/EncodedCoeffCertificate.lean",
+      "original_path": "evidence/jsp-000399-parametric-27/EncodedCoeffCertificate.lean",
+      "git_blob": "9a4fa383df6d97f4b29be4b171c4835d26fef3db",
+      "bytes": 441117
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/Jsp399Parametric.lean",
+      "original_path": "evidence/jsp-000399-parametric-27/Jsp399Parametric.lean",
+      "git_blob": "7d5f8e623c76398ee8c1cff3429886623c42a1ac",
+      "bytes": 12153
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/Jsp399TripleCore.lean",
+      "original_path": "evidence/jsp-000399-parametric-27/Jsp399TripleCore.lean",
+      "git_blob": "5cc5c7df748b5978b3110d60d1a2795c252079a4",
+      "bytes": 4335
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/Jsp399Witness.lean",
+      "original_path": "evidence/jsp-000399-parametric-27/Jsp399Witness.lean",
+      "git_blob": "eb278d49d96106369f1316970dd002b86e88b960",
+      "bytes": 1371
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/LICENSE",
+      "original_path": "evidence/jsp-000399-parametric-27/LICENSE",
+      "git_blob": "9df7dc849da06dcefd15b64b38a696fa5f978d5b",
+      "bytes": 1269
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000399-parametric-27/LICENSE-CONTENT",
+      "git_blob": "78b3385542d162e23a4c8b143b9210ef20b2055a",
+      "bytes": 671
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/README.md",
+      "original_path": "evidence/jsp-000399-parametric-27/README.md",
+      "git_blob": "73bcb4a6a748947afdf94d3cda39177018253d79",
+      "bytes": 10414
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/formal-review.md",
+      "original_path": "evidence/jsp-000399-parametric-27/formal-review.md",
+      "git_blob": "15f1082f61b3c4d4c3b3579fd1009c34934d29ab",
+      "bytes": 4649
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/independent-review.md",
+      "original_path": "evidence/jsp-000399-parametric-27/independent-review.md",
+      "git_blob": "ae6358b83e08b7486565169cffbf3883e7ac212a",
+      "bytes": 10122
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/lake-manifest.json",
+      "original_path": "evidence/jsp-000399-parametric-27/lake-manifest.json",
+      "git_blob": "7c8bf97e496720da54b236f9d37d1214ac53cbe2",
+      "bytes": 115
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/lakefile.toml",
+      "original_path": "evidence/jsp-000399-parametric-27/lakefile.toml",
+      "git_blob": "48cdd18ffb95404fad96bcbb5e5d26586ccb6607",
+      "bytes": 295
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/lean-toolchain",
+      "original_path": "evidence/jsp-000399-parametric-27/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/verification.json",
+      "original_path": "evidence/jsp-000399-parametric-27/verification.json",
+      "git_blob": "72a625f973addecc261463e83edc7c4de0645137",
+      "bytes": 3271
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000399-parametric-27/verify.py",
+      "original_path": "evidence/jsp-000399-parametric-27/verify.py",
+      "git_blob": "8caa4922b58f67fd0383a69154eb20dc32d1e5b5",
+      "bytes": 4136
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/.gitignore",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/.gitignore",
+      "git_blob": "f50f738aea5835af837060e7040172a6025bce2a",
+      "bytes": 51
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/E886.lean",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/E886.lean",
+      "git_blob": "4a48cfd61dca170202440db4a239b54701a19ec1",
+      "bytes": 3934
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/E886Construction.lean",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/E886Construction.lean",
+      "git_blob": "280b4b280243b46f5eb6960bc619cabf5c90b238",
+      "bytes": 4322
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/E886Window.lean",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/E886Window.lean",
+      "git_blob": "b7c2313cd2256e25430065319055cca1b87a62a8",
+      "bytes": 3058
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/LICENSE",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/LICENSE",
+      "git_blob": "c0ee81299bd368b4c38a7947d1651a1e32348313",
+      "bytes": 11558
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/LICENSE-CONTENT",
+      "git_blob": "6e9d65a10bd57e25f64e0f17c737bd941f4c1d45",
+      "bytes": 17494
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/LICENSE-MIT",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/LICENSE-MIT",
+      "git_blob": "935d8d7da4d865cd2a1f1f2617961da9e708ceab",
+      "bytes": 1067
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/NOTICE",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/NOTICE",
+      "git_blob": "ebbae1d37f828ab97bb52c3505d4b82bbf476720",
+      "bytes": 1084
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/README.md",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/README.md",
+      "git_blob": "6d6836b5532eb76d8c5ed5f9987a0fee997e8284",
+      "bytes": 6673
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/independent-replay.json",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/independent-replay.json",
+      "git_blob": "6cc287bb8a053185a2f20fa997e1d28dc2c13eef",
+      "bytes": 5633
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/internal-review.md",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/internal-review.md",
+      "git_blob": "51742f888d51e9d0b5da0d6fe7586eee40d63172",
+      "bytes": 8332
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/lake-manifest.json",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/lake-manifest.json",
+      "git_blob": "4c3159d64e915e4f9a8978075b2258e30e7ec2ab",
+      "bytes": 3625
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/lakefile.toml",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/lakefile.toml",
+      "git_blob": "96cb2b6d38cd96a7263748f634a8dfa80c4cb36e",
+      "bytes": 356
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/lean-toolchain",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/setup-metadata.json",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/setup-metadata.json",
+      "git_blob": "a6bec06527a45c6c3bc3b296f20eddbcd9b1799e",
+      "bytes": 2998
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/verification.json",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/verification.json",
+      "git_blob": "16287d1b79bdfd968d6f7205a4ce2d1441ac6810",
+      "bytes": 3500
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000737-rosenfeld-16-9/verify.py",
+      "original_path": "evidence/jsp-000737-rosenfeld-16-9/verify.py",
+      "git_blob": "fa13e7b31530e094b698f4d2ab22d66ffa3c31b2",
+      "bytes": 6982
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/.gitignore",
+      "original_path": "evidence/jsp-000791-prefix-extension/.gitignore",
+      "git_blob": "fde725dfd0abaa80e1c6285fdd29bc33a410d045",
+      "bytes": 51
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Append.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Append.lean",
+      "git_blob": "54a4150aaf100255aac24ce26b06236a8d3c1a63",
+      "bytes": 2299
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Defs.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Defs.lean",
+      "git_blob": "3996c2cc103e8cd2857d7524985a1fb7403a3028",
+      "bytes": 1360
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Extension.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Extension.lean",
+      "git_blob": "afb21967258d119a8d4c7542d1431a53e6da5b37",
+      "bytes": 4477
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Intervals.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Intervals.lean",
+      "git_blob": "2ee34873c39cdfaafc116626ea507a8609483fac",
+      "bytes": 6628
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Sequence.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Sequence.lean",
+      "git_blob": "62aedcdc463e2c5cf4168663bd6afc41e8c77628",
+      "bytes": 7385
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Series.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Series.lean",
+      "git_blob": "4eb8ed28ce2e850f2a226f0ddf7d845cc6a4c99e",
+      "bytes": 3759
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/E951Weights.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/E951Weights.lean",
+      "git_blob": "b79ff27f7c83a45d3bc1d3b3593054eb38e892ee",
+      "bytes": 5223
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/LICENSE",
+      "original_path": "evidence/jsp-000791-prefix-extension/LICENSE",
+      "git_blob": "8f71f43fee3f78649d238238cbde51e6d7055c82",
+      "bytes": 11358
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000791-prefix-extension/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/NOTICE",
+      "original_path": "evidence/jsp-000791-prefix-extension/NOTICE",
+      "git_blob": "f80f9df41203eea4b4f40d2eb550287fff37d308",
+      "bytes": 1046
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/PROOF_OUTLINE.md",
+      "original_path": "evidence/jsp-000791-prefix-extension/PROOF_OUTLINE.md",
+      "git_blob": "b2ed03a944168dc665debba6676cc1b94e22c29f",
+      "bytes": 7273
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/README.md",
+      "original_path": "evidence/jsp-000791-prefix-extension/README.md",
+      "git_blob": "b9d3e3841946792a46504bc2f210bfaeb75e637d",
+      "bytes": 5700
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/SOURCES.md",
+      "original_path": "evidence/jsp-000791-prefix-extension/SOURCES.md",
+      "git_blob": "e80eb4f6bdd0d1df6aeb5c99c097931d611a019c",
+      "bytes": 6728
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/TypedAudit.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/TypedAudit.lean",
+      "git_blob": "5b8d7d48e451963b5eedb77085994a74fcd25a33",
+      "bytes": 2111
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/internal-review.md",
+      "original_path": "evidence/jsp-000791-prefix-extension/internal-review.md",
+      "git_blob": "ee0e5dfd25ea27292318706bef97f1c4a068fc09",
+      "bytes": 10421
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/lake-manifest.json",
+      "original_path": "evidence/jsp-000791-prefix-extension/lake-manifest.json",
+      "git_blob": "3e938c794e60d097b8e2760421f8b59e1fad195f",
+      "bytes": 3634
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/lakefile.toml",
+      "original_path": "evidence/jsp-000791-prefix-extension/lakefile.toml",
+      "git_blob": "ad400a07966b4aac189907b9c765858128b63b7a",
+      "bytes": 474
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/lean-toolchain",
+      "original_path": "evidence/jsp-000791-prefix-extension/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/prior-art-refresh.md",
+      "original_path": "evidence/jsp-000791-prefix-extension/prior-art-refresh.md",
+      "git_blob": "34b32771a536a899d21f6c49f8cf19a838f1f963",
+      "bytes": 9820
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/review-a/Audit.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/review-a/Audit.lean",
+      "git_blob": "1fa0ad9fe2fecd228f8969918f4b1bf80beadfb7",
+      "bytes": 4591
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/review-a/AxiomAudit.lean",
+      "original_path": "evidence/jsp-000791-prefix-extension/review-a/AxiomAudit.lean",
+      "git_blob": "7562500379dafbf0c288423bfd68415cbf9dcf49",
+      "bytes": 2094
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/review-a/receipt.json",
+      "original_path": "evidence/jsp-000791-prefix-extension/review-a/receipt.json",
+      "git_blob": "1346891b55e8b9420531956c04561b53b4171258",
+      "bytes": 17239
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/verification.json",
+      "original_path": "evidence/jsp-000791-prefix-extension/verification.json",
+      "git_blob": "86db98dc7bf3ecd0b6f82e1ac65e673c02874e33",
+      "bytes": 6249
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000791-prefix-extension/verify.py",
+      "original_path": "evidence/jsp-000791-prefix-extension/verify.py",
+      "git_blob": "4e3fce7ab4cc5c540830679911d160c61339fe9a",
+      "bytes": 7479
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/.gitignore",
+      "original_path": "evidence/jsp-000847-egp-partition/.gitignore",
+      "git_blob": "fde725dfd0abaa80e1c6285fdd29bc33a410d045",
+      "bytes": 51
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPAssembly.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPAssembly.lean",
+      "git_blob": "859ce3b273f65a91a0c90fadc9060d195a406bf4",
+      "bytes": 11481
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPCount.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPCount.lean",
+      "git_blob": "1a7be2fbf05f1c525a91857e870ce1849a3d1174",
+      "bytes": 2821
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPDefs.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPDefs.lean",
+      "git_blob": "35bb187392e48d34d677dfafaec1a7a9209610ec",
+      "bytes": 1633
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPGraph.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPGraph.lean",
+      "git_blob": "557c6cba14cf567f30f815a0d6ebfee927ad5aa9",
+      "bytes": 1133
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPInduction.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPInduction.lean",
+      "git_blob": "028ccc594ffd36917581456f05af381bd0821513",
+      "bytes": 3196
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPMatching.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPMatching.lean",
+      "git_blob": "f36fd05808a509de39a92d478960718f62e6cdb5",
+      "bytes": 3640
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/EGPSubmission.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/EGPSubmission.lean",
+      "git_blob": "5c671d819e943996c6fa6328c95c9c759900ab5c",
+      "bytes": 1567
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/LICENSE",
+      "original_path": "evidence/jsp-000847-egp-partition/LICENSE",
+      "git_blob": "8f71f43fee3f78649d238238cbde51e6d7055c82",
+      "bytes": 11358
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000847-egp-partition/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/NOTICE",
+      "original_path": "evidence/jsp-000847-egp-partition/NOTICE",
+      "git_blob": "b29c06ede7f926bbd0bd00f3e5171374985e26cf",
+      "bytes": 912
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/PROOF_OUTLINE.md",
+      "original_path": "evidence/jsp-000847-egp-partition/PROOF_OUTLINE.md",
+      "git_blob": "3d5bbf046ee3433b89fa545ea0043bf4266b3f17",
+      "bytes": 6999
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/README.md",
+      "original_path": "evidence/jsp-000847-egp-partition/README.md",
+      "git_blob": "8e128ddadafdbd0a9a1615f056f7501bc88edbea",
+      "bytes": 5294
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/SOURCES.md",
+      "original_path": "evidence/jsp-000847-egp-partition/SOURCES.md",
+      "git_blob": "6b97aab3855ae72838c341d8645280a8d7862aac",
+      "bytes": 7169
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/TypedAudit.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/TypedAudit.lean",
+      "git_blob": "64ced236c00cb01fd6a15ad7a26828123a037c0d",
+      "bytes": 1451
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/internal-review.md",
+      "original_path": "evidence/jsp-000847-egp-partition/internal-review.md",
+      "git_blob": "9662f3f6ede3f81f60183cab6934643843f8157d",
+      "bytes": 8106
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/lake-manifest.json",
+      "original_path": "evidence/jsp-000847-egp-partition/lake-manifest.json",
+      "git_blob": "cbc66ebb07d3fd0a6d17b2f8d3674528fd6959c5",
+      "bytes": 3629
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/lakefile.toml",
+      "original_path": "evidence/jsp-000847-egp-partition/lakefile.toml",
+      "git_blob": "7b458b01292e1fcdb2ec4328c655d7b03b89a5a9",
+      "bytes": 462
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/lean-toolchain",
+      "original_path": "evidence/jsp-000847-egp-partition/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/prior-art-refresh.md",
+      "original_path": "evidence/jsp-000847-egp-partition/prior-art-refresh.md",
+      "git_blob": "57030a9a3f94bc9565cd8d7309a395cdb0325e26",
+      "bytes": 7211
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/review-a/Audit.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/review-a/Audit.lean",
+      "git_blob": "d46c8cc1668f5cc2454a0cbda29d26c731a0740f",
+      "bytes": 3467
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/review-a/AxiomAudit.lean",
+      "original_path": "evidence/jsp-000847-egp-partition/review-a/AxiomAudit.lean",
+      "git_blob": "2c7a7bfd8d6ce508890e7a5d900f461551f63c34",
+      "bytes": 1351
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/review-a/receipt.json",
+      "original_path": "evidence/jsp-000847-egp-partition/review-a/receipt.json",
+      "git_blob": "82bb51702f510cf40d31887ba10b1019ddc6b462",
+      "bytes": 12510
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/verification.json",
+      "original_path": "evidence/jsp-000847-egp-partition/verification.json",
+      "git_blob": "8854bb1dcf4c891f00c8aa4df7437298e626fc6b",
+      "bytes": 4593
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000847-egp-partition/verify.py",
+      "original_path": "evidence/jsp-000847-egp-partition/verify.py",
+      "git_blob": "e04f9bae6a20d32509be92f9b5beb3ce2bb44719",
+      "bytes": 7059
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/.gitignore",
+      "original_path": "evidence/jsp-000883-exists-exception/.gitignore",
+      "git_blob": "f50f738aea5835af837060e7040172a6025bce2a",
+      "bytes": 51
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/Erdos1063.lean",
+      "original_path": "evidence/jsp-000883-exists-exception/Erdos1063.lean",
+      "git_blob": "76e67ff1417f2353a77f839d3a35744740c49a38",
+      "bytes": 3233
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/LICENSE",
+      "original_path": "evidence/jsp-000883-exists-exception/LICENSE",
+      "git_blob": "c0ee81299bd368b4c38a7947d1651a1e32348313",
+      "bytes": 11558
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000883-exists-exception/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/MaxValuation.lean",
+      "original_path": "evidence/jsp-000883-exists-exception/MaxValuation.lean",
+      "git_blob": "15ad26a6b2f593e0b1f4e837e47197061ce85fbf",
+      "bytes": 2227
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/NOTICE",
+      "original_path": "evidence/jsp-000883-exists-exception/NOTICE",
+      "git_blob": "a43b760f88113f870d5e6236af52329d4c0970a0",
+      "bytes": 922
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/OffsetProduct.lean",
+      "original_path": "evidence/jsp-000883-exists-exception/OffsetProduct.lean",
+      "git_blob": "e497878e2cd9c2c461d7ac92be435b5bebfcfbfd",
+      "bytes": 3553
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/README.md",
+      "original_path": "evidence/jsp-000883-exists-exception/README.md",
+      "git_blob": "4e8ec7e2edcc4e1bc1ca04953c62abc3dd586b07",
+      "bytes": 6407
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/lake-manifest.json",
+      "original_path": "evidence/jsp-000883-exists-exception/lake-manifest.json",
+      "git_blob": "ac23b5b79967b05f6e09c58c8437bdb124a75b11",
+      "bytes": 3626
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/lakefile.toml",
+      "original_path": "evidence/jsp-000883-exists-exception/lakefile.toml",
+      "git_blob": "797aaf9a027ecfe1c6a10538b0ec0c0b5a54972e",
+      "bytes": 366
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/lean-toolchain",
+      "original_path": "evidence/jsp-000883-exists-exception/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/offset-review.md",
+      "original_path": "evidence/jsp-000883-exists-exception/offset-review.md",
+      "git_blob": "9e89628e8642c21f367b7968befc7c6e028c9d38",
+      "bytes": 3727
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/setup-metadata.json",
+      "original_path": "evidence/jsp-000883-exists-exception/setup-metadata.json",
+      "git_blob": "a6bec06527a45c6c3bc3b296f20eddbcd9b1799e",
+      "bytes": 2998
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/valuation-review.md",
+      "original_path": "evidence/jsp-000883-exists-exception/valuation-review.md",
+      "git_blob": "b8e3ead8ff33fe07e73c2e5d51f022ecacd9686b",
+      "bytes": 5095
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/verification.json",
+      "original_path": "evidence/jsp-000883-exists-exception/verification.json",
+      "git_blob": "6cd83c932b3b21a7c1fe226b52667ae0c6845bc5",
+      "bytes": 2350
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-exists-exception/verify.py",
+      "original_path": "evidence/jsp-000883-exists-exception/verify.py",
+      "git_blob": "6b9450326a5f8be00cf5d11afe8dfc38af77dcac",
+      "bytes": 6588
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/.gitignore",
+      "original_path": "evidence/jsp-000883-subexponential/.gitignore",
+      "git_blob": "fde725dfd0abaa80e1c6285fdd29bc33a410d045",
+      "bytes": 51
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/CarryCompatibility.lean",
+      "original_path": "evidence/jsp-000883-subexponential/CarryCompatibility.lean",
+      "git_blob": "7e6868bc6a045a69c124978448e40db9fdce3489",
+      "bytes": 1664
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/FiniteConstruction.lean",
+      "original_path": "evidence/jsp-000883-subexponential/FiniteConstruction.lean",
+      "git_blob": "ebdd7f103553aab94add8b97635f7fc4808928be",
+      "bytes": 7110
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/LICENSE",
+      "original_path": "evidence/jsp-000883-subexponential/LICENSE",
+      "git_blob": "8f71f43fee3f78649d238238cbde51e6d7055c82",
+      "bytes": 11358
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000883-subexponential/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/NOTICE",
+      "original_path": "evidence/jsp-000883-subexponential/NOTICE",
+      "git_blob": "a360fa5456da22030a46820a210ed90bad48ec03",
+      "bytes": 1375
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/OneCarry.lean",
+      "original_path": "evidence/jsp-000883-subexponential/OneCarry.lean",
+      "git_blob": "224fdc9b6467e4b3af6e630967b9cd4db7e3715e",
+      "bytes": 16328
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/PROOF_OUTLINE.md",
+      "original_path": "evidence/jsp-000883-subexponential/PROOF_OUTLINE.md",
+      "git_blob": "7ca9b30f8f1240b1eb4031845f84c724355cfcb6",
+      "bytes": 6913
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/PrimeCountBound.lean",
+      "original_path": "evidence/jsp-000883-subexponential/PrimeCountBound.lean",
+      "git_blob": "4857408b94b3a2b952594b49b8553008ddf951a8",
+      "bytes": 4818
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/README.md",
+      "original_path": "evidence/jsp-000883-subexponential/README.md",
+      "git_blob": "8fe77be50ed2b2f14da17f6f51fb48aed1b8266e",
+      "bytes": 5891
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SOURCES.md",
+      "original_path": "evidence/jsp-000883-subexponential/SOURCES.md",
+      "git_blob": "dbc6eacc71fbb224830c960e30e4f579a6630fcd",
+      "bytes": 7206
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/Simultaneous.lean",
+      "original_path": "evidence/jsp-000883-subexponential/Simultaneous.lean",
+      "git_blob": "efdad0cef6cc5a35565823e942a6dfd232d82c5a",
+      "bytes": 6370
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SizeBounds.lean",
+      "original_path": "evidence/jsp-000883-subexponential/SizeBounds.lean",
+      "git_blob": "e850866e444d9b4e985b33ecac8a3403924dac24",
+      "bytes": 7351
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SubexpAsymptotic.lean",
+      "original_path": "evidence/jsp-000883-subexponential/SubexpAsymptotic.lean",
+      "git_blob": "7c316093b60c18d8737f0946bb2da84695bfa1b7",
+      "bytes": 8312
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SubexpInfimum.lean",
+      "original_path": "evidence/jsp-000883-subexponential/SubexpInfimum.lean",
+      "git_blob": "1b72f3915dac49be0592430264259c0f6b35329a",
+      "bytes": 3107
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SubexpNonempty.lean",
+      "original_path": "evidence/jsp-000883-subexponential/SubexpNonempty.lean",
+      "git_blob": "f1d232801d858e9e050f731734ab220b43cf5f88",
+      "bytes": 1028
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SubexpParameters.lean",
+      "original_path": "evidence/jsp-000883-subexponential/SubexpParameters.lean",
+      "git_blob": "cdfa6f16f029bca44f2cb3e1f68fa05789d8cb2a",
+      "bytes": 4311
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/SubexpSubmission.lean",
+      "original_path": "evidence/jsp-000883-subexponential/SubexpSubmission.lean",
+      "git_blob": "e770b194ea92fe6bf110c4b170ddc05f39f7ece0",
+      "bytes": 2273
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/TypedAudit.lean",
+      "original_path": "evidence/jsp-000883-subexponential/TypedAudit.lean",
+      "git_blob": "f02a5ba559b210d15043dee553e750d7b6bdf6a4",
+      "bytes": 2130
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/compatibility-notes.md",
+      "original_path": "evidence/jsp-000883-subexponential/compatibility-notes.md",
+      "git_blob": "8607c634c266a696e90e8530483e9eb43fa23c8f",
+      "bytes": 2821
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/internal-review.md",
+      "original_path": "evidence/jsp-000883-subexponential/internal-review.md",
+      "git_blob": "4e00e0ca3595ebeed2485c2180eb97ece96a6584",
+      "bytes": 11152
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/lake-manifest.json",
+      "original_path": "evidence/jsp-000883-subexponential/lake-manifest.json",
+      "git_blob": "6befe9b57724af6530861407f83706435e883dab",
+      "bytes": 3632
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/lakefile.toml",
+      "original_path": "evidence/jsp-000883-subexponential/lakefile.toml",
+      "git_blob": "7143d4269d9bfdabf235229dc96164d39afbe6b9",
+      "bytes": 643
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/lean-toolchain",
+      "original_path": "evidence/jsp-000883-subexponential/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/port-metadata.json",
+      "original_path": "evidence/jsp-000883-subexponential/port-metadata.json",
+      "git_blob": "fa5bf51bc87935dbf9c0d15867219ec04bd203bb",
+      "bytes": 1354
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/review-a/Audit.lean",
+      "original_path": "evidence/jsp-000883-subexponential/review-a/Audit.lean",
+      "git_blob": "5ead60585a272fd0325b6fe3175fb09677c1790a",
+      "bytes": 4015
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/review-a/AxiomAudit.lean",
+      "original_path": "evidence/jsp-000883-subexponential/review-a/AxiomAudit.lean",
+      "git_blob": "0a79129d050fbb4885cb2dcc7a6fd4747e585976",
+      "bytes": 4518
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/review-a/receipt.json",
+      "original_path": "evidence/jsp-000883-subexponential/review-a/receipt.json",
+      "git_blob": "acfb716a918b8d642e37e5b30df9de79aef2dd40",
+      "bytes": 32802
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/verification.json",
+      "original_path": "evidence/jsp-000883-subexponential/verification.json",
+      "git_blob": "9d169ef5c20af0d8b1bd510ba16d30c0f003b380",
+      "bytes": 12229
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000883-subexponential/verify.py",
+      "original_path": "evidence/jsp-000883-subexponential/verify.py",
+      "git_blob": "81d41f380d04b10f6b23df649d7a90d6162d405a",
+      "bytes": 9368
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/.gitignore",
+      "original_path": "evidence/jsp-000904-distance-counting/.gitignore",
+      "git_blob": "3dfe79320894e56e7cd8afc654dc87cd058640f3",
+      "bytes": 66
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087.lean",
+      "git_blob": "f5552ba645871472b709403b473d587b032a2361",
+      "bytes": 5719
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087ColorBound.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087ColorBound.lean",
+      "git_blob": "3627fb9a8002513ab4cc761d7a6a0627e5872840",
+      "bytes": 4263
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087Core.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087Core.lean",
+      "git_blob": "5dc86f84b4ffb592078fcfcb5077b0356b17fea0",
+      "bytes": 3903
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087Incidence.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087Incidence.lean",
+      "git_blob": "504ae05dee7a49af8750c0dd3c6b0c907c5105d8",
+      "bytes": 5570
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087Meaning.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087Meaning.lean",
+      "git_blob": "48cdf3ff240f2451612f9d0500c3d60f0c2abcf1",
+      "bytes": 3103
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087Plane.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087Plane.lean",
+      "git_blob": "474ca1cdce11757fa2fea911500bd41165c7c52c",
+      "bytes": 9507
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/E1087Quadruples.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/E1087Quadruples.lean",
+      "git_blob": "8d65885a3dc0e7efae9fcd1075a6835f3934c654",
+      "bytes": 8875
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/LICENSE-CODE",
+      "original_path": "evidence/jsp-000904-distance-counting/LICENSE-CODE",
+      "git_blob": "c0ee81299bd368b4c38a7947d1651a1e32348313",
+      "bytes": 11558
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/LICENSE-CONTENT",
+      "original_path": "evidence/jsp-000904-distance-counting/LICENSE-CONTENT",
+      "git_blob": "2a9233493fc087c1bf6654d6589791098fe9fa9b",
+      "bytes": 17460
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/NOTICE",
+      "original_path": "evidence/jsp-000904-distance-counting/NOTICE",
+      "git_blob": "ef8bba43c18e2468ec484fd19c11fbdd49dc96d1",
+      "bytes": 1242
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/README.md",
+      "original_path": "evidence/jsp-000904-distance-counting/README.md",
+      "git_blob": "d97714838df2692814a6c7fcacd8b3de587411ad",
+      "bytes": 8152
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/TypedAudit.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/TypedAudit.lean",
+      "git_blob": "64e5eb899b863d8eed96876de93b5e3be067eca1",
+      "bytes": 1639
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/geometry-review.md",
+      "original_path": "evidence/jsp-000904-distance-counting/geometry-review.md",
+      "git_blob": "23cd5a9edc712c1471b4e98bab7c0eeecc49ba57",
+      "bytes": 11941
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/incidence-review.md",
+      "original_path": "evidence/jsp-000904-distance-counting/incidence-review.md",
+      "git_blob": "ec6e02265915bf515a0eb672c45a24c389c680d9",
+      "bytes": 838
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/internal-review.md",
+      "original_path": "evidence/jsp-000904-distance-counting/internal-review.md",
+      "git_blob": "c9f3d3b4ae041ca67e330f2191461f7b8bfdebdb",
+      "bytes": 10699
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/lake-manifest.json",
+      "original_path": "evidence/jsp-000904-distance-counting/lake-manifest.json",
+      "git_blob": "ee0d243945e2659874f2727330d385fd9826642a",
+      "bytes": 3628
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/lakefile.toml",
+      "original_path": "evidence/jsp-000904-distance-counting/lakefile.toml",
+      "git_blob": "dcb26d4c2a2c3065b61f741c4cb5123c649682d5",
+      "bytes": 477
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/lean-toolchain",
+      "original_path": "evidence/jsp-000904-distance-counting/lean-toolchain",
+      "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/prior-review.md",
+      "original_path": "evidence/jsp-000904-distance-counting/prior-review.md",
+      "git_blob": "18d1ef936409f387ab5d25c6a55c255e22dfe693",
+      "bytes": 9175
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/review-a/Audit.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/review-a/Audit.lean",
+      "git_blob": "b1cce666588e2de80da3c70af6b715e102458882",
+      "bytes": 4225
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/review-a/AxiomAudit.lean",
+      "original_path": "evidence/jsp-000904-distance-counting/review-a/AxiomAudit.lean",
+      "git_blob": "a8e42a61e43dd779b32e3a04ae7488ec3d335f47",
+      "bytes": 4135
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/review-a/receipt.json",
+      "original_path": "evidence/jsp-000904-distance-counting/review-a/receipt.json",
+      "git_blob": "a17f024582590af586ef91308dff19b01895ae5a",
+      "bytes": 27306
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/verification.json",
+      "original_path": "evidence/jsp-000904-distance-counting/verification.json",
+      "git_blob": "9edfd1c03ddf982c7eb71d33d321bfb59f2dbc10",
+      "bytes": 8314
+    },
+    {
+      "path": "archive/pr629/evidence/jsp-000904-distance-counting/verify.py",
+      "original_path": "evidence/jsp-000904-distance-counting/verify.py",
+      "git_blob": "19070a699d60ae9d420d754a588b623893c13ddd",
+      "bytes": 8423
+    }
+  ]
+}

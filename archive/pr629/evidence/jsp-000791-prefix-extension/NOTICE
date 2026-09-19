@@ -1,0 +1,18 @@
+JSP-000791 / Erdős 951 finite-prefix extension formalization
+
+Gott-L: project initiation, conception, objectives, planning and research direction.
+Codex assistance: source research, formal proof implementation, documentation and internal checks.
+
+Known finite-prefix extension argument: Barreto–Price, as credited in the
+problem discussion and Patrick White with Claude's public working report,
+Erdős Problem a Day, report 951, 28 July 2026. Exact source-access boundaries
+are documented in SOURCES.md. This packet does not claim discovery of the
+extension theorem or of the original eventual prime-counting problem.
+
+The Lean implementation and documentation are newly written. No code or
+extended prose from the working report or PR670 is copied in this packet.
+Mathlib at c44e0c8ee63ca166450922a373c7409c5d26b00b is used under Apache 2.0;
+its authors and individual notices retain their attribution.
+
+No worldwide first-formalization, official verification, eligibility,
+award decision or payment allocation is asserted.

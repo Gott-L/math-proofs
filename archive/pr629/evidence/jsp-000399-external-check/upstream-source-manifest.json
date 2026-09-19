@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Export.lean",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/Export.lean",
+    "bytes": 16016,
+    "sha256": "6e9f24262253678960b05b8392a1774a3cbf36b21ed2fc1b834906659b8ca95a"
+  },
+  {
+    "path": "Main.lean",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/Main.lean",
+    "bytes": 751,
+    "sha256": "bd8e350903f1382b25fe767f9086dd9882000f01085f7046ea06545e7848842a"
+  },
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/README.md",
+    "bytes": 1414,
+    "sha256": "98833b66efc1289df582d85faa79b253c83bcca27c9fdb073ba42bdf0ffe77c9"
+  },
+  {
+    "path": "format_ndjson.md",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/format_ndjson.md",
+    "bytes": 6098,
+    "sha256": "f82a21e17e4258a1043895d0653ea4333bef8cb07aad2e3d6c1fc4be52b138e3"
+  },
+  {
+    "path": "lakefile.toml",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/lakefile.toml",
+    "bytes": 207,
+    "sha256": "54dde3aba280f32035c882dcd2f2039e738e20ed45ca538337b65cc69c02f7df"
+  },
+  {
+    "path": "lean-toolchain",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/lean-toolchain",
+    "bytes": 25,
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+  },
+  {
+    "path": "lake-manifest.json",
+    "url": "https://raw.githubusercontent.com/leanprover/lean4export/076e8e57707e813375e8f9da8bf989799ace9680/lake-manifest.json",
+    "bytes": 117,
+    "sha256": "f1b9d60d0ebd46f79f48e6833deefeaa835fdee12b4078241635ee14b6a0f07a"
+  }
+]

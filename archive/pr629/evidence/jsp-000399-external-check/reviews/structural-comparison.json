@@ -1,0 +1,17 @@
+{
+  "original_export_sha256": "bf9c742f6def570ef5ccb51e6886d712e2d97db9bac21806d329a4f6537bafd5",
+  "lowered_export_sha256": "43ccad2ef5605b915c0decce923d46245e6da876aed2058ddc603b0ec285a839",
+  "driver_sha256": "ea1d1a239db4a684a65ae8e1243dccd1b57dabddeafa04cc3d25a579d2e44578",
+  "original_literal_count": 7,
+  "lowered_literal_count": 0,
+  "original_declaration_count": 2882,
+  "lowered_declaration_count": 2882,
+  "missing_declarations": [],
+  "extra_declarations": [],
+  "different_declaration_types_or_values_or_recursor_rules": [],
+  "literal_expansions_missing_from_lowered_dag": [],
+  "actual_literals_match_separate_kernel_checks": true,
+  "numeric_representation": "Lean 4.19 mkNatLit = OfNat.ofNat Nat n (instOfNatNat n), as defined in Lean/Expr.lean:726",
+  "all_structural_checks_passed": true,
+  "scope": "Declared types, proof/definition values, universes and recursor RHSs modulo only the reviewed string expansion; not an independent checker result"
+}

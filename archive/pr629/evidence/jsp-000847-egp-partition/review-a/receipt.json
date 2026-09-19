@@ -1,0 +1,375 @@
+{
+  "utc": "2026-09-17T11:08:52.473176+00:00",
+  "success": true,
+  "sources_unchanged_after_review": true,
+  "review_kind": "same-team AI semantic review and separate full fresh replay",
+  "reviewer_role": "authored EGPMatching; did not author the other six proof modules; internal collaboration, not external human review",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "checked_dependency_revisions": {
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+  },
+  "source_sha256": {
+    "EGPDefs.lean": "5bc5b0bbf86a9b7ec5190506b7e2321346cf473626c73f667967eed04b92172d",
+    "EGPMatching.lean": "4d30d8cac81e7c0e6498a8e4b83cb1642f92b7850a84186301ee779e191924be",
+    "EGPCount.lean": "01926ef2e82a503efa3d02548542d92d40859f828fa8969ad315afccc7846705",
+    "EGPAssembly.lean": "da14d96c35ec136f2bdc32c24310e85779840cfa98a39a1cbf47737d3df89632",
+    "EGPInduction.lean": "ffaca4ae050eb34a082f5a98d62847ee0ad80989d3b74414ae18fb7d9cc98dbe",
+    "EGPSubmission.lean": "2d8aacaf2a234dc46e760e5432a33ce8a931e17d4e5294bb21b5cf104d2e7ea3",
+    "EGPGraph.lean": "e1281125a3be76ad48b04d7a721be8bb02f4687b3a6fa97c572440ad76689188"
+  },
+  "audit_source_sha256": {
+    "Audit.lean": "72728543a892418693421b565da3c6dfcdaa74d5998462c18184064166b9f734",
+    "AxiomAudit.lean": "f23e6c6ea9a86be1c306a953f2fb53acaf5024f65d8329dae4fdbfbf941bbdf4"
+  },
+  "import_isolation": {
+    "fresh_local_olean_directory": true,
+    "excluded_project_build_path": true,
+    "dependency_library_paths_count": 9,
+    "dependency_caches_reused_not_rebuilt": true
+  },
+  "proof_declarations_audited": [
+    "EGP.neighbors",
+    "EGP.Clique",
+    "EGP.MatchingOn",
+    "EGP.covered",
+    "EGP.MaximalMatching",
+    "EGP.PartitionOn",
+    "EGP.trim",
+    "EGP.matching_covered_subset",
+    "EGP.matching_covered_card",
+    "EGP.exists_maximal_matching",
+    "EGP.matching_cost_le_half",
+    "EGP.floor_quarter_square_step",
+    "EGP.extensionParts",
+    "EGP.extension_partition",
+    "EGP.extension_card_le",
+    "EGP.extend_partition",
+    "EGP.neighbors_subset",
+    "EGP.exists_min_degree",
+    "EGP.trim_symmetric",
+    "EGP.trim_irreflexive",
+    "EGP.partition_empty",
+    "EGP.partition_bound_of_extension",
+    "EGP.erdos_goodman_posa",
+    "EGP.finite_relation_partition",
+    "EGP.simple_graph_partition"
+  ],
+  "typed_review_checks": [
+    "EGPInternalReview.clique_definition",
+    "EGPInternalReview.partition_definition",
+    "EGPInternalReview.raw_finite_set",
+    "EGPInternalReview.raw_fin_n",
+    "EGPInternalReview.raw_simple_graph",
+    "EGPInternalReview.explicit_unique_ownership",
+    "EGPInternalReview.different_parts_no_common_edge",
+    "EGPInternalReview.raw_floor_recurrence"
+  ],
+  "axiom_results": {
+    "EGP.neighbors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.Clique": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.MatchingOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.covered": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.MaximalMatching": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.PartitionOn": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.trim": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.matching_covered_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.matching_covered_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.exists_maximal_matching": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.matching_cost_le_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.floor_quarter_square_step": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.extensionParts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.extension_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.extension_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.extend_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.neighbors_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.exists_min_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.trim_symmetric": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.trim_irreflexive": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGP.partition_empty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.partition_bound_of_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.erdos_goodman_posa": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.finite_relation_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGP.simple_graph_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.clique_definition": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.partition_definition": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.raw_finite_set": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.raw_fin_n": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.raw_simple_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.explicit_unique_ownership": [
+      "propext",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.different_parts_no_common_edge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "EGPInternalReview.raw_floor_recurrence": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "all_axiom_audits_passed": true,
+  "commands": [
+    {
+      "source": "EGPDefs.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPDefs.olean",
+        "EGPDefs.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.766,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "EGPMatching.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPMatching.olean",
+        "EGPMatching.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.141,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "EGPCount.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPCount.olean",
+        "EGPCount.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.562,
+      "stdout": "'EGP.matching_cost_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.floor_quarter_square_step' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "EGPAssembly.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPAssembly.olean",
+        "EGPAssembly.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.547,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "EGPInduction.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPInduction.olean",
+        "EGPInduction.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.344,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "EGPSubmission.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPSubmission.olean",
+        "EGPSubmission.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.984,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "EGPGraph.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "EGPGraph.olean",
+        "EGPGraph.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.891,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "Audit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "Audit.olean",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.719,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "AxiomAudit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "AxiomAudit.olean",
+        "AxiomAudit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.906,
+      "stdout": "'EGP.neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.Clique' depends on axioms: [propext, Quot.sound]\n'EGP.MatchingOn' depends on axioms: [propext, Quot.sound]\n'EGP.covered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.MaximalMatching' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.PartitionOn' depends on axioms: [propext, Quot.sound]\n'EGP.trim' depends on axioms: [propext, Quot.sound]\n'EGP.matching_covered_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.matching_covered_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.exists_maximal_matching' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.matching_cost_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.floor_quarter_square_step' depends on axioms: [propext, Quot.sound]\n'EGP.extensionParts' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.extension_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.extension_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.extend_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.neighbors_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.exists_min_degree' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.trim_symmetric' depends on axioms: [propext, Quot.sound]\n'EGP.trim_irreflexive' depends on axioms: [propext, Quot.sound]\n'EGP.partition_empty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.partition_bound_of_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.erdos_goodman_posa' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.finite_relation_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGP.simple_graph_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGPInternalReview.clique_definition' depends on axioms: [propext, Quot.sound]\n'EGPInternalReview.partition_definition' depends on axioms: [propext, Quot.sound]\n'EGPInternalReview.raw_finite_set' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGPInternalReview.raw_fin_n' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGPInternalReview.raw_simple_graph' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGPInternalReview.explicit_unique_ownership' depends on axioms: [propext, Quot.sound]\n'EGPInternalReview.different_parts_no_common_edge' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EGPInternalReview.raw_floor_recurrence' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": ""
+    }
+  ]
+}

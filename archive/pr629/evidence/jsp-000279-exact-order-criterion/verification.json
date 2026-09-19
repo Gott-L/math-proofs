@@ -1,0 +1,211 @@
+{
+  "verified_at_utc": "2026-09-17T12:23:15.059941+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "E336Defs.lean",
+      "bytes": 2103,
+      "sha256": "c87cac6df2382f05cfe1ccb1e96e19b6bd2be76704750bc308a1b495ea738597",
+      "passed": true,
+      "seconds": 5.5
+    },
+    {
+      "file": "E336Differences.lean",
+      "bytes": 5778,
+      "sha256": "fbe5eb0a115d6e4eefac53b4329f5b452373ea77d2314cc48763857ecec3eecc",
+      "passed": true,
+      "seconds": 5.75
+    },
+    {
+      "file": "E336Padding.lean",
+      "bytes": 3254,
+      "sha256": "8f7161ea8319d37bd7f7e6b04299b6504e8c90e3e67da7867df71dcfcc7020f9",
+      "passed": true,
+      "seconds": 5.672
+    },
+    {
+      "file": "E336Necessity.lean",
+      "bytes": 3777,
+      "sha256": "6ad1ca0a2e279655393df57dd043ef043d394172cdf9f474400013d758b718c6",
+      "passed": true,
+      "seconds": 5.75
+    },
+    {
+      "file": "E336Criterion.lean",
+      "bytes": 2551,
+      "sha256": "e19ab354601835ad963100789bb104550cae25b376b7ad66b49724cace564e00",
+      "passed": true,
+      "seconds": 5.672
+    }
+  ],
+  "axiom_audit": {
+    "E336.RepresentsExactly": [
+      "propext"
+    ],
+    "E336.EventuallyExactly": [
+      "propext"
+    ],
+    "E336.EventuallyAtMost": [
+      "propext"
+    ],
+    "E336.HasExactOrder": [
+      "propext"
+    ],
+    "E336.DifferenceGcdOne": [],
+    "E336.ConsecutiveGcdOne": [],
+    "E336.AdjacentLengths": [
+      "propext"
+    ],
+    "E336.BalancedDifference": [
+      "propext"
+    ],
+    "E336.balancedDifference_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_add": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_neg": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_sub": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_nat_mul": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_dist": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_mod": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.differenceGcdOne_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.exists_positive_balancedDifference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.adjacentLengths_of_differenceGcdOne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.representsExactly_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.representsExactly_add": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.representsExactly_adjacent_padding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.eventuallyExactly_of_adjacent_representations": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.eventuallyExactly_of_adjacentLengths": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.modEq_iff_dvd_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.list_sums_modEq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.differenceGcdOne_of_eventuallyExactly": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.pairwise_dvd_iff_consecutive_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.differenceGcdOne_range_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.exists_eventuallyExactly_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.exists_hasExactOrder_iff_exists_eventuallyExactly": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.erdos_graham_set_criterion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.erdos_graham_sequence_criterion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.eventuallyExactly_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "dependency_versions": {
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+  },
+  "typed_audit_source_sha256": "9435a5612bbfa46e5a3810a7715e4b606086d0313273dea998cd74991e22a22c",
+  "passed": true,
+  "typed_endpoint_checks": [
+    "raw_set_iff",
+    "raw_least_order_iff",
+    "raw_sequence_consecutive_iff",
+    "unconditional_finite_adjacent_certificate",
+    "explicit_padding_bound",
+    "repeated_summands",
+    "empty_representation",
+    "zero_not_eventual_order"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "verified_at_utc": "2026-09-17T08:57:33.706860+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "E357DensityDefs.lean",
+      "bytes": 3053,
+      "sha256": "606c9229d92e09087523ed6b1fb1a9f5c332afd1dd59390b54f113b4734c61da",
+      "passed": true,
+      "seconds": 6.609
+    },
+    {
+      "file": "E357Intervals.lean",
+      "bytes": 3219,
+      "sha256": "c8220e90ccfa8f1d51b93f921f226a686501950ec47a4dacbae5ae422c557d00",
+      "passed": true,
+      "seconds": 5.797
+    },
+    {
+      "file": "E357DyadicBounds.lean",
+      "bytes": 3374,
+      "sha256": "e9455ba7fa42b119acd39f50f29c8af3375c54ced069eafcaeefc3e89c464f7f",
+      "passed": true,
+      "seconds": 5.906
+    },
+    {
+      "file": "E357Counting.lean",
+      "bytes": 2705,
+      "sha256": "94b1f4660670a65f4e209080b53cf3f8f126db0fa5d2267a061ac38dc9741879",
+      "passed": true,
+      "seconds": 7.578
+    },
+    {
+      "file": "E357DensityBridge.lean",
+      "bytes": 3390,
+      "sha256": "b392346a5fc0a014bf4682cac59da641ffd4468b2e599650f8213ea46c904061",
+      "passed": true,
+      "seconds": 8.032
+    },
+    {
+      "file": "E357.lean",
+      "bytes": 928,
+      "sha256": "a68d29b3f4b7ebf089bbc3abc989a68eb25c0523db3a546e5c25155b983045ec",
+      "passed": true,
+      "seconds": 6.843
+    }
+  ],
+  "axiom_audit": {
+    "Set.partialDensity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.lowerDensity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.partialDensity_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.lowerDensity_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.ncard_Iio_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.partialDensity_nat_univ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Set.lowerDensity_nat_eq_liminf": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.HasDistinctSums": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos357.blockSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.blockSum_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.blockSum_le_of_linear_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_length_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_sum_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.dyadicBlock_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.no_linear_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.count_range_Iio_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.exists_linear_bound_of_lowerDensity_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos357.erdos_357.variants.infinite_set_lower_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "passed": true,
+  "typed_endpoint_checks": [
+    "generic_distinct_sums_definition",
+    "partial_density_raw_formula",
+    "lower_density_raw_formula",
+    "exact_upstream_endpoint",
+    "fully_expanded_raw_liminf_endpoint"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-17",
+  "leanVersion": "4.19.0",
+  "leanGitHash": "6caaee842e9495688c1567e78c0e68dbb96942aa",
+  "mathlibTag": "v4.19.0",
+  "packages": [
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "expected": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "actual": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "matches": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "expected": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "actual": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "matches": true
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "expected": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "actual": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "matches": true
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "expected": "c4919189477c3221e6a204008998b0d724f49904",
+      "actual": "c4919189477c3221e6a204008998b0d724f49904",
+      "matches": true
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "expected": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "actual": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "matches": true
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "expected": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "actual": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "matches": true
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "expected": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "actual": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "matches": true
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "expected": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "actual": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "matches": true
+    },
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "expected": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "actual": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "matches": true
+    }
+  ],
+  "cacheRoots": [
+    "Mathlib.Data.Real.Archimedean",
+    "Mathlib.Data.Set.Card",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Order.Interval.Set.OrdConnected",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Finset.Prod",
+    "Mathlib.Order.LiminfLimsup",
+    "Mathlib.Order.WellFounded",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "cacheArtifacts": 1790,
+  "downloadMethod": "Official Mathlib Cache/Main.lean interpreted through lake env lean --run; public cache server only",
+  "cacheDirectory": ".cache/mathlib",
+  "leantarVersion": "0.1.15",
+  "leantarSha256": "a623f68963b36b1c33ebe1c4fa0f73f4103f3282b940320a9c1d1b543744c3d2",
+  "cacheNote": "Artifact count is for the shared selective dependency cache, including earlier proof packets; it is not an E357-only minimum."
+}

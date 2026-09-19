@@ -1,0 +1,76 @@
+--- before-string-lowering/Export.lean
++++ string-lowered/Export.lean
+@@ -126,13 +126,24 @@
+   let nameIdxs ← uparams.mapM dumpName
+   return toJson nameIdxs
+ 
++/-- Expand a Lean 4.19 string literal into its ordinary constructor expression.
++The source string is traversed by Unicode scalar values, not UTF-8 bytes. -/
++def lowerStringLiteral (s : String) : Expr :=
++  let charType := mkConst ``Char
++  let nil := mkApp (mkConst ``List.nil [Level.zero]) charType
++  let chars := s.toList.foldr (fun c tail =>
++    mkApp3 (mkConst ``List.cons [Level.zero]) charType
++      (mkApp (mkConst ``Char.ofNat) (mkNatLit c.toNat)) tail) nil
++  mkApp (mkConst ``String.mk) chars
++
+ def removeMData (e : Expr) : M Expr := do
+   if let some x := (← get).noMDataExprs[e]? then
+     return x
+   let e' ← match e with
+   | .mdata _ e' => removeMData e'
+   | .fvar .. | .mvar ..=> unreachable!
+-  | .bvar .. | .sort .. | .const .. | .lit _ => pure e
++  | .lit (.strVal s) => pure (lowerStringLiteral s)
++  | .bvar .. | .sort .. | .const .. | .lit (.natVal _) => pure e
+   | .app f a =>
+     pure <| e.updateApp! (← removeMData f) (← removeMData a)
+   | .lam _ d b _ =>
+@@ -168,7 +179,7 @@
+       ]
+     | .bvar i => return .mkObj [("bvar", i)]
+     | .lit (.natVal i) => dumpNatDeps; return .mkObj [("natVal", s!"{i}")]
+-    | .lit (.strVal s) => dumpStrDeps; return .mkObj [("strVal", s)]
++    | .lit (.strVal _) => panic! "unlowered string literal: metadata export is unsupported by this pilot"
+     | .sort l => return .mkObj [("sort", ← dumpLevel l)]
+     | .const n us => return .mkObj [
+       ("const", .mkObj [
+@@ -219,21 +230,17 @@
+     let nat := ``Nat
+     if (!(← get).visitedConstants.contains nat) && ((← read).env.find? nat).isSome
+     then dumpConstant nat
+-  dumpStrDeps : M Unit := do
+-    let charOfNat := ``Char.ofNat
+-    if (!(← get).visitedConstants.contains charOfNat) && ((← read).env.find? charOfNat).isSome
+-    then dumpConstant charOfNat
+-    -- Lean 4.19 represents strings using String.mk. This does not assert that
+-    -- a checker for later string representations supports these literals.
+-    let stringOfList := ``String.mk
+-    if (!(← get).visitedConstants.contains stringOfList) && ((← read).env.find? stringOfList).isSome
+-    then dumpConstant stringOfList
+ 
+ partial def dumpExpr (e : Expr) : M Nat := do
+     let aux (e : Expr) : M Expr := do
+       modify (fun st => { st with noMDataExprs := HashMap.emptyWithCapacity })
+       removeMData e
+-    dumpExprAux <| ← if (← get).exportMData then pure e else aux e
++    let normalized ← if (← get).exportMData then pure e else aux e
++    -- Lowering introduces ordinary constructor/Char.ofNat constants. Export
++    -- all of their dependencies explicitly, never silently dropping them.
++    for c in normalized.getUsedConstants do
++      dumpConstant c
++    dumpExprAux normalized
+ 
+ partial def dumpConstant (c : Name) : M Unit := do
+   let some declar := (← read).env.find? c
+@@ -422,8 +429,8 @@
+     ("githash", githash)
+   ]
+   let exporterMeta := Json.mkObj [
+-    ("name", "lean4export-lean4.19-backport"),
+-    ("version", "3.1.0+lean4.19-pilot")
++    ("name", "lean4export-lean4.19-string-lowered"),
++    ("version", "3.1.0+lean4.19.string-lowered")
+   ]
+   let formatMeta := Json.mkObj [
+     ("version", "3.1.0")

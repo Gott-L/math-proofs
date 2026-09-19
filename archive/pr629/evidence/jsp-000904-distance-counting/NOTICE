@@ -1,0 +1,23 @@
+JSP-000904 / Erdos 1087: exact finite distance-counting formalization.
+
+Project initiation, goals, research direction and submission ownership: Gott-L.
+Research, independent Lean implementation, documentation and internal checks:
+OpenAI Codex assistance under the project owner's instructions.
+
+Mathematical counting reduction, planar factor-10 argument and example:
+haipapa123's Justin Sun Prize PR 586, fixed commit
+daa68321eca18b869069e5cdec51ab5526d57558.
+Official source: https://github.com/TheJustinSunPrize/awards/pull/586 .
+Source proof:
+https://github.com/haipapa123/awards/blob/daa68321eca18b869069e5cdec51ab5526d57558/docs/submissions/jsp-000904-distance-counting/PROOF.md
+The source documentation uses CC BY 4.0 and credits ChatGPT/Codex assistance.
+This packet provides a new formal implementation and adapted explanation;
+it does not imply the source contributor's endorsement.
+
+Original problem: Paul Erdos and George Purdy, as recorded in the problem
+catalogue and Formal Conjectures PR 5859. This packet does not prove the
+original asymptotic conjecture or prove the cited analytic estimates.
+
+Proof code and scripts in this packet: Apache-2.0.
+Documentation: CC BY 4.0.
+Dependencies retain their own copyright and licenses.

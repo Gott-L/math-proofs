@@ -1,0 +1,153 @@
+{
+  "reason": "Initial certificate elaboration failed to create an OS thread; retry uses serial elaboration without altering proof sources or trust level.",
+  "first_attempt": {
+    "proof_repository": "Gott-L/awards",
+    "proof_commit": "86cf6d9a47a7134e9901c6464322eafddc89742e",
+    "fresh_modules": [
+      {
+        "module": "Jsp399TripleCore",
+        "source_sha256": "ec6d0d0bf114c025bbcd5a82a77d3b0401433a2df630438a3f60e602f76b7ee4",
+        "command": [
+          "<lean-toolchain>/bin/lean.exe",
+          "--trust=0",
+          "-s",
+          "65536",
+          "-j",
+          "1",
+          "-DwarningAsError=true",
+          "-o",
+          "Jsp399TripleCore.olean",
+          "Jsp399TripleCore.lean"
+        ],
+        "exit_code": 0,
+        "seconds": 9.703,
+        "olean_sha256": "4d5a5af6e60602745e52bb5506497bb55243204b71eda91f4937754c5b5a7029",
+        "olean_bytes": 288616
+      },
+      {
+        "module": "Jsp399Witness",
+        "source_sha256": "4f1937d3fe11b213adb5fe3301e0bb0fd546238063993521fd26ca32da525503",
+        "command": [
+          "<lean-toolchain>/bin/lean.exe",
+          "--trust=0",
+          "-s",
+          "65536",
+          "-j",
+          "1",
+          "-DwarningAsError=true",
+          "-o",
+          "Jsp399Witness.olean",
+          "Jsp399Witness.lean"
+        ],
+        "exit_code": 0,
+        "seconds": 2.391,
+        "olean_sha256": "f306c0a604e61f93269a144b64241bbf0bd0599098ed8a359ed1a5bbbdfbe3d7",
+        "olean_bytes": 93752
+      },
+      {
+        "module": "EncodedCoeffCertificate",
+        "source_sha256": "2d64c4d56c8963a45597d8f933fb71e08b0d8e3f08f7a6ff057c588faaa94f23",
+        "command": [
+          "<lean-toolchain>/bin/lean.exe",
+          "--trust=0",
+          "-s",
+          "65536",
+          "-j",
+          "1",
+          "-DwarningAsError=true",
+          "-o",
+          "EncodedCoeffCertificate.olean",
+          "EncodedCoeffCertificate.lean"
+        ],
+        "exit_code": 3221226505,
+        "seconds": 40.219
+      }
+    ],
+    "independent_checker_run": false
+  },
+  "fresh_modules": [
+    {
+      "module": "Jsp399TripleCore",
+      "source_sha256": "ec6d0d0bf114c025bbcd5a82a77d3b0401433a2df630438a3f60e602f76b7ee4",
+      "command": [
+        "<lean-toolchain>/bin/lean.exe",
+        "--trust=0",
+        "-s",
+        "65536",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-o",
+        "Jsp399TripleCore.olean",
+        "Jsp399TripleCore.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 9.703,
+      "olean_sha256": "4d5a5af6e60602745e52bb5506497bb55243204b71eda91f4937754c5b5a7029",
+      "olean_bytes": 288616
+    },
+    {
+      "module": "Jsp399Witness",
+      "source_sha256": "4f1937d3fe11b213adb5fe3301e0bb0fd546238063993521fd26ca32da525503",
+      "command": [
+        "<lean-toolchain>/bin/lean.exe",
+        "--trust=0",
+        "-s",
+        "65536",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-o",
+        "Jsp399Witness.olean",
+        "Jsp399Witness.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.391,
+      "olean_sha256": "f306c0a604e61f93269a144b64241bbf0bd0599098ed8a359ed1a5bbbdfbe3d7",
+      "olean_bytes": 93752
+    },
+    {
+      "module": "EncodedCoeffCertificate",
+      "source_sha256": "2d64c4d56c8963a45597d8f933fb71e08b0d8e3f08f7a6ff057c588faaa94f23",
+      "command": [
+        "<lean-toolchain>/bin/lean.exe",
+        "--trust=0",
+        "-s",
+        "65536",
+        "-j",
+        "1",
+        "-DElab.async=false",
+        "-DwarningAsError=true",
+        "-o",
+        "EncodedCoeffCertificate.olean",
+        "EncodedCoeffCertificate.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 255.203,
+      "olean_sha256": "961e3764f96a140017eb17cbb623c93bd5677cbabdfe98642e22cb55a608c956",
+      "olean_bytes": 28377608
+    },
+    {
+      "module": "Jsp399Parametric",
+      "source_sha256": "fd486be111060dafac013d577fc75152b4ff1139187f5def7332efd15d832e77",
+      "command": [
+        "<lean-toolchain>/bin/lean.exe",
+        "--trust=0",
+        "-s",
+        "65536",
+        "-j",
+        "1",
+        "-DElab.async=false",
+        "-DwarningAsError=true",
+        "-o",
+        "Jsp399Parametric.olean",
+        "Jsp399Parametric.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 7.219,
+      "olean_sha256": "be5c01a935a4950fe78e35e97db48935b23f93c549e53d150c1993497960c370",
+      "olean_bytes": 995552
+    }
+  ],
+  "all_four_modules_passed": true
+}

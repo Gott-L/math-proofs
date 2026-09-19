@@ -1,0 +1,23 @@
+JSP-000399 external-checker supplement, 2026-09-17.
+
+Gott-L: project initiation, direction, coordination, and submission management.
+OpenAI Codex-assisted team: formalization implementation, exporter adaptation,
+verification operation, internal review, and supporting documentation.
+
+This supplement does not assert new mathematical discovery, first formalization,
+official verification, or eligibility for payment.
+
+Adapted exporter source is derived from leanprover/lean4export at
+076e8e57707e813375e8f9da8bf989799ace9680, under Apache License 2.0.
+Original upstream source identifiers and separate modification patches are kept.
+
+Nanoda is ammkrn/nanoda_lib at 4c544ed4099c8227f07d5de77ad1e69fb0740a27,
+under Apache License 2.0. Its code was not modified by this supplement.
+The Nanoda source and binary are not redistributed here; a source-hash manifest
+and its license text are included for identification and reproducibility.
+
+The four original JSP-000399 Lean proof files retain their original license and
+attribution and are referenced, not altered or republished in this supplement.
+
+New scripts and documentation in this supplement are supplied under Apache 2.0,
+except that verbatim logs and factual receipts record the stated tool results.

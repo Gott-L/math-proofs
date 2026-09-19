@@ -1,0 +1,18 @@
+JSP-000295 / Erdős 357 lower-density evidence
+
+Known mathematics: Paul Erdős, Problems and results on combinatorial
+number theory III (1977), p. 70.
+
+HasDistinctSums and the registered theorem statement follow
+FormalConjectures/ErdosProblems/357.lean at commit
+40e7c98697de6f66b8cbdbf641749ab39ed9c152.
+partialDensity and lowerDensity are compatibility extractions from
+FormalConjecturesForMathlib/Data/Set/Density.lean at the same commit.
+Copyright 2025 The Formal Conjectures Authors. Apache-2.0.
+
+Project initiation, objectives and research direction: Gott-L.
+New proof reconstruction, implementation, documentation and internal checks:
+OpenAI Codex assistance under Gott-L's instructions.
+
+All local code is Apache-2.0. Documentation is CC BY 4.0.
+Dependencies retain their original authorship and licenses.

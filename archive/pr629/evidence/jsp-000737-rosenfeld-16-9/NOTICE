@@ -1,0 +1,23 @@
+JSP-000737 / Erdős 886 four-divisor evidence
+
+Mathematics: Paul Erdős and Moshe Rosenfeld, The factor-difference set of
+integers, Acta Arithmetica 79 (1997), Proposition 4.2.
+
+The arithmetic construction adapts definitions and identities from
+Jarek Koch's RosenfeldConstructionV2, commit
+230bf2cd0bc15f971ad9d0e36f36f2056dd9d8b7 of jarekkoch-hub/erdos887-lean.
+Copyright (c) 2026 Jarek Koch. MIT License; the full notice is retained in
+E886Construction.lean and LICENSE-MIT.
+
+The divisor-filter definition and compatibility statement in E886.lean
+follow FormalConjectures/ErdosProblems/886.lean at commit
+40e7c98697de6f66b8cbdbf641749ab39ed9c152.
+Copyright 2026 The Formal Conjectures Authors. Apache-2.0.
+
+Project initiation, objectives and research direction: Gott-L.
+Proof adaptation, refinement, Lean implementation and documentation:
+OpenAI Codex assistance, under Gott-L's instructions.
+
+The new window-estimate module is MIT licensed. E886.lean and verify.py
+are Apache-2.0. First-party documentation is CC BY 4.0.
+Dependencies retain their original authorship and licenses.

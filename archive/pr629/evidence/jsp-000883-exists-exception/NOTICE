@@ -1,0 +1,17 @@
+JSP-000883 / Erdős 1063 universal exception evidence
+
+Project concept, objectives, research direction and submission ownership: Gott-L.
+Proof development, Lean implementation and documentation: OpenAI Codex assistance.
+
+The mathematical observation is attributed to P. Erdős and J. L. Selfridge,
+Problem 6447, American Mathematical Monthly 90 (1983), p. 710.
+
+The compatibility declaration follows the statement and namespace in
+FormalConjectures/ErdosProblems/1063.lean at commit
+40e7c98697de6f66b8cbdbf641749ab39ed9c152, Copyright 2026
+The Formal Conjectures Authors, licensed under Apache-2.0.
+The proof is independently implemented and does not import that unfinished theorem.
+
+Prior partial formalizations and related submissions are credited in README.md.
+Mathlib and the pinned transitive packages are external dependencies and retain
+their original authorship and licenses. They are not vendored in this packet.

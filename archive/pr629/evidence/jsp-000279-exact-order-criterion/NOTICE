@@ -1,0 +1,16 @@
+JSP-000279 / Erdos 336 exact-order characterization
+
+Gott-L initiated the project, set its objectives and research direction,
+planned and coordinated the work, and authorizes submission.
+Codex assisted with mathematical research, proof development, Lean
+implementation, documentation and internal verification.
+
+The mathematical theorem is due to P. Erdos and R. L. Graham (1980),
+"On bases with an exact order", Theorem 1. Related sources and existing
+formalizations are credited in SOURCES.md. Their code is not reused here.
+
+New proof code and scripts: Apache-2.0.
+Documentation: CC BY 4.0.
+Mathlib and other dependencies retain their authorship and licenses.
+This is not a claim of mathematical discovery, global first priority,
+official prize acceptance, award eligibility or payment.

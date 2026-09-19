@@ -1,0 +1,156 @@
+{
+  "verified_at_utc": "2026-09-17T08:43:50.981947+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "E886Construction.lean",
+      "bytes": 4322,
+      "sha256": "f854f19e88594d41f7571ef5757c733b89bef44ccbcc621ec11651b65bf2c4ac",
+      "passed": true,
+      "seconds": 6.032
+    },
+    {
+      "file": "E886Window.lean",
+      "bytes": 3058,
+      "sha256": "e3633e9a66c7ac0546294402b6d1907f1c2c8994e778396095a2049ab6fff843",
+      "passed": true,
+      "seconds": 11.343
+    },
+    {
+      "file": "E886.lean",
+      "bytes": 3934,
+      "sha256": "5dc703c45f115d145615e0252830f0b24c003c6ff53a7cfa0bd3fd370575b19f",
+      "passed": true,
+      "seconds": 9.735
+    }
+  ],
+  "axiom_audit": {
+    "Erdos886.A0_mul_B0": [
+      "propext"
+    ],
+    "Erdos886.A1_mul_B1": [
+      "propext"
+    ],
+    "Erdos886.A2_mul_B2": [
+      "propext"
+    ],
+    "Erdos886.A3_mul_B3": [
+      "propext"
+    ],
+    "Erdos886.A0_dvd_N": [
+      "propext"
+    ],
+    "Erdos886.A1_dvd_N": [
+      "propext"
+    ],
+    "Erdos886.A2_dvd_N": [
+      "propext"
+    ],
+    "Erdos886.A3_dvd_N": [
+      "propext"
+    ],
+    "Erdos886.B0_lt_A0": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.A0_lt_A1": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.A1_lt_A2": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.A2_lt_A3": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.B0_pos": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.N_pos": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.self_le_N": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.pow8_le_N": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos886.B0_add_gap_eq_A3": [
+      "propext"
+    ],
+    "Erdos886.sqrt_bracket": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.fourth_root_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.A3_lt_upper_of_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.A3_lt_upper16": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.A3_lt_upper9": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.selected_mem_divisors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.four_count_of_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.four_count16": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.four_count9": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.erdos_886.variants.rosenfeld_infinite": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos886.rosenfeld_infinite9": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "passed": true,
+  "typed_endpoint_checks": [
+    "exact_divisor_filter_definition",
+    "constant_16_infinite",
+    "constant_9_infinite"
+  ]
+}

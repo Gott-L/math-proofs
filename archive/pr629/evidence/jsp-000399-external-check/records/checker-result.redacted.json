@@ -1,0 +1,379 @@
+{
+  "started_utc": "2026-09-17T12:16:27.337940+00:00",
+  "runner_sha256": "d55e3e759a23812f487e2f08364bd2aeafa7850557c32bd34e9b44f058b22e1f",
+  "scope": "submitted-endpoints",
+  "targets": [
+    "JSP399TwentySeven.triples_complete",
+    "JSP399TwentySeven.triples_nodup",
+    "JSP399TwentySeven.triples_length",
+    "JSP399Parametric.vector_triple_sums_perm",
+    "JSP399Parametric.every_additive_image_collision",
+    "JSP399Parametric.every_parameter_collision",
+    "JSP399Parametric.every_translated_parameter_collision",
+    "JSP399Parametric.example_is_nontrivial_collision",
+    "JSP399Parametric.exampleA_matches",
+    "JSP399Parametric.exampleB_matches_reverse"
+  ],
+  "negative_control_target": "JSP399Parametric.vector_triple_sums_perm",
+  "checker_commit": "4c544ed4099c8227f07d5de77ad1e69fb0740a27",
+  "independent_implementation": true,
+  "independent_operator": false,
+  "official_verification": false,
+  "network_isolation": false,
+  "checker_run": true,
+  "all_checks_passed": true,
+  "submitted_endpoint_pass": true,
+  "preflight_only": false,
+  "limits": {
+    "total_bytes": 3221225472,
+    "negative_control_copy_limit_bytes": 104857600,
+    "accounted_external_bytes": 1868360225,
+    "timeout_seconds_per_run": 600
+  },
+  "storage_bytes_before": 2736864885,
+  "input": {
+    "path": "<pilot>/exports-lowered/export.ndjson",
+    "bytes": 10385356,
+    "sha256": "43ccad2ef5605b915c0decce923d46245e6da876aed2058ddc603b0ec285a839",
+    "metadata": {
+      "lean": {
+        "version": "4.19.0",
+        "githash": "6caaee842e9495688c1567e78c0e68dbb96942aa"
+      },
+      "format": {
+        "version": "3.1.0"
+      },
+      "exporter": {
+        "version": "3.1.0+lean4.19.string-lowered",
+        "name": "lean4export-lean4.19-string-lowered"
+      }
+    },
+    "rows": 201882,
+    "declaration_count": 2882,
+    "expression_count": 183923,
+    "string_literal_records": 0,
+    "axioms": [
+      "Quot.sound",
+      "propext",
+      "Classical.choice"
+    ],
+    "targets": {
+      "JSP399TwentySeven.triples_complete": {
+        "line": 28172,
+        "kind": "thm",
+        "record": {
+          "value": 25222,
+          "type": 24703,
+          "name": 2135,
+          "levelParams": [],
+          "all": [
+            2135
+          ]
+        }
+      },
+      "JSP399TwentySeven.triples_nodup": {
+        "line": 41850,
+        "kind": "thm",
+        "record": {
+          "value": 38003,
+          "type": 37956,
+          "name": 3147,
+          "levelParams": [],
+          "all": [
+            3147
+          ]
+        }
+      },
+      "JSP399TwentySeven.triples_length": {
+        "line": 41872,
+        "kind": "thm",
+        "record": {
+          "value": 38023,
+          "type": 38012,
+          "name": 3150,
+          "levelParams": [],
+          "all": [
+            3150
+          ]
+        }
+      },
+      "JSP399Parametric.vector_triple_sums_perm": {
+        "line": 194261,
+        "kind": "thm",
+        "record": {
+          "value": 176475,
+          "type": 176402,
+          "name": 15081,
+          "levelParams": [],
+          "all": [
+            15081
+          ]
+        }
+      },
+      "JSP399Parametric.every_additive_image_collision": {
+        "line": 194521,
+        "kind": "thm",
+        "record": {
+          "value": 176728,
+          "type": 176526,
+          "name": 15082,
+          "levelParams": [],
+          "all": [
+            15082
+          ]
+        }
+      },
+      "JSP399Parametric.every_parameter_collision": {
+        "line": 196376,
+        "kind": "thm",
+        "record": {
+          "value": 178562,
+          "type": 178497,
+          "name": 15099,
+          "levelParams": [],
+          "all": [
+            15099
+          ]
+        }
+      },
+      "JSP399Parametric.every_translated_parameter_collision": {
+        "line": 197037,
+        "kind": "thm",
+        "record": {
+          "value": 179212,
+          "type": 179149,
+          "name": 15106,
+          "levelParams": [],
+          "all": [
+            15106
+          ]
+        }
+      },
+      "JSP399Parametric.example_is_nontrivial_collision": {
+        "line": 201510,
+        "kind": "thm",
+        "record": {
+          "value": 183566,
+          "type": 183532,
+          "name": 15199,
+          "levelParams": [],
+          "all": [
+            15199
+          ]
+        }
+      },
+      "JSP399Parametric.exampleA_matches": {
+        "line": 201702,
+        "kind": "thm",
+        "record": {
+          "value": 183752,
+          "type": 183735,
+          "name": 15202,
+          "levelParams": [],
+          "all": [
+            15202
+          ]
+        }
+      },
+      "JSP399Parametric.exampleB_matches_reverse": {
+        "line": 201882,
+        "kind": "thm",
+        "record": {
+          "value": 183922,
+          "type": 183909,
+          "name": 15207,
+          "levelParams": [],
+          "all": [
+            15207
+          ]
+        }
+      }
+    },
+    "wrong_proof_literal": {
+      "index": 225,
+      "value": "27",
+      "line": 304
+    }
+  },
+  "export_provenance": {
+    "receipt_path": "<pilot>/exports-lowered/export-result.json",
+    "receipt_sha256": "5d39135b0b244ab2ae93552a95ca80d5d06a925b028c089a47415d88d4f664a6",
+    "proof_repository": "Gott-L/awards",
+    "proof_commit": "86cf6d9a47a7134e9901c6464322eafddc89742e",
+    "proof_packet": "evidence/jsp-000399-parametric-27",
+    "stage": "lowered",
+    "source_to_export_record_matched": true
+  },
+  "preflight_passed": true,
+  "checker_binary": {
+    "path": "<pilot>/cargo-target/release/nanoda_bin",
+    "sha256": "bd60ccdb0f08f6a1115975c135ec4117dee3a4ff4daab9278f8e9e0d75871d2e",
+    "bytes": 1294728
+  },
+  "build_receipt_sha256": "59d3f02ddde9d12bc084773c5f2682ea4c3fd1f47ec943eac9ee19c5cdb8f806",
+  "runs": {
+    "valid": {
+      "command": [
+        "wsl.exe",
+        "-d",
+        "Ubuntu-24.04",
+        "--exec",
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=5s",
+        "600s",
+        "<pilot>/cargo-target/release/nanoda_bin",
+        "<pilot>/results/full-lowered.valid.config.json"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 31.047,
+      "stdout_path": "<pilot>/results/full-lowered.valid.stdout.txt",
+      "stderr_path": "<pilot>/results/full-lowered.valid.stderr.txt",
+      "stdout_sha256": "d8154ee36e76b852a421f0862d9dda1b43e92b8720de13b63c0184d0a44aced5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout": "Checked 2882 declarations with no errors\n",
+      "stderr": "",
+      "config_sha256": "2ba90f22690b0505f81909042606b5fd1c73e99bc04a27c1a8ffa9af426e77c0",
+      "declarations_sha256": "cc551daf0439fcb6bca0bc825dd271fd251d42c98bc828f661c37130fba95031",
+      "target_declarations_printed": {
+        "JSP399TwentySeven.triples_complete": true,
+        "JSP399TwentySeven.triples_nodup": true,
+        "JSP399TwentySeven.triples_length": true,
+        "JSP399Parametric.vector_triple_sums_perm": true,
+        "JSP399Parametric.every_additive_image_collision": true,
+        "JSP399Parametric.every_parameter_collision": true,
+        "JSP399Parametric.every_translated_parameter_collision": true,
+        "JSP399Parametric.example_is_nontrivial_collision": true,
+        "JSP399Parametric.exampleA_matches": true,
+        "JSP399Parametric.exampleB_matches_reverse": true
+      },
+      "checker_declaration_count": 2882,
+      "accepted": true
+    }
+  },
+  "negative_controls": {
+    "wrong-proof": {
+      "mutation": {
+        "path": "<pilot>/results/full-lowered.wrong-proof.ndjson",
+        "bytes": 10385353,
+        "sha256": "715a63e90e0952b80a8ec7b53f4167067af53c1267c35510e3abe67d8c5831e2",
+        "changed_record_count": 1,
+        "line": 194261,
+        "changed_fields": [
+          "thm.value"
+        ],
+        "old_record": {
+          "thm": {
+            "value": 176475,
+            "type": 176402,
+            "name": 15081,
+            "levelParams": [],
+            "all": [
+              15081
+            ]
+          }
+        },
+        "new_record": {
+          "thm": {
+            "value": 225,
+            "type": 176402,
+            "name": 15081,
+            "levelParams": [],
+            "all": [
+              15081
+            ]
+          }
+        },
+        "name_type_universes_preserved": true
+      },
+      "run": {
+        "command": [
+          "wsl.exe",
+          "-d",
+          "Ubuntu-24.04",
+          "--exec",
+          "timeout",
+          "--signal=TERM",
+          "--kill-after=5s",
+          "600s",
+          "<pilot>/cargo-target/release/nanoda_bin",
+          "<pilot>/results/full-lowered.wrong-proof.config.json"
+        ],
+        "exit_code": 101,
+        "timed_out": false,
+        "seconds": 29.922,
+        "stdout_path": "<pilot>/results/full-lowered.wrong-proof.stdout.txt",
+        "stderr_path": "<pilot>/results/full-lowered.wrong-proof.stderr.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "5fe3772e590b82ef35e29b5aeebc19abaea31a48f11487dbe479ae5b8f6b0ef7",
+        "stdout": "",
+        "stderr": "\nthread 'main' (110526) panicked at src/tc.rs:955:71:\nassertion failed: self.def_eq(u, v)\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n",
+        "config_sha256": "2905c6b4116bf1b52fa2b09dbfcfca7168b42d10d93a8b518313c6c217623a92",
+        "expected_failure": true
+      }
+    },
+    "unpermitted-axiom": {
+      "mutation": {
+        "path": "<pilot>/results/full-lowered.unpermitted-axiom.ndjson",
+        "bytes": 10385346,
+        "sha256": "8c5ddca02c3d66cbecfcbd9868380d0d8f30905c42a9941f455f49da0e7ffa7e",
+        "changed_record_count": 1,
+        "line": 194261,
+        "changed_fields": [
+          "declaration_kind",
+          "proof_value_removed",
+          "isUnsafe=false"
+        ],
+        "old_record": {
+          "thm": {
+            "value": 176475,
+            "type": 176402,
+            "name": 15081,
+            "levelParams": [],
+            "all": [
+              15081
+            ]
+          }
+        },
+        "new_record": {
+          "axiom": {
+            "name": 15081,
+            "levelParams": [],
+            "type": 176402,
+            "isUnsafe": false
+          }
+        },
+        "name_type_universes_preserved": true
+      },
+      "run": {
+        "command": [
+          "wsl.exe",
+          "-d",
+          "Ubuntu-24.04",
+          "--exec",
+          "timeout",
+          "--signal=TERM",
+          "--kill-after=5s",
+          "600s",
+          "<pilot>/cargo-target/release/nanoda_bin",
+          "<pilot>/results/full-lowered.unpermitted-axiom.config.json"
+        ],
+        "exit_code": 1,
+        "timed_out": false,
+        "seconds": 0.438,
+        "stdout_path": "<pilot>/results/full-lowered.unpermitted-axiom.stdout.txt",
+        "stderr_path": "<pilot>/results/full-lowered.unpermitted-axiom.stderr.txt",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_sha256": "e74d6c2fedc00676a9583a7cf6dbd3b120b74e7e90796872b776a6e4e742311f",
+        "stdout": "",
+        "stderr": "Error: export file declares unpermitted axiom \"JSP399Parametric.vector_triple_sums_perm\"\n\nrun with `-h` or `--help` for help\n",
+        "config_sha256": "a51637dd1f0c8a3a457c8138976b202d2fe81f3493171427483dcecb4c7bf0a5",
+        "expected_failure": true
+      }
+    }
+  },
+  "status": "baseline and both targeted negative controls passed",
+  "finished_utc": "2026-09-17T12:17:31.832601+00:00",
+  "storage_bytes_after": 2757646118
+}

@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-09-17T12:13:36.370905+00:00",
+  "compiler": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "lean_binary_sha256": "f59b0c515f65dbf96526279d77fb43152f76bdd77f5fb94f387b75139fafe68c",
+  "original_export_sha256": "bf9c742f6def570ef5ccb51e6886d712e2d97db9bac21806d329a4f6537bafd5",
+  "actual_literals": [
+    {
+      "value": "PANIC at ",
+      "expression_index": 153616
+    },
+    {
+      "value": " ",
+      "expression_index": 153620
+    },
+    {
+      "value": ":",
+      "expression_index": 153625
+    },
+    {
+      "value": ": ",
+      "expression_index": 153640
+    },
+    {
+      "value": "Init.GetElem",
+      "expression_index": 153716
+    },
+    {
+      "value": "_private.Init.GetElem.0.List.get!Internal",
+      "expression_index": 153718
+    },
+    {
+      "value": "invalid index",
+      "expression_index": 153730
+    }
+  ],
+  "source_sha256": "061cbe463dc4b31b42297249dec452069c0b14f1d902feefc37693b58627c75f",
+  "driver_sha256": "047349382692760905f902d768d9ef03f0b404b2a9e3e459f65810adcdb88699",
+  "command": [
+    "<lean-toolchain>/bin/lean.exe",
+    "--trust=0",
+    "-s",
+    "65536",
+    "-j",
+    "1",
+    "-DwarningAsError=true",
+    "-o",
+    "ActualLiterals.olean",
+    "ActualLiterals.lean"
+  ],
+  "exit_code": 0,
+  "stdout_sha256": "8f861a540c310458de7a787957a3c5df61a8f00192271d6946857f3bf6902951",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "all_seven_kernel_rfl_checks_passed": true,
+  "arbitrary_string_or_other_lean_version_compatibility_claimed": false,
+  "independent_operator": false,
+  "submitted_mathematical_endpoints_checked": false
+}

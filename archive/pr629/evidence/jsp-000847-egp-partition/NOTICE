@@ -1,0 +1,17 @@
+JSP-000847 / Erdős 1017: Erdős–Goodman–Pósa edge-partition formalization
+
+Gott-L: project initiation, conception, objectives, planning and research direction.
+Codex assistance: source research, formal proof implementation, documentation and internal checks.
+
+Mathematical theorem: Paul Erdős, A. W. Goodman and Louis Pósa,
+The representation of a graph by set intersections,
+Canadian Journal of Mathematics 18 (1966), 106–112, Theorem 4.
+DOI 10.4153/CJM-1966-014-3.
+
+This implementation uses Mathlib at c44e0c8ee63ca166450922a373c7409c5d26b00b
+under Apache License 2.0. Its individual upstream notices and authorship apply.
+The earlier projects inspected for comparison are credited in SOURCES.md;
+no source code from those projects is copied in this packet.
+
+No mathematical discovery, global first-formalization, official verification,
+eligibility, award decision or payment allocation is asserted.

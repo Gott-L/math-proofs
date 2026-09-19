@@ -1,0 +1,345 @@
+{
+  "verified_at_utc": "2026-09-17T09:59:19.186790+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "method": "fresh local source compilation using pinned dependency cache",
+  "standard_axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "file": "E1087Core.lean",
+      "bytes": 3903,
+      "sha256": "1783d6e17ef631c53e9c5b25e7eca942ee7fdb6060de74f228f230faa0fbca93",
+      "passed": true,
+      "seconds": 6.031
+    },
+    {
+      "file": "E1087Incidence.lean",
+      "bytes": 5570,
+      "sha256": "3049c4c84be80d60165db2eb63ef3a41854c719457850811472bca3bd428f72d",
+      "passed": true,
+      "seconds": 6.438
+    },
+    {
+      "file": "E1087Meaning.lean",
+      "bytes": 3103,
+      "sha256": "26be44f15eec860114d4450bf7566086d37bfd40c5d4ec0c081a6abb32f622c4",
+      "passed": true,
+      "seconds": 5.969
+    },
+    {
+      "file": "E1087Quadruples.lean",
+      "bytes": 8875,
+      "sha256": "973e50feed0566a47defee98395deb920cb6898b3343c7ec59ac778cc7a3520f",
+      "passed": true,
+      "seconds": 6.625
+    },
+    {
+      "file": "E1087ColorBound.lean",
+      "bytes": 4263,
+      "sha256": "8d59e494d1f758ffc67363a016e69505ea53dbbbec889320710fc02ba1604e99",
+      "passed": true,
+      "seconds": 8.515
+    },
+    {
+      "file": "E1087Plane.lean",
+      "bytes": 9507,
+      "sha256": "d668c0ba61586265042db353ae8e21e448e3dede572c0e1e43fe02ee03a8d369",
+      "passed": true,
+      "seconds": 17.688
+    },
+    {
+      "file": "E1087.lean",
+      "bytes": 5719,
+      "sha256": "be084ab346910c57f5b11e2c0c7028a31b2ba8e69d6949c556687b6bfbf462af",
+      "passed": true,
+      "seconds": 8.594
+    }
+  ],
+  "axiom_audit": {
+    "Erdos1087.edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.equalPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.trianglePairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.disjointPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.badFourSets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.badCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.support_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.equalPairs_card_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.equalPairs_restrict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.card_four_supersets_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.card_four_supersets_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight_as_support_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.badCount_le_totalWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.totalWeight_le_mul_badCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight_pos_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight_pos_iff_card_image_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.four_set_degenerate_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.triangle_pair_unique_apex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.orderedQuadruples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.edgeOrientations_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sameColorPairs_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.orderedQuadruples_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.monochromatic_pairs_le_ten": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeColor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sqDist_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeColor_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.no_four_equidistant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.four_set_has_different_edge_colors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.weight_plane_le_ten": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeDistance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeDistance_pos_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeDistance_eq_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeQuadruples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeQuadruples_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.two_mul_edges_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_quadruples_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_weighted_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_comparison": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeEdgeLength": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planeEdgeLength_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.edge_length_color_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_degenerate_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.shortEdges_color": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.sharpSet_badCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1087.planar_sharpness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "typed_audit_source_sha256": "36c6cf9a004e4ad378118e740e7362e0007f3bbe09a388d6177e9b20da8a6047",
+  "passed": true,
+  "typed_endpoint_checks": [
+    "actual_edge_and_pair_objects",
+    "actual_ordered_positive_distance_quadruples",
+    "all_finite_support_identity",
+    "planar_weighted_identity",
+    "planar_comparison",
+    "degenerate_four_set_meaning",
+    "sharp_four_point_example"
+  ]
+}

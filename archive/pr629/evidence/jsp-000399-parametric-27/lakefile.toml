@@ -1,0 +1,16 @@
+name = "jsp399_27"
+version = "0.1.0"
+defaultTargets = ["Jsp399Parametric"]
+moreLeanArgs = ["-s", "65536", "-DwarningAsError=true"]
+
+[[lean_lib]]
+name = "Jsp399TripleCore"
+
+[[lean_lib]]
+name = "Jsp399Witness"
+
+[[lean_lib]]
+name = "EncodedCoeffCertificate"
+
+[[lean_lib]]
+name = "Jsp399Parametric"

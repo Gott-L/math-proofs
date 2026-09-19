@@ -1,0 +1,94 @@
+theorem JSP399TwentySeven.triples_complete (i j k : @JSP399TwentySeven.Index) :
+  @Iff
+    (@Membership.mem.{0 0} (@Prod.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index))
+      (@List.{0} @JSP399TwentySeven.Triple) (@List.instMembership.{0} @JSP399TwentySeven.Triple) @JSP399TwentySeven.triples
+      (@Prod.mk.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) i
+        (@Prod.mk.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index j k)))
+    (@And (@LT.lt.{0} @JSP399TwentySeven.Index (@instLTFin (@OfNat.ofNat.{0} @Nat 27 (@instOfNatNat 27))) i j)
+      (@LT.lt.{0} @JSP399TwentySeven.Index (@instLTFin (@OfNat.ofNat.{0} @Nat 27 (@instOfNatNat 27))) j k)) :=
+  _
+
+theorem JSP399TwentySeven.triples_nodup : @List.Nodup.{0} @JSP399TwentySeven.Triple @JSP399TwentySeven.triples := _
+
+theorem JSP399TwentySeven.triples_length :
+  @Eq.{1} @Nat (@List.length.{0} @JSP399TwentySeven.Triple @JSP399TwentySeven.triples) (@OfNat.ofNat.{0} @Nat 2925 (@instOfNatNat 2925)) :=
+  _
+
+theorem JSP399Parametric.vector_triple_sums_perm :
+  @List.Perm.{0} @JSP399Parametric.Vec (@JSP399Parametric.vectorSums @JSP399Parametric.vectorA) (@JSP399Parametric.vectorSums @JSP399Parametric.vectorB) :=
+  _
+
+theorem JSP399Parametric.every_additive_image_collision :
+  forall {α : Type 0} [inst._@.Jsp399Parametric._hyg.1854 : @Add.{0} α] (f : @JSP399Parametric.Vec → α),
+  (forall (a b : @JSP399Parametric.Vec),
+    @Eq.{1} α (f (@JSP399Parametric.vadd a b)) (@HAdd.hAdd.{0 0 0} α α α (@instHAdd.{0} α inst._@.Jsp399Parametric._hyg.1854) (f a) (f b))) →
+  @List.Perm.{0} α
+    (@List.map.{0 0} @JSP399TwentySeven.Triple α
+      (fun (t : @JSP399TwentySeven.Triple) =>
+      @HAdd.hAdd.{0 0 0} α α α (@instHAdd.{0} α inst._@.Jsp399Parametric._hyg.1854)
+        (@HAdd.hAdd.{0 0 0} α α α (@instHAdd.{0} α inst._@.Jsp399Parametric._hyg.1854)
+          (f (@JSP399Parametric.vectorA (@Prod.fst.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) t)))
+          (f
+            (@JSP399Parametric.vectorA
+              (@Prod.fst.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index
+                (@Prod.snd.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) t)))))
+        (f
+          (@JSP399Parametric.vectorA
+            (@Prod.snd.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index
+              (@Prod.snd.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) t))))) @JSP399TwentySeven.triples)
+    (@List.map.{0 0} @JSP399TwentySeven.Triple α
+      (fun (t : @JSP399TwentySeven.Triple) =>
+      @HAdd.hAdd.{0 0 0} α α α (@instHAdd.{0} α inst._@.Jsp399Parametric._hyg.1854)
+        (@HAdd.hAdd.{0 0 0} α α α (@instHAdd.{0} α inst._@.Jsp399Parametric._hyg.1854)
+          (f (@JSP399Parametric.vectorB (@Prod.fst.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) t)))
+          (f
+            (@JSP399Parametric.vectorB
+              (@Prod.fst.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index
+                (@Prod.snd.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) t)))))
+        (f
+          (@JSP399Parametric.vectorB
+            (@Prod.snd.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index
+              (@Prod.snd.{0 0} @JSP399TwentySeven.Index (@Prod.{0 0} @JSP399TwentySeven.Index @JSP399TwentySeven.Index) t))))) @JSP399TwentySeven.triples) :=
+  _
+
+theorem JSP399Parametric.every_parameter_collision (p : @JSP399Parametric.Vec) :
+  @JSP399Parametric.SameIntegerTripleSums (@JSP399Parametric.familyA p) (@JSP399Parametric.familyB p) :=
+  _
+
+theorem JSP399Parametric.every_translated_parameter_collision (shift : @Int) (p : @JSP399Parametric.Vec) :
+  @JSP399Parametric.SameIntegerTripleSums (@JSP399Parametric.translated shift (@JSP399Parametric.familyA p))
+    (@JSP399Parametric.translated shift (@JSP399Parametric.familyB p)) :=
+  _
+
+theorem JSP399Parametric.example_is_nontrivial_collision :
+  @And (@Eq.{1} @Nat (@List.length.{0} @Int (@JSP399Parametric.values @JSP399Parametric.exampleA)) (@OfNat.ofNat.{0} @Nat 27 (@instOfNatNat 27)))
+    (@And (@Eq.{1} @Nat (@List.length.{0} @Int (@JSP399Parametric.values @JSP399Parametric.exampleB)) (@OfNat.ofNat.{0} @Nat 27 (@instOfNatNat 27)))
+      (@And (@List.Nodup.{0} @Int (@JSP399Parametric.values @JSP399Parametric.exampleA))
+        (@And (@List.Nodup.{0} @Int (@JSP399Parametric.values @JSP399Parametric.exampleB))
+          (@And
+            (forall (i : @JSP399TwentySeven.Index),
+            @And (@LT.lt.{0} @Int @Int.instLTInt (@OfNat.ofNat.{0} @Int 0 (@instOfNat 0)) (@JSP399Parametric.exampleA i))
+              (@LT.lt.{0} @Int @Int.instLTInt (@OfNat.ofNat.{0} @Int 0 (@instOfNat 0)) (@JSP399Parametric.exampleB i)))
+            (@And (@JSP399Parametric.SameIntegerTripleSums @JSP399Parametric.exampleA @JSP399Parametric.exampleB)
+              (@Not
+                (forall (x : @Int),
+                @Iff (@Exists.{1} @JSP399TwentySeven.Index (fun (i : @JSP399TwentySeven.Index) => @Eq.{1} @Int (@JSP399Parametric.exampleA i) x))
+                  (@Exists.{1} @JSP399TwentySeven.Index (fun (i : @JSP399TwentySeven.Index) => @Eq.{1} @Int (@JSP399Parametric.exampleB i) x))))))))) :=
+  _
+
+theorem JSP399Parametric.exampleA_matches (i : @JSP399TwentySeven.Index) :
+  @Eq.{1} @Int (@JSP399Parametric.exampleA i) (@Nat.cast.{0} @Int @instNatCastInt (@JSP399TwentySeven.A i)) :=
+  _
+
+theorem JSP399Parametric.exampleB_matches_reverse :
+  @Eq.{1} (@List.{0} @Int) (@JSP399Parametric.values @JSP399Parametric.exampleB)
+    (@List.map.{0 0} @Nat @Int (fun (n : @Nat) => @Nat.cast.{0} @Int @instNatCastInt n)
+      (@List.reverse.{0} @Nat (@List.map.{0 0} @JSP399TwentySeven.Index @Nat @JSP399TwentySeven.B @JSP399TwentySeven.indices))) :=
+  _
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Sort 0} {a b : α} : r a b → @Eq.{u} (@Quot.{u} α r) (@Quot.mk.{u} α r a) (@Quot.mk.{u} α r b)
+
+axiom propext {a b : Sort 0} : @Iff a b → @Eq.{1} Sort 0 a b
+
+axiom Classical.choice.{u} {α : Sort u} : @Nonempty.{u} α → α
+

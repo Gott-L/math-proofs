@@ -1,0 +1,472 @@
+{
+  "utc": "2026-09-17T12:29:10.976343+00:00",
+  "success": true,
+  "review_kind": "Internal same-team AI semantic review and separate fresh local-module replay",
+  "reviewer_role": "Authored E336Defs, E336Padding and E336Necessity; did not author E336Differences or E336Criterion. Not external human review.",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "lean_executable_sha256": "f59b0c515f65dbf96526279d77fb43152f76bdd77f5fb94f387b75139fafe68c",
+  "manifest_sha256": "3c4e74226db099f9f9821b00b44695f402fdb715e780ff2e748ee374978e528c",
+  "toolchain_file_sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "checked_dependency_revisions": {
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+  },
+  "dependency_checks": {
+    "plausible": {
+      "expected_revision": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "actual_revision": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "git_tree_sha1": "33f27619392fbdf74a85cf115b883147fff50a56",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "2bd4afb7f5351af6fee13f23c7e35dcd0755dd46c867d372f8be984b0e9e26d7"
+    },
+    "LeanSearchClient": {
+      "expected_revision": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "actual_revision": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "git_tree_sha1": "00b733cc771248fa3b96811dbcd408afd279159c",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "63288e427e133525dbebac3efe152b43068c0230646794b2ca9d94c1b4d582cf"
+    },
+    "importGraph": {
+      "expected_revision": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "actual_revision": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "git_tree_sha1": "e6308cd2309d7badbe4a12d89f310e277be74ab8",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "cd61e40173008469c45cb7fe5d81240cf329ca0ae5576a4ee69adba41420b4a9"
+    },
+    "proofwidgets": {
+      "expected_revision": "c4919189477c3221e6a204008998b0d724f49904",
+      "actual_revision": "c4919189477c3221e6a204008998b0d724f49904",
+      "git_tree_sha1": "c87451594cc8e5830bac9d77df50a274df9eef4c",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.lean",
+      "config_sha256": "cfe48b97e050ead8e632e185a11f06655364bf091a4880f75c5632e03f59de50"
+    },
+    "aesop": {
+      "expected_revision": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "actual_revision": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "git_tree_sha1": "657ad4d5654de7de26c46f15fcb80b98fc5f0c6f",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "73babed819db7d718a21c47e717003899b333062e6b6ca41f36f2b3a20686bdb"
+    },
+    "Qq": {
+      "expected_revision": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "actual_revision": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "git_tree_sha1": "e0965c3bbcfdeca1230da786000fda4eae740a6a",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "112582fbccd694e5a02afe97fb3dc312c7e1dad1b9bbbafe603af5922cbdae57"
+    },
+    "batteries": {
+      "expected_revision": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "actual_revision": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "git_tree_sha1": "c60f46d36502c93ed47d6a265551a5ee78374e0e",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "57aef8d54820bffda8a8907ed3d05a6747554bb822015c61db57f943352146b5"
+    },
+    "Cli": {
+      "expected_revision": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "actual_revision": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "git_tree_sha1": "fd98422fd9d93c634c8e0945af7f7efef8fba871",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.toml",
+      "config_sha256": "8ea7db93d3555a577448162cfbd4af1c211a74450d590315dde73ff5a30495fc"
+    },
+    "mathlib": {
+      "expected_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "actual_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "git_tree_sha1": "fdf252e589fb338709bf537ba48ce79a78cbe5e9",
+      "tracked_sources_clean": true,
+      "config_file": "lakefile.lean",
+      "config_sha256": "13a7c42510ee9b13748228c24ffef87df7f1d46b04bbfd91da9623a50e6aa07d"
+    }
+  },
+  "source_sha256": {
+    "E336Defs.lean": "c87cac6df2382f05cfe1ccb1e96e19b6bd2be76704750bc308a1b495ea738597",
+    "E336Padding.lean": "8f7161ea8319d37bd7f7e6b04299b6504e8c90e3e67da7867df71dcfcc7020f9",
+    "E336Necessity.lean": "6ad1ca0a2e279655393df57dd043ef043d394172cdf9f474400013d758b718c6",
+    "E336Differences.lean": "fbe5eb0a115d6e4eefac53b4329f5b452373ea77d2314cc48763857ecec3eecc",
+    "E336Criterion.lean": "e19ab354601835ad963100789bb104550cae25b376b7ad66b49724cace564e00"
+  },
+  "sources_unchanged_after_review": true,
+  "audit_source_sha256": {
+    "Audit.lean": "ed66b8f16d08d13f2fda7b2ee699f3f5d323f025c2cba300aa7e2ea64dd816d4",
+    "AxiomAudit.lean": "06a4c1ba6e9b22886b298253a7b7b2a088f00aac4d0dd492f92a79706eb96e05"
+  },
+  "import_isolation": {
+    "fresh_local_olean_directory": true,
+    "excluded_project_build_path": true,
+    "dependency_library_paths_count": 9,
+    "dependency_caches_reused_not_rebuilt": true,
+    "core_toolchain_and_dependency_oleans_remain_trusted": true
+  },
+  "proof_declarations_audited": [
+    "E336.RepresentsExactly",
+    "E336.EventuallyExactly",
+    "E336.EventuallyAtMost",
+    "E336.HasExactOrder",
+    "E336.DifferenceGcdOne",
+    "E336.ConsecutiveGcdOne",
+    "E336.AdjacentLengths",
+    "E336.representsExactly_zero",
+    "E336.representsExactly_add",
+    "E336.representsExactly_adjacent_padding",
+    "E336.eventuallyExactly_of_adjacent_representations",
+    "E336.eventuallyExactly_of_adjacentLengths",
+    "E336.modEq_iff_dvd_dist",
+    "E336.list_sums_modEq",
+    "E336.differenceGcdOne_of_eventuallyExactly",
+    "E336.pairwise_dvd_iff_consecutive_dvd",
+    "E336.differenceGcdOne_range_iff",
+    "E336.BalancedDifference",
+    "E336.balancedDifference_zero",
+    "E336.balancedDifference_add",
+    "E336.balancedDifference_neg",
+    "E336.balancedDifference_sub",
+    "E336.balancedDifference_nat_mul",
+    "E336.balancedDifference_dist",
+    "E336.balancedDifference_mod",
+    "E336.differenceGcdOne_nonempty",
+    "E336.exists_positive_balancedDifference",
+    "E336.balancedDifference_one",
+    "E336.adjacentLengths_of_differenceGcdOne",
+    "E336.exists_eventuallyExactly_iff",
+    "E336.exists_hasExactOrder_iff_exists_eventuallyExactly",
+    "E336.erdos_graham_set_criterion",
+    "E336.erdos_graham_sequence_criterion",
+    "E336.eventuallyExactly_pos"
+  ],
+  "typed_review_checks": [
+    "E336InternalReview.raw_set_least_order_iff",
+    "E336InternalReview.raw_sequence_least_order_iff",
+    "E336InternalReview.raw_set_sufficiency",
+    "E336InternalReview.raw_set_necessity",
+    "E336InternalReview.raw_gcd_constructs_finite_certificate",
+    "E336InternalReview.raw_balanced_difference_one",
+    "E336InternalReview.raw_padding",
+    "E336InternalReview.raw_same_common_divisors",
+    "E336InternalReview.raw_positive_exact_count",
+    "E336InternalReview.repetitions_are_permitted",
+    "E336InternalReview.zero_terms_are_permitted",
+    "E336InternalReview.zero_count_is_not_an_eventual_basis"
+  ],
+  "axiom_results": {
+    "E336.RepresentsExactly": [
+      "propext"
+    ],
+    "E336.EventuallyExactly": [
+      "propext"
+    ],
+    "E336.EventuallyAtMost": [
+      "propext"
+    ],
+    "E336.HasExactOrder": [
+      "propext"
+    ],
+    "E336.AdjacentLengths": [
+      "propext"
+    ],
+    "E336.representsExactly_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.representsExactly_add": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.representsExactly_adjacent_padding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.eventuallyExactly_of_adjacent_representations": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.eventuallyExactly_of_adjacentLengths": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.modEq_iff_dvd_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.list_sums_modEq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.differenceGcdOne_of_eventuallyExactly": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.pairwise_dvd_iff_consecutive_dvd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.differenceGcdOne_range_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.BalancedDifference": [
+      "propext"
+    ],
+    "E336.balancedDifference_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_add": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_neg": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_sub": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_nat_mul": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_dist": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_mod": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336.differenceGcdOne_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.exists_positive_balancedDifference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.balancedDifference_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.adjacentLengths_of_differenceGcdOne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.exists_eventuallyExactly_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.exists_hasExactOrder_iff_exists_eventuallyExactly": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.erdos_graham_set_criterion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.erdos_graham_sequence_criterion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.eventuallyExactly_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_set_least_order_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_sequence_least_order_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_set_sufficiency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_set_necessity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_gcd_constructs_finite_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_balanced_difference_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_padding": [
+      "propext",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_same_common_divisors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.raw_positive_exact_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336InternalReview.repetitions_are_permitted": [
+      "propext"
+    ],
+    "E336InternalReview.zero_terms_are_permitted": [
+      "propext"
+    ],
+    "E336InternalReview.zero_count_is_not_an_eventual_basis": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "E336.DifferenceGcdOne": [],
+    "E336.ConsecutiveGcdOne": []
+  },
+  "axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "all_axiom_audits_passed": true,
+  "commands": [
+    {
+      "source": "E336Defs.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E336Defs.olean",
+        "E336Defs.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.796,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E336Padding.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E336Padding.olean",
+        "E336Padding.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.891,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E336Necessity.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E336Necessity.olean",
+        "E336Necessity.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.781,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E336Differences.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E336Differences.olean",
+        "E336Differences.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.953,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "E336Criterion.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "E336Criterion.olean",
+        "E336Criterion.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.266,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "Audit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "Audit.olean",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.109,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "AxiomAudit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "AxiomAudit.olean",
+        "AxiomAudit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.532,
+      "stdout": "'E336.RepresentsExactly' depends on axioms: [propext]\n'E336.EventuallyExactly' depends on axioms: [propext]\n'E336.EventuallyAtMost' depends on axioms: [propext]\n'E336.HasExactOrder' depends on axioms: [propext]\n'E336.DifferenceGcdOne' does not depend on any axioms\n'E336.ConsecutiveGcdOne' does not depend on any axioms\n'E336.AdjacentLengths' depends on axioms: [propext]\n'E336.representsExactly_zero' depends on axioms: [propext, Quot.sound]\n'E336.representsExactly_add' depends on axioms: [propext, Quot.sound]\n'E336.representsExactly_adjacent_padding' depends on axioms: [propext, Quot.sound]\n'E336.eventuallyExactly_of_adjacent_representations' depends on axioms: [propext, Quot.sound]\n'E336.eventuallyExactly_of_adjacentLengths' depends on axioms: [propext, Quot.sound]\n'E336.modEq_iff_dvd_dist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.list_sums_modEq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.differenceGcdOne_of_eventuallyExactly' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.pairwise_dvd_iff_consecutive_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.differenceGcdOne_range_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.BalancedDifference' depends on axioms: [propext]\n'E336.balancedDifference_zero' depends on axioms: [propext, Quot.sound]\n'E336.balancedDifference_add' depends on axioms: [propext, Quot.sound]\n'E336.balancedDifference_neg' depends on axioms: [propext, Quot.sound]\n'E336.balancedDifference_sub' depends on axioms: [propext, Quot.sound]\n'E336.balancedDifference_nat_mul' depends on axioms: [propext, Quot.sound]\n'E336.balancedDifference_dist' depends on axioms: [propext, Quot.sound]\n'E336.balancedDifference_mod' depends on axioms: [propext, Quot.sound]\n'E336.differenceGcdOne_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.exists_positive_balancedDifference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.balancedDifference_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.adjacentLengths_of_differenceGcdOne' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.exists_eventuallyExactly_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.exists_hasExactOrder_iff_exists_eventuallyExactly' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.erdos_graham_set_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.erdos_graham_sequence_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336.eventuallyExactly_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_set_least_order_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_sequence_least_order_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_set_sufficiency' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_set_necessity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_gcd_constructs_finite_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_balanced_difference_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_padding' depends on axioms: [propext, Quot.sound]\n'E336InternalReview.raw_same_common_divisors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.raw_positive_exact_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'E336InternalReview.repetitions_are_permitted' depends on axioms: [propext]\n'E336InternalReview.zero_terms_are_permitted' depends on axioms: [propext]\n'E336InternalReview.zero_count_is_not_an_eventual_basis' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    }
+  ]
+}

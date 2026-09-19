@@ -1,0 +1,796 @@
+{
+  "utc": "2026-09-17T10:43:24.373905+00:00",
+  "success": true,
+  "sources_unchanged_after_review": true,
+  "review_kind": "same-team AI review of new mathematics and separate full fresh replay",
+  "reviewer_role": "authored compatibility helpers and ported three finite-proof modules; did not author the new prime-count, parameter, asymptotic, minimum, or submission proofs",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "source_sha256": {
+    "CarryCompatibility.lean": "d0af426bc14878c6421f8f2c7620f473131afe0ce17f05c7942c3f8f9cbe0d4a",
+    "OneCarry.lean": "5bb8a45686bf867b65913f31d71de7bd8a44a41e0d98f2650db2e948b6bb7352",
+    "FiniteConstruction.lean": "8c6b482b71bff076bd06abcae5e06c15fff09272325739951cae36eed529dca8",
+    "Simultaneous.lean": "e926e2f083729b8d8f5229095d8700177527ad4df999842e985e97663384d469",
+    "PrimeCountBound.lean": "7ccdb00bacb7b68514931f3f5c49f1ec20b73e2f2b211bd33a6ab3f6c71f44fc",
+    "SizeBounds.lean": "fdf385fe004d3240539fa87a6fe13b26c67e601d7dc8108971503aa7155700a5",
+    "SubexpParameters.lean": "7613bb3bbeb5d7372ef26214207a9a74fbc2d06d3f5d4cf91667be46e3379a81",
+    "SubexpAsymptotic.lean": "25ad762837737d07d2d0cccc463e2829be0954afc06721f608f17931dea089f6",
+    "SubexpInfimum.lean": "9024e1a9d14a2f7520f51d0450d76af0d2095be11cdf13802f972a30589f04bd",
+    "SubexpNonempty.lean": "d0d1655a5c427acd4925b6be789b61382c1efa73f0dcb05a3c72ba387c01dd57",
+    "SubexpSubmission.lean": "1141f64324c746c10e12ce12c4eed7e8d3a6d8ea1448cf801dc3e55f721a39e1"
+  },
+  "audit_source_sha256": {
+    "Audit.lean": "99ef20e097a2796812f6cb81a0f4e8d842bd91e270a15e57b5ae598b6d62042b",
+    "AxiomAudit.lean": "6a51364fa607f80e13a11850512300bbf165e31c0f3d221e350273f180911779"
+  },
+  "import_isolation": {
+    "fresh_local_olean_directory": true,
+    "excluded_project_build_path": true,
+    "dependency_library_paths_count": 9,
+    "dependency_caches_reused_not_rebuilt": true
+  },
+  "proof_declarations_audited": [
+    "Nat.choose_ne_zero",
+    "Nat.factorization_eq_zero_of_not_prime",
+    "Nat.factorization_choose",
+    "Nat.factorization_eq_card_pow_dvd_of_lt",
+    "Erdos1063.carry_of_mod_lt",
+    "Erdos1063.one_carry",
+    "Erdos1063.prime_power_dvd_choose",
+    "Erdos1063.high_power_carry",
+    "Erdos1063.truncated_covering",
+    "Erdos1063.low_power_count",
+    "Erdos1063.truncated_covering_of_min",
+    "Erdos1063.large_prime_automatic",
+    "Erdos1063.anchored_residue",
+    "Erdos1063.anchored_covering",
+    "Erdos1063.off_center_valuation",
+    "Erdos1063.anchor_carry_lower_bound",
+    "Erdos1063.small_prime_anchor",
+    "Erdos1063.exceptional_large_prime",
+    "Erdos1063.carry_iff_mod_lt",
+    "Erdos1063.no_late_carry",
+    "Erdos1063.center_fails",
+    "Erdos1063.depth",
+    "Erdos1063.radius",
+    "Erdos1063.offsetDepth",
+    "Erdos1063.lowCarries",
+    "Erdos1063.deficit",
+    "Erdos1063.small_prime_from_depth",
+    "Erdos1063.prime_divisor_deficit",
+    "Erdos1063.center_fails_at_prime_divisor",
+    "Erdos1063.dvd_choose_of_local",
+    "Erdos1063.constructionPrimes",
+    "Erdos1063.anchorExponent",
+    "Erdos1063.anchorProduct",
+    "Erdos1063.anchorProduct_ge",
+    "Erdos1063.anchor_divides_product",
+    "Erdos1063.failure_power_divides_product",
+    "Erdos1063.finite_witness",
+    "Erdos1063.same_box_close",
+    "Erdos1063.simultaneous_boxes",
+    "Erdos1063.close_residue_carry",
+    "Erdos1063.difference_carry",
+    "Erdos1063.exists_regular_multiplier",
+    "Erdos1063.regularPrimes",
+    "Erdos1063.exists_bounded_witness",
+    "Erdos1063.primeCount",
+    "Erdos1063.primeCount_mul_log_le",
+    "Erdos1063.small_remainder_count",
+    "Erdos1063.active_prime_count",
+    "Erdos1063.anchor_factor_le",
+    "Erdos1063.anchorProduct_le",
+    "Erdos1063.regular_card_le",
+    "Erdos1063.exists_coarse_bounded_witness",
+    "Erdos1063.scale",
+    "Erdos1063.center",
+    "Erdos1063.cost",
+    "Erdos1063.exponentCost",
+    "Erdos1063.scale_pow_le",
+    "Erdos1063.scale_ge_of_pow_le",
+    "Erdos1063.lt_scale_succ_pow",
+    "Erdos1063.parameter_arithmetic",
+    "Erdos1063.scale_ge_two",
+    "Erdos1063.scale_fourth_pow_le",
+    "Erdos1063.exponentCost_mul_scale",
+    "Erdos1063.parameter_witness",
+    "Erdos1063.anchor_log_bound",
+    "Erdos1063.eventually_anchor_log_bound",
+    "Erdos1063.prime_log_bound_of_count",
+    "Erdos1063.prime_log_bound",
+    "Erdos1063.coarseBound",
+    "Erdos1063.eventually_coarse_bound",
+    "Erdos1063.exists_degree_small_rate",
+    "Erdos1063.exists_subexponential_coarse_bound",
+    "Erdos1063.subexponential_witness",
+    "Erdos1063.Admissible",
+    "Erdos1063.leastWitness",
+    "Erdos1063.leastWitness_le",
+    "Erdos1063.leastWitness_spec_of_exists",
+    "Erdos1063.eventually_leastWitness_exp_of_witnesses",
+    "Erdos1063.log_leastWitness_isLittleO_of_witnesses",
+    "Erdos1063.admissible_exists",
+    "Erdos1063.leastWitness_spec",
+    "Erdos1063.leastWitness_ge",
+    "Erdos1063.admissible_subexponential_witness",
+    "Erdos1063.leastWitness_subexponential",
+    "Erdos1063.erdos_1063.subexponential_upper",
+    "Erdos1063.log_leastWitness_div_tendsto_zero"
+  ],
+  "typed_review_checks": [
+    "SubexpInternalReview.admissible_definition",
+    "SubexpInternalReview.minimum_definition",
+    "SubexpInternalReview.prime_count_raw",
+    "SubexpInternalReview.finite_bound_raw",
+    "SubexpInternalReview.choose_degree_after_epsilon",
+    "SubexpInternalReview.degree_then_threshold",
+    "SubexpInternalReview.raw_witness_threshold",
+    "SubexpInternalReview.raw_minimum_is_admissible",
+    "SubexpInternalReview.raw_minimum_le",
+    "SubexpInternalReview.raw_minimum_subexponential",
+    "SubexpInternalReview.raw_log_littleO",
+    "SubexpInternalReview.raw_log_ratio_limit"
+  ],
+  "axiom_results": {
+    "Nat.choose_ne_zero": [
+      "propext"
+    ],
+    "Nat.factorization_eq_zero_of_not_prime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Nat.factorization_choose": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Nat.factorization_eq_card_pow_dvd_of_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.carry_of_mod_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.one_carry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prime_power_dvd_choose": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.high_power_carry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.truncated_covering": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.low_power_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.truncated_covering_of_min": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.large_prime_automatic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchored_residue": [
+      "propext"
+    ],
+    "Erdos1063.anchored_covering": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.off_center_valuation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchor_carry_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.small_prime_anchor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exceptional_large_prime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.carry_iff_mod_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.no_late_carry": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos1063.center_fails": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.depth": [
+      "propext"
+    ],
+    "Erdos1063.offsetDepth": [
+      "propext"
+    ],
+    "Erdos1063.lowCarries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.deficit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.small_prime_from_depth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prime_divisor_deficit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.center_fails_at_prime_divisor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.dvd_choose_of_local": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.constructionPrimes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchorExponent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchorProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchorProduct_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchor_divides_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.failure_power_divides_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.finite_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.same_box_close": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.simultaneous_boxes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.close_residue_carry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.difference_carry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exists_regular_multiplier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.regularPrimes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exists_bounded_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.primeCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.primeCount_mul_log_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.small_remainder_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.active_prime_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchor_factor_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchorProduct_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.regular_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exists_coarse_bounded_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.scale": [
+      "propext"
+    ],
+    "Erdos1063.center": [
+      "propext"
+    ],
+    "Erdos1063.cost": [
+      "propext"
+    ],
+    "Erdos1063.exponentCost": [
+      "propext"
+    ],
+    "Erdos1063.scale_pow_le": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos1063.scale_ge_of_pow_le": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos1063.lt_scale_succ_pow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.parameter_arithmetic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.scale_ge_two": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos1063.scale_fourth_pow_le": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Erdos1063.exponentCost_mul_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.parameter_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.anchor_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.eventually_anchor_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prime_log_bound_of_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.prime_log_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.coarseBound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.eventually_coarse_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exists_degree_small_rate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.exists_subexponential_coarse_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.subexponential_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.leastWitness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.leastWitness_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.leastWitness_spec_of_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.eventually_leastWitness_exp_of_witnesses": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.log_leastWitness_isLittleO_of_witnesses": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.admissible_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.leastWitness_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.leastWitness_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.admissible_subexponential_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.leastWitness_subexponential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.erdos_1063.subexponential_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.log_leastWitness_div_tendsto_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.minimum_definition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.prime_count_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.finite_bound_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.choose_degree_after_epsilon": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.degree_then_threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.raw_witness_threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.raw_minimum_is_admissible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.raw_minimum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.raw_minimum_subexponential": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.raw_log_littleO": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "SubexpInternalReview.raw_log_ratio_limit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1063.radius": [],
+    "Erdos1063.Admissible": [],
+    "SubexpInternalReview.admissible_definition": []
+  },
+  "axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "all_axiom_audits_passed": true,
+  "commands": [
+    {
+      "source": "CarryCompatibility.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "CarryCompatibility.olean",
+        "CarryCompatibility.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.828,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "OneCarry.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "OneCarry.olean",
+        "OneCarry.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.016,
+      "stdout": "'Erdos1063.carry_of_mod_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.one_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.prime_power_dvd_choose' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.high_power_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.truncated_covering' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.low_power_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.truncated_covering_of_min' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.large_prime_automatic' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchored_residue' depends on axioms: [propext]\n'Erdos1063.anchored_covering' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.off_center_valuation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchor_carry_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.small_prime_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exceptional_large_prime' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.carry_iff_mod_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.no_late_carry' depends on axioms: [propext, Quot.sound]\n'Erdos1063.center_fails' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "FiniteConstruction.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "FiniteConstruction.olean",
+        "FiniteConstruction.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.937,
+      "stdout": "'Erdos1063.small_prime_from_depth' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.prime_divisor_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.center_fails_at_prime_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.dvd_choose_of_local' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.finite_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "Simultaneous.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "Simultaneous.olean",
+        "Simultaneous.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.735,
+      "stdout": "'Erdos1063.simultaneous_boxes' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.difference_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_regular_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_bounded_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "PrimeCountBound.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "PrimeCountBound.olean",
+        "PrimeCountBound.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 13.125,
+      "stdout": "'Erdos1063.primeCount_mul_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "SizeBounds.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "SizeBounds.olean",
+        "SizeBounds.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 13.343,
+      "stdout": "'Erdos1063.small_remainder_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchorProduct_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_coarse_bounded_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "SubexpParameters.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "SubexpParameters.olean",
+        "SubexpParameters.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 18.797,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "SubexpAsymptotic.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "SubexpAsymptotic.olean",
+        "SubexpAsymptotic.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 11.578,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "SubexpInfimum.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "SubexpInfimum.olean",
+        "SubexpInfimum.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.25,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "SubexpNonempty.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "SubexpNonempty.olean",
+        "SubexpNonempty.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.141,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "SubexpSubmission.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "SubexpSubmission.olean",
+        "SubexpSubmission.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 11.0,
+      "stdout": "'Erdos1063.admissible_exists' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_spec' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.subexponential_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_subexponential' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.erdos_1063.subexponential_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.log_leastWitness_div_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    },
+    {
+      "source": "Audit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "Audit.olean",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.578,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "AxiomAudit.lean",
+      "arguments": [
+        "-s",
+        "65536",
+        "-DwarningAsError=true",
+        "-o",
+        "AxiomAudit.olean",
+        "AxiomAudit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 23.203,
+      "stdout": "'Nat.choose_ne_zero' depends on axioms: [propext]\n'Nat.factorization_eq_zero_of_not_prime' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Nat.factorization_choose' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Nat.factorization_eq_card_pow_dvd_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.carry_of_mod_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.one_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.prime_power_dvd_choose' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.high_power_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.truncated_covering' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.low_power_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.truncated_covering_of_min' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.large_prime_automatic' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchored_residue' depends on axioms: [propext]\n'Erdos1063.anchored_covering' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.off_center_valuation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchor_carry_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.small_prime_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exceptional_large_prime' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.carry_iff_mod_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.no_late_carry' depends on axioms: [propext, Quot.sound]\n'Erdos1063.center_fails' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.depth' depends on axioms: [propext]\n'Erdos1063.radius' does not depend on any axioms\n'Erdos1063.offsetDepth' depends on axioms: [propext]\n'Erdos1063.lowCarries' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.small_prime_from_depth' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.prime_divisor_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.center_fails_at_prime_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.dvd_choose_of_local' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.constructionPrimes' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchorExponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchorProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchorProduct_ge' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchor_divides_product' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.failure_power_divides_product' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.finite_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.same_box_close' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.simultaneous_boxes' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.close_residue_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.difference_carry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_regular_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.regularPrimes' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_bounded_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.primeCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.primeCount_mul_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.small_remainder_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.active_prime_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchor_factor_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchorProduct_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.regular_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_coarse_bounded_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.scale' depends on axioms: [propext]\n'Erdos1063.center' depends on axioms: [propext]\n'Erdos1063.cost' depends on axioms: [propext]\n'Erdos1063.exponentCost' depends on axioms: [propext]\n'Erdos1063.scale_pow_le' depends on axioms: [propext, Quot.sound]\n'Erdos1063.scale_ge_of_pow_le' depends on axioms: [propext, Quot.sound]\n'Erdos1063.lt_scale_succ_pow' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.parameter_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.scale_ge_two' depends on axioms: [propext, Quot.sound]\n'Erdos1063.scale_fourth_pow_le' depends on axioms: [propext, Quot.sound]\n'Erdos1063.exponentCost_mul_scale' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.parameter_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.anchor_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.eventually_anchor_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.prime_log_bound_of_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.prime_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.coarseBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.eventually_coarse_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_degree_small_rate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.exists_subexponential_coarse_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.subexponential_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.Admissible' does not depend on any axioms\n'Erdos1063.leastWitness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_spec_of_exists' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.eventually_leastWitness_exp_of_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.log_leastWitness_isLittleO_of_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.admissible_exists' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_spec' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_ge' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.admissible_subexponential_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.leastWitness_subexponential' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.erdos_1063.subexponential_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos1063.log_leastWitness_div_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.admissible_definition' does not depend on any axioms\n'SubexpInternalReview.minimum_definition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.prime_count_raw' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.finite_bound_raw' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.choose_degree_after_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.degree_then_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.raw_witness_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.raw_minimum_is_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.raw_minimum_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.raw_minimum_subexponential' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.raw_log_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SubexpInternalReview.raw_log_ratio_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": ""
+    }
+  ]
+}

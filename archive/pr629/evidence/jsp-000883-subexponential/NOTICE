@@ -1,0 +1,26 @@
+JSP-000883 / Erdős 1063 subexponential upper-bound formalization
+
+Gott-L: project initiation, objectives, planning and research direction.
+Codex assistance: research, proof extension, implementation and internal checks.
+
+Mathematical construction and already public subexponential conclusions:
+Patrick White and Ricky Cipollini, with their stated AI collaborators.
+White's source was inspected at a28481f5b4bda374086533397269c5b550c759b8.
+No White repository code is copied here. The full Overleaf manuscript was
+not retrieved; the cited public proof claim establishes the attribution.
+
+Reused and adapted finite Lean formalization and coarse size/parameter arguments:
+56647563 with Codex assistance, TheJustinSunPrize/awards PR601,
+56647563/awards commit 5130380a1d7f3ed00b827c666c79c89e202c3fdc,
+submissions/jsp-000883, Apache License 2.0.
+The new files retain and distinguish this contribution from the extension.
+
+Original minimum definition: Copyright 2026 The Formal Conjectures Authors,
+Apache License 2.0; formal-conjectures commit
+cb20d7eb22b6f9866001d53fdf1ea4bb93fb34c0.
+
+Mathlib proofs and interfaces are used under Apache License 2.0 at
+c44e0c8ee63ca166450922a373c7409c5d26b00b. Individual upstream notices apply.
+
+No mathematical discovery, global formalization priority, official verification,
+prize decision or payment allocation is asserted by this notice.
