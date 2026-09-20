@@ -1,0 +1,53 @@
+GottL301.Powerful (n : Nat) : Prop
+GottL301.Consecutive (a b : Nat) : Prop
+GottL301.CatalogClaim : Prop
+GottL301.exists_consecutive_powerful_nonsquares :
+  ∃ n,
+    And (LT.lt.{0} 0 n)
+      (And (GottL301.Powerful n)
+        (And (GottL301.Powerful (HAdd.hAdd.{0, 0, 0} n 1))
+          (And (Not (IsSquare.{0} n)) (Not (IsSquare.{0} (HAdd.hAdd.{0, 0, 0} n 1))))))
+GottL301.exists_positive_consecutive_pair :
+  ∃ a b,
+    And (LT.lt.{0} 0 a)
+      (And (LT.lt.{0} 0 b)
+        (And (GottL301.Consecutive a b)
+          (And (GottL301.Powerful a) (And (GottL301.Powerful b) (And (Not (IsSquare.{0} a)) (Not (IsSquare.{0} b)))))))
+GottL301.not_catalog_claim : Not GottL301.CatalogClaim
+GottL301.not_all_consecutive_powerful_have_square :
+  Not
+    (∀ (n : Nat),
+      LT.lt.{0} 0 n →
+        GottL301.Powerful n →
+          GottL301.Powerful (HAdd.hAdd.{0, 0, 0} n 1) → Or (IsSquare.{0} n) (IsSquare.{0} (HAdd.hAdd.{0, 0, 0} n 1)))
+'GottL301.powerful_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.powerful_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.powerful_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.not_isSquare_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.powerful_12167' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.powerful_12168' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.not_isSquare_12167' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.not_isSquare_12168' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.exists_consecutive_powerful_nonsquares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.exists_positive_consecutive_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.not_catalog_claim' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301.not_all_consecutive_powerful_have_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+GottL301Family.infinite_consecutive_powerful_nonsquares :
+  Set.Infinite.{0}
+    (setOf.{0} fun n =>
+      And (GottL301.Powerful n)
+        (And (GottL301.Powerful (HAdd.hAdd.{0, 0, 0} n 1))
+          (And (Not (IsSquare.{0} n)) (Not (IsSquare.{0} (HAdd.hAdd.{0, 0, 0} n 1))))))
+def GottL301.Powerful : Nat → Prop :=
+fun n => And (LT.lt.{0} 0 n) (∀ (p : Nat), Nat.Prime p → Dvd.dvd.{0} p n → Dvd.dvd.{0} (HPow.hPow.{0, 0, 0} p 2) n)
+'GottL301Family.step_add_one' depends on axioms: [propext]
+'GottL301Family.step_powerful' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301Family.step_succ_powerful' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301Family.step_mod_sixteen' depends on axioms: [propext]
+'GottL301Family.square_mod_sixteen' depends on axioms: [propext]
+'GottL301Family.nonsquares_of_mod_sixteen' depends on axioms: [propext]
+'GottL301Family.lt_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301Family.family_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301Family.family_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301Family.family_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL301Family.infinite_consecutive_powerful_nonsquares' depends on axioms: [propext, Classical.choice, Quot.sound]

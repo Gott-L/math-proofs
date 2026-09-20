@@ -1,0 +1,38 @@
+{
+  "source_sha256": {
+    "Audit.lean": "d8015d29a6bc1d041407c93bb8f7dcc030791ce07539593a6ad1ce036c6af1c9",
+    "Family.lean": "c4b085cdb487a395816a6e61f51dc57f1bbe713ea1cbc7ab1c72c79b032abb73",
+    "Main.lean": "fa85e05d72b70ef7efc18b6e256d600cf44f2ad1ebd9b35cae8680e27978fbf6"
+  },
+  "records": [
+    {
+      "name": "build",
+      "started_utc": "2026-09-20T10:48:44.567319+00:00",
+      "command": [
+        "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lake.exe",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 52.625,
+      "stdout_sha256": "c08c2a35fa8faff3b8feaa4ab80feb14374a2c4801e7c217791f70dd2d49ce34",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "axioms",
+      "started_utc": "2026-09-20T10:49:37.209720+00:00",
+      "command": [
+        "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lake.exe",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 87.64100000000326,
+      "stdout_sha256": "2360e820105c7d868d158693d5949c24efcdfd96b14ae5ba32493499351e3aa1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_unchanged": true,
+  "dependency_trust": "Uses the pinned available Mathlib build; not a fresh dependency build."
+}
