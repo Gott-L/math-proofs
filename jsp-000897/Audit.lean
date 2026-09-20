@@ -1,0 +1,20 @@
+import Main
+
+#check GottL897.dense_neighborhood
+#check GottL897.dense_neighborhood_strict
+#print axioms GottL897.cliqueFree_iff_top_free
+#print axioms GottL897.independentJoin_cliqueFree
+#print axioms GottL897.independentJoin_degree_left
+#print axioms GottL897.independentJoin_degree_right
+#print axioms GottL897.independentJoin_card_edges
+#print axioms GottL897.clique_extremal_join_le
+#print axioms GottL897.edge_card_le_internal_add_complement_degrees
+#print axioms GottL897.edge_card_le_induce_add_complement_degrees
+#print axioms GottL897.neighborhood_edge_bound
+#print axioms GottL897.sq_le_four_mul_balanced_product_add_one
+#print axioms GottL897.balanced_product_le_clique_extremal
+#print axioms GottL897.card_le_twice_maxDegree_of_balanced_edges
+#print axioms GottL897.card_le_twice_maxDegree_of_extremal_threshold
+#print axioms GottL897.neighborhood_surplus
+#print axioms GottL897.dense_neighborhood
+#print axioms GottL897.dense_neighborhood_strict

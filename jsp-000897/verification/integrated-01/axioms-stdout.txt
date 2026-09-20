@@ -1,0 +1,28 @@
+GottL897.dense_neighborhood {n r : ℕ} (hr : 4 ≤ r) (hn : 2 ≤ n) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj]
+  (hG : SimpleGraph.extremalNumber n ⊤ ≤ G.edgeFinset.card) :
+  ∃ v,
+    G.degree v = G.maxDegree ∧
+      n ≤ 2 * G.degree v ∧
+        SimpleGraph.extremalNumber (G.degree v) ⊤ ≤ (SimpleGraph.induce (G.neighborSet v) G).edgeFinset.card
+GottL897.dense_neighborhood_strict {n r : ℕ} (hr : 4 ≤ r) (hn : 2 ≤ n) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj]
+  (hG : SimpleGraph.extremalNumber n ⊤ < G.edgeFinset.card) :
+  ∃ v,
+    G.degree v = G.maxDegree ∧
+      n ≤ 2 * G.degree v ∧
+        SimpleGraph.extremalNumber (G.degree v) ⊤ < (SimpleGraph.induce (G.neighborSet v) G).edgeFinset.card
+'GottL897.cliqueFree_iff_top_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.independentJoin_cliqueFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.independentJoin_degree_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.independentJoin_degree_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.independentJoin_card_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.clique_extremal_join_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.edge_card_le_internal_add_complement_degrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.edge_card_le_induce_add_complement_degrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.neighborhood_edge_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.sq_le_four_mul_balanced_product_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.balanced_product_le_clique_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.card_le_twice_maxDegree_of_balanced_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.card_le_twice_maxDegree_of_extremal_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.neighborhood_surplus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.dense_neighborhood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL897.dense_neighborhood_strict' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+name = "dense_neighborhood"
+version = "0.1.0"
+defaultTargets = ["DenseNeighborhood"]
+moreLeanArgs = ["-DwarningAsError=true"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+
+[[lean_lib]]
+name = "DenseNeighborhood"
+roots = ["JoinBound", "NeighborhoodBound", "DegreeBound", "Main", "Audit"]

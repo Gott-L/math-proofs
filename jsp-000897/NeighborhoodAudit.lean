@@ -1,0 +1,8 @@
+import NeighborhoodBound
+
+#check GottL897.edge_card_le_internal_add_complement_degrees
+#check GottL897.edge_card_le_induce_add_complement_degrees
+#check GottL897.neighborhood_edge_bound
+#print axioms GottL897.edge_card_le_internal_add_complement_degrees
+#print axioms GottL897.edge_card_le_induce_add_complement_degrees
+#print axioms GottL897.neighborhood_edge_bound

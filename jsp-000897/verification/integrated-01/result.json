@@ -1,0 +1,42 @@
+{
+  "source_sha256": {
+    "Audit.lean": "a7ececeaac3d24edb55d2cbbe7e746de8dee072aa58259ff8db9945af1a2e953",
+    "DegreeBound.lean": "b23910886ae63b60a2e7c8ee979bec7ac7ef80ce5754a1100859d841be6f6de6",
+    "JoinBound.lean": "6eddc1bdf38a9237df5880ab0d7d88e95e898039bf352d3cbf034c80e4773075",
+    "Main.lean": "10c81035619eab00f86a4a1381e945cc6b024862c8fe882ea406b759a71f8260",
+    "NeighborhoodAudit.lean": "d51dd53d8f7c04610a900dfad86e43895e2f48068ff9e029ebd6b518289ce956",
+    "NeighborhoodBound.lean": "061450968678033f52dd8d8b33da967a7e646e5d8fcbaf4a6a66eb0148b897ad",
+    "ProbeJoin.lean": "193e0403abc0dbe24ec938222602c55f935a3fa26540322df34025a52e5bf03a"
+  },
+  "records": [
+    {
+      "name": "build",
+      "started_utc": "2026-09-20T11:16:55.223761+00:00",
+      "command": [
+        "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lake.exe",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1565.0939999999828,
+      "stdout_sha256": "4d996ab193015194be93c9c12e28382c45f4ec28defebb61485c6e7127bae8bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "axioms",
+      "started_utc": "2026-09-20T11:43:00.328057+00:00",
+      "command": [
+        "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lake.exe",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 13.625,
+      "stdout_sha256": "63bbfc9a478686c89a120c946617afb851bea597340964f510fb45390bc9bd66",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_unchanged": true,
+  "dependency_trust": "Uses the pinned available Mathlib build; not a fresh dependency build."
+}
