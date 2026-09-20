@@ -1,0 +1,6 @@
+'GottL894.iterated_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL894.exists_stride' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL894.stride_subsequence' depends on axioms: [propext]
+'GottL894.exists_rotation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL894.rotation_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GottL894.lacunary_difference_coloring' depends on axioms: [propext, Classical.choice, Quot.sound]

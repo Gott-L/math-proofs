@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-09-20T07:06:25.846473+00:00",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "lean_executable_sha256": "f59b0c515f65dbf96526279d77fb43152f76bdd77f5fb94f387b75139fafe68c",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "source_bytes": {
+    "Audit.lean": "77d1dbe028a3eafb79cbe4495ce58b5d895ae71939a26d8640cda23bf5915acd",
+    "Coloring.lean": "a0945ff76d0552bd14fd0b14d5d6fe9dc37e2590c5d6458d5aa4a6a97df031d4",
+    "Growth.lean": "00ba496af543f73d185ce4efc6a22d2f68466231bb8f2d541c5ae1738abd387d",
+    "Main.lean": "5130ed68d12294fc324a6138e2c9c64a911666064cb2d4f20a6fb0055328e761",
+    "Rotation.lean": "2a7e0e100f26bef8e5fb3be47b6ed6eff281578705ac7d2379a7d3181df8c6f0"
+  },
+  "fresh_project_output": true,
+  "no_old_project_objects_on_path": true,
+  "dependency_objects_reused": true,
+  "complete_mathlib_rebuild": false,
+  "external_kernel_replay": false,
+  "official_review": false,
+  "results": [
+    {
+      "module": "Growth",
+      "source_sha256": "00ba496af543f73d185ce4efc6a22d2f68466231bb8f2d541c5ae1738abd387d",
+      "source_bytes": 2009,
+      "start_utc": "2026-09-20T07:05:50.763008+00:00",
+      "exit_code": 0,
+      "flags": [
+        "-t",
+        "0",
+        "-s",
+        "32768",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-DmaxRecDepth=4096",
+        "-DmaxHeartbeats=3000000"
+      ],
+      "output_created": true,
+      "log": "Growth.log"
+    },
+    {
+      "module": "Rotation",
+      "source_sha256": "2a7e0e100f26bef8e5fb3be47b6ed6eff281578705ac7d2379a7d3181df8c6f0",
+      "source_bytes": 4259,
+      "start_utc": "2026-09-20T07:05:57.716513+00:00",
+      "exit_code": 0,
+      "flags": [
+        "-t",
+        "0",
+        "-s",
+        "32768",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-DmaxRecDepth=4096",
+        "-DmaxHeartbeats=3000000"
+      ],
+      "output_created": true,
+      "log": "Rotation.log"
+    },
+    {
+      "module": "Coloring",
+      "source_sha256": "a0945ff76d0552bd14fd0b14d5d6fe9dc37e2590c5d6458d5aa4a6a97df031d4",
+      "source_bytes": 2006,
+      "start_utc": "2026-09-20T07:06:05.571952+00:00",
+      "exit_code": 0,
+      "flags": [
+        "-t",
+        "0",
+        "-s",
+        "32768",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-DmaxRecDepth=4096",
+        "-DmaxHeartbeats=3000000"
+      ],
+      "output_created": true,
+      "log": "Coloring.log"
+    },
+    {
+      "module": "Main",
+      "source_sha256": "5130ed68d12294fc324a6138e2c9c64a911666064cb2d4f20a6fb0055328e761",
+      "source_bytes": 2423,
+      "start_utc": "2026-09-20T07:06:13.294266+00:00",
+      "exit_code": 0,
+      "flags": [
+        "-t",
+        "0",
+        "-s",
+        "32768",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-DmaxRecDepth=4096",
+        "-DmaxHeartbeats=3000000"
+      ],
+      "output_created": true,
+      "log": "Main.log"
+    },
+    {
+      "module": "Audit",
+      "source_sha256": "77d1dbe028a3eafb79cbe4495ce58b5d895ae71939a26d8640cda23bf5915acd",
+      "source_bytes": 663,
+      "start_utc": "2026-09-20T07:06:19.252581+00:00",
+      "exit_code": 0,
+      "flags": [
+        "-t",
+        "0",
+        "-s",
+        "32768",
+        "-j",
+        "1",
+        "-DwarningAsError=true",
+        "-DmaxRecDepth=4096",
+        "-DmaxHeartbeats=3000000"
+      ],
+      "output_created": true,
+      "log": "Audit.log"
+    }
+  ]
+}
