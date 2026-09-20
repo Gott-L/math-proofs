@@ -1,0 +1,178 @@
+{
+  "historical_local_commit": "b1edf8873a1a01edebbf2a12c56276223e1cbb4b",
+  "date_utc": "2026-09-20",
+  "comparison": "exact bytes, not a new Lean execution",
+  "all_34_mathematical_and_configuration_files_unchanged": true,
+  "files": [
+    {
+      "path": "audit/E922ProjectRebuildAudit.lean",
+      "bytes": 3077,
+      "sha256": "05ee1fb2eb5a297990f5ae3f005da3952db8ffbedff71d970b8a4fab73e5a71e"
+    },
+    {
+      "path": "src/E922AcyclicCompat.lean",
+      "bytes": 2830,
+      "sha256": "e1bd8593886c430999c0adee617d4f2f5ff854ede7fd0772f6451ab81d022cfa"
+    },
+    {
+      "path": "src/E922AssemblyChordless.lean",
+      "bytes": 4736,
+      "sha256": "59b86757354cdbc24114e66661ce9d51c8176c9416fc782b7cbb8fd8624e874f"
+    },
+    {
+      "path": "src/E922AssemblyFinal.lean",
+      "bytes": 5764,
+      "sha256": "3521ef120d8fee89275a6d317485a7cd74f6bbab0a232d39cf8f0079708c8ae0"
+    },
+    {
+      "path": "src/E922AssemblyNumerics.lean",
+      "bytes": 5689,
+      "sha256": "9289e3771bda3eea14d3a5c2564a315609ea25fdfb637d004cf392f1c4def352"
+    },
+    {
+      "path": "src/E922AssemblyStructural.lean",
+      "bytes": 5706,
+      "sha256": "4704191d526f5d04b55f91f3329e61c055bcdec8b0a36074121e5ca4c0eeb861"
+    },
+    {
+      "path": "src/E922Attachments.lean",
+      "bytes": 27872,
+      "sha256": "92b0b9b9d5d2900773737744252286fc163c25c43a42e88b84713eb8b571ffee"
+    },
+    {
+      "path": "src/E922AttachmentsCore.lean",
+      "bytes": 4343,
+      "sha256": "f8417ea645577f2830f527e252fa330ee4e846070aff40dc08417351eddbdb02"
+    },
+    {
+      "path": "src/E922AttachmentSupport.lean",
+      "bytes": 1049,
+      "sha256": "8224c3592062dfa0b7993991438888daea2512b9f513cf6a3f63801e619a499a"
+    },
+    {
+      "path": "src/E922ChordlessCompat.lean",
+      "bytes": 3912,
+      "sha256": "cf6ce4c8527ad49751ed3f2c2b66288e8600d2c51bee390311b06126f2111339"
+    },
+    {
+      "path": "src/E922CompactnessBridge.lean",
+      "bytes": 4091,
+      "sha256": "1cb8c8ee541fd64ce726c8193564c429779364bf30153a2ffaf7cc516f2a4924"
+    },
+    {
+      "path": "src/E922CycleCompat.lean",
+      "bytes": 4746,
+      "sha256": "7ab53576f1a559575844c099664668537423397bfd203b20f3ad39bef6df7a26"
+    },
+    {
+      "path": "src/E922DiamondCore.lean",
+      "bytes": 23823,
+      "sha256": "ec13a6d730371a80310095fba5a4d71f175ae36c00e37ddbc223bfad204510dc"
+    },
+    {
+      "path": "src/E922DiamondMinimal.lean",
+      "bytes": 52770,
+      "sha256": "467c02019311562d5570adc355e3e62a1a59385aac0d149543e7c9dbdf7375ca"
+    },
+    {
+      "path": "src/E922EvenCycleBridge.lean",
+      "bytes": 18408,
+      "sha256": "6a22354ffd424492efd1ded3ff43694a96e584db6b4e0cc83ba9ca8303a97b10"
+    },
+    {
+      "path": "src/E922EvenCycleBridgeUse.lean",
+      "bytes": 836,
+      "sha256": "c43d0fe9ee853ce5917a395ae05280b7aa221d70460a3f107f07c9e38d48738a"
+    },
+    {
+      "path": "src/E922FiniteBase.lean",
+      "bytes": 16348,
+      "sha256": "1f2b94d62fdf22ceddcab4bd52a967a1447878639deb4918856960c99a08cd3a"
+    },
+    {
+      "path": "src/E922FiniteInterface.lean",
+      "bytes": 891,
+      "sha256": "71da04b2cd1b40b798337265964882dd8900b7185e87d84d56ba9ef27193e963"
+    },
+    {
+      "path": "src/E922FiniteNext.lean",
+      "bytes": 10873,
+      "sha256": "782ab20d7c406b55a480597583e5addb88017c69d52ebb080fcf08c32979511a"
+    },
+    {
+      "path": "src/E922FinitePrelim.lean",
+      "bytes": 18062,
+      "sha256": "377101ed0f82a6933626468f548b873e129b6897b693f34e30818252e29d5067"
+    },
+    {
+      "path": "src/E922FiniteSubgraphInterface.lean",
+      "bytes": 3064,
+      "sha256": "91dafa882fb36f13026c72277846fbb9b9ff28f731b88e315e3b28f2c0f6a089"
+    },
+    {
+      "path": "src/E922InfiniteEndpoint.lean",
+      "bytes": 2807,
+      "sha256": "9792fa10ba7cebb769d82b4c7a88773c59f71809ad08a1bde756d2004e1e2398"
+    },
+    {
+      "path": "src/E922LocalTransfer.lean",
+      "bytes": 3165,
+      "sha256": "f134ec969bfeadcf27d9e176d2e305fa31588304b288fb47832fbca6d642f3c6"
+    },
+    {
+      "path": "src/E922MapCompat.lean",
+      "bytes": 998,
+      "sha256": "5381088b5307cefd3e1fc0585f36a412a80d33b361d02826e3b4c6371d91d16b"
+    },
+    {
+      "path": "src/E922ParityCompat.lean",
+      "bytes": 2273,
+      "sha256": "8a302280b84d76c26da884ed1821fb5f89a578615901af2e22c3d7bfe3a64b14"
+    },
+    {
+      "path": "src/E922RecolorFinal.lean",
+      "bytes": 12325,
+      "sha256": "470d2e2fdb0d110cb015057382e347519adb20587de9f2a8b1947a17f0e77113"
+    },
+    {
+      "path": "src/E922SpanningCycleCompat.lean",
+      "bytes": 1271,
+      "sha256": "184995d53c41bb64dc8a4c9171a37f0afcc3a87f71e21c458f1c225bc54738ea"
+    },
+    {
+      "path": "src/E922StructureContraction.lean",
+      "bytes": 24767,
+      "sha256": "29a4ebcb43da60ee2bfc1690c6bb426b0098ce25be74bfa49c0ca2d12b0e78ca"
+    },
+    {
+      "path": "src/E922StructureEvenHole.lean",
+      "bytes": 18154,
+      "sha256": "55053d0496c27657fcf8e4d8562984ba2339ec3e6cd6d4714be6b413ec154684"
+    },
+    {
+      "path": "src/E922WalkCompat.lean",
+      "bytes": 3109,
+      "sha256": "67afc6ac19b9be686b034d448fb35d527746d2fa063e3209bfb36a1120c96e75"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 1195,
+      "sha256": "abfe3cfb99c3997b6947fd846eb7ad5c0e2447c77fb25b42d302fcf6110ff824"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3520,
+      "sha256": "638619236b64120c7f403860007ed0ed476a14eba70079170304ebeff0c6afde"
+    },
+    {
+      "path": "source-lock.json",
+      "bytes": 9562,
+      "sha256": "a1def592981c870c042c0e110cf2ff6c5c0276b52fbfe7adb67e3e4487c6c055"
+    }
+  ]
+}

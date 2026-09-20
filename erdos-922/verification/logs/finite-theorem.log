@@ -1,0 +1,32 @@
+@Erdos922.erdos_922.{u_1} : ∀ {V : Type u_1} [inst : Finite.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) (k : Nat),
+  @Erdos922.HasLargeIndependentSets.{u_1} V inst G k →
+    @LE.le.{0} ENat
+      (@Preorder.toLE.{0} ENat
+        (@PartialOrder.toPreorder.{0} ENat
+          (@OmegaCompletePartialOrder.toPartialOrder.{0} ENat
+            (@CompleteLattice.instOmegaCompletePartialOrder.{0} ENat
+              (@CompletelyDistribLattice.toCompleteLattice.{0} ENat
+                (@CompleteLinearOrder.toCompletelyDistribLattice.{0} ENat instCompleteLinearOrderENat))))))
+      (@SimpleGraph.chromaticNumber.{u_1} V G)
+      (@Nat.cast.{0} ENat ENat.instNatCast
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+theorem Erdos922.erdos_922.{u} : ∀ {V : Type u} [inst : Finite.{u + 1} V] (G : SimpleGraph.{u} V) (k : Nat),
+  @Erdos922.HasLargeIndependentSets.{u} V inst G k →
+    @LE.le.{0} ENat
+      (@Preorder.toLE.{0} ENat
+        (@PartialOrder.toPreorder.{0} ENat
+          (@OmegaCompletePartialOrder.toPartialOrder.{0} ENat
+            (@CompleteLattice.instOmegaCompletePartialOrder.{0} ENat
+              (@CompletelyDistribLattice.toCompleteLattice.{0} ENat
+                (@CompleteLinearOrder.toCompletelyDistribLattice.{0} ENat instCompleteLinearOrderENat))))))
+      (@SimpleGraph.chromaticNumber.{u} V G)
+      (@Nat.cast.{0} ENat ENat.instNatCast
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+          (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))) :=
+fun {V : Type u} [inst : Finite.{u + 1} V] (G : SimpleGraph.{u} V) (k : Nat)
+    (hG : @Erdos922.HasLargeIndependentSets.{u} V inst G k) =>
+  @Erdos922Assembly.erdos_922_of_noOrderMinimalCounterexample.{u} V inst
+    (fun {V : Type u} [inst : Fintype.{u} V] [inst_1 : DecidableEq.{u + 1} V] =>
+      @Erdos922Assembly.noOrderMinimalCounterexample.{u} V inst inst_1)
+    G k hG
+'Erdos922.erdos_922' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+/src/*.lean -text
+/audit/*.lean -text
+/lean-toolchain text eol=lf
+/lakefile.toml text eol=lf
+/lake-manifest.json text eol=lf

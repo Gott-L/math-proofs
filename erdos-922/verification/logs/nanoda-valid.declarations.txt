@@ -1,0 +1,93 @@
+theorem Erdos922Adapter.finite_colorable_of_largeIndependentFinsets.{u} :
+  forall {V : Type u} [inst._@.E922InfiniteEndpoint._hyg.9 : @Finite.{u+1} V] (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922Adapter.LargeIndependentFinsets.{u} V G k → @SimpleGraph.Colorable.{u} V G
+    (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))) :=
+  _
+
+theorem Erdos922Adapter.colorable_of_largeIndependentFinsets.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922Adapter.LargeIndependentFinsets.{u} V G k → @SimpleGraph.Colorable.{u} V G
+    (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))) :=
+  _
+
+theorem Erdos922Adapter.chromaticNumber_le_of_largeIndependentFinsets.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922Adapter.LargeIndependentFinsets.{u} V G k → @LE.le.{0} @ENat
+    (@Preorder.toLE.{0} @ENat
+      (@PartialOrder.toPreorder.{0} @ENat
+        (@OmegaCompletePartialOrder.toPartialOrder.{0} @ENat
+          (@CompleteLattice.instOmegaCompletePartialOrder.{0} @ENat
+            (@CompletelyDistribLattice.toCompleteLattice.{0} @ENat (@CompleteLinearOrder.toCompletelyDistribLattice.{0} @ENat @instCompleteLinearOrderENat))))))
+    (@SimpleGraph.chromaticNumber.{u} V G)
+    (@Nat.cast.{0} @ENat @ENat.instNatCast
+      (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)))) :=
+  _
+
+theorem Erdos922Adapter.colorable_of_largeIndependentFiniteSubgraphs.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922Adapter.LargeIndependentFiniteSubgraphs.{u} V G k → @SimpleGraph.Colorable.{u} V G
+    (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))) :=
+  _
+
+theorem Erdos922Adapter.chromaticNumber_le_of_largeIndependentFiniteSubgraphs.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922Adapter.LargeIndependentFiniteSubgraphs.{u} V G k → @LE.le.{0} @ENat
+    (@Preorder.toLE.{0} @ENat
+      (@PartialOrder.toPreorder.{0} @ENat
+        (@OmegaCompletePartialOrder.toPartialOrder.{0} @ENat
+          (@CompleteLattice.instOmegaCompletePartialOrder.{0} @ENat
+            (@CompletelyDistribLattice.toCompleteLattice.{0} @ENat (@CompleteLinearOrder.toCompletelyDistribLattice.{0} @ENat @instCompleteLinearOrderENat))))))
+    (@SimpleGraph.chromaticNumber.{u} V G)
+    (@Nat.cast.{0} @ENat @ENat.instNatCast
+      (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)))) :=
+  _
+
+theorem Erdos922.erdos_922_arbitrary.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922.HasLargeIndependentSetsOnFinsets.{u} V G k → @LE.le.{0} @ENat
+    (@Preorder.toLE.{0} @ENat
+      (@PartialOrder.toPreorder.{0} @ENat
+        (@OmegaCompletePartialOrder.toPartialOrder.{0} @ENat
+          (@CompleteLattice.instOmegaCompletePartialOrder.{0} @ENat
+            (@CompletelyDistribLattice.toCompleteLattice.{0} @ENat (@CompleteLinearOrder.toCompletelyDistribLattice.{0} @ENat @instCompleteLinearOrderENat))))))
+    (@SimpleGraph.chromaticNumber.{u} V G)
+    (@Nat.cast.{0} @ENat @ENat.instNatCast
+      (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)))) :=
+  _
+
+theorem Erdos922Adapter.localCondition_iff_finiteSubgraphs.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Iff (@Erdos922Adapter.LargeIndependentFinsets.{u} V G k) (@Erdos922Adapter.LargeIndependentFiniteSubgraphs.{u} V G k) :=
+  _
+
+theorem Erdos922.erdos_922.{u} :
+  forall {V : Type u} [inst._@.E922AssemblyFinal._hyg.48 : @Finite.{u+1} V] (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922.HasLargeIndependentSets.{u} V _ G k → @LE.le.{0} @ENat
+    (@Preorder.toLE.{0} @ENat
+      (@PartialOrder.toPreorder.{0} @ENat
+        (@OmegaCompletePartialOrder.toPartialOrder.{0} @ENat
+          (@CompleteLattice.instOmegaCompletePartialOrder.{0} @ENat
+            (@CompletelyDistribLattice.toCompleteLattice.{0} @ENat (@CompleteLinearOrder.toCompletelyDistribLattice.{0} @ENat @instCompleteLinearOrderENat))))))
+    (@SimpleGraph.chromaticNumber.{u} V G)
+    (@Nat.cast.{0} @ENat @ENat.instNatCast
+      (@HAdd.hAdd.{0 0 0} @Nat @Nat @Nat (@instHAdd.{0} @Nat @instAddNat) k (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)))) :=
+  _
+
+theorem Erdos922Assembly.noOrderMinimalCounterexample.{u} : @Erdos922FullB.NoOrderMinimalCounterexample.{u} := _
+
+theorem Erdos922IndependentAudit.hypothesis_iff_submitted.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Iff (@Erdos922IndependentAudit.OriginalHypothesis.{u} V G k) (@Erdos922Adapter.LargeIndependentFinsets.{u} V G k) :=
+  _
+
+theorem Erdos922IndependentAudit.original_question.{u} :
+  forall {V : Type u} (G : @SimpleGraph.{u} V) (k : @Nat),
+  @Erdos922IndependentAudit.OriginalHypothesis.{u} V G k → @Erdos922IndependentAudit.OriginalConclusion.{u} V G k :=
+  _
+
+axiom propext {a b : Sort 0} : @Iff a b → @Eq.{1} Sort 0 a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Sort 0} {a b : α} : r a b → @Eq.{u} (@Quot.{u} α r) (@Quot.mk.{u} α r a) (@Quot.mk.{u} α r b)
+
+axiom Classical.choice.{u} {α : Sort u} : @Nonempty.{u} α → α
+

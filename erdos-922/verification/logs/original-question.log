@@ -1,0 +1,88 @@
+@Erdos922IndependentAudit.original_question.{u_1} : ∀ {V : Type u_1} (G : SimpleGraph.{u_1} V) (k : Nat),
+  @Erdos922IndependentAudit.OriginalHypothesis.{u_1} V G k → @Erdos922IndependentAudit.OriginalConclusion.{u_1} V G k
+theorem Erdos922IndependentAudit.original_question.{u} : ∀ {V : Type u} (G : SimpleGraph.{u} V) (k : Nat),
+  @Erdos922IndependentAudit.OriginalHypothesis.{u} V G k → @Erdos922IndependentAudit.OriginalConclusion.{u} V G k :=
+fun {V : Type u} (G : SimpleGraph.{u} V) (k : Nat) (h : @Erdos922IndependentAudit.OriginalHypothesis.{u} V G k) =>
+  @Nonempty.casesOn.{u + 1}
+    (@SimpleGraph.Coloring.{u, 0} V G
+      (Fin
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))))
+    (fun
+        (x :
+          @SimpleGraph.Colorable.{u} V G
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+              (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))) =>
+      @Erdos922IndependentAudit.OriginalConclusion.{u} V G k)
+    (@Erdos922Adapter.colorable_of_largeIndependentFinsets.{u} V G k
+      (@Iff.mp (@Erdos922IndependentAudit.OriginalHypothesis.{u} V G k)
+        (@Erdos922Adapter.LargeIndependentFinsets.{u} V G k)
+        (@Erdos922IndependentAudit.hypothesis_iff_submitted.{u} V G k) h))
+    fun
+      (color :
+        @SimpleGraph.Coloring.{u, 0} V G
+          (Fin
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+              (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))) =>
+    @Exists.intro.{u + 1}
+      (V →
+        Fin
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+      (fun
+          (color :
+            V →
+              Fin
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                  (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))) =>
+        ∀ (x y : V),
+          @SimpleGraph.Adj.{u} V G x y →
+            @Ne.{1}
+              (Fin
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                  (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+              (color x) (color y))
+      (fun (x : V) =>
+        @DFunLike.coe.{u + 1, u + 1, 1}
+          (@SimpleGraph.Coloring.{u, 0} V G
+            (Fin
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))))
+          V
+          (fun (x : V) =>
+            Fin
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+          (@RelHom.instFunLike.{u, 0} V
+            (Fin
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+            (@SimpleGraph.Adj.{u} V G)
+            (@SimpleGraph.Adj.{0}
+              (Fin
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                  (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+              (@Top.top.{0}
+                (SimpleGraph.{0}
+                  (Fin
+                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                      (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))))
+                (@CompleteLattice.toTop.{0}
+                  (SimpleGraph.{0}
+                    (Fin
+                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                        (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))))
+                  (@CompleteAtomicBooleanAlgebra.toCompleteLattice.{0}
+                    (SimpleGraph.{0}
+                      (Fin
+                        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                          (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2)))))
+                    (@SimpleGraph.completeAtomicBooleanAlgebra.{0}
+                      (Fin
+                        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k
+                          (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))))))))
+          color x)
+      fun (x y : V) (hxy : @SimpleGraph.Adj.{u} V G x y) =>
+      @SimpleGraph.Coloring.valid.{u, 0} V G
+        (Fin
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) k (@OfNat.ofNat.{0} Nat 2 (instOfNatNat 2))))
+        color x y hxy
+'Erdos922IndependentAudit.original_question' depends on axioms: [propext, Classical.choice, Quot.sound]
