@@ -1,0 +1,127 @@
+✔ [884/991] Built Mathlib.Data.Stream.Defs
+✔ [885/991] Built Mathlib.Tactic.FunProp.Decl
+✔ [886/991] Built Mathlib.Tactic.FunProp.ToBatteries
+✔ [887/991] Built Mathlib.Lean.Meta.RefinedDiscrTree.Pi
+✔ [888/991] Built Mathlib.Lean.Meta.RefinedDiscrTree.Basic
+✔ [889/991] Built Mathlib.Tactic.FunProp.StateList
+✔ [890/991] Built Mathlib.Tactic.Continuity.Init
+✔ [891/991] Built Mathlib.Order.Interval.Set.OrderIso
+✔ [892/991] Built Mathlib.Tactic.FunProp.Mor
+✔ [893/991] Built Mathlib.Order.Interval.Set.Disjoint
+✔ [894/991] Built Mathlib.Data.Set.Finite.Lemmas
+✔ [895/991] Built Mathlib.Order.Filter.Defs
+✔ [896/991] Built Mathlib.Data.Set.Constructions
+✔ [897/991] Built Mathlib.Tactic.Continuity
+✔ [898/991] Built Mathlib.Order.ModularLattice
+✔ [899/991] Built Mathlib.Data.Stream.Init
+✔ [900/991] Built Mathlib.Order.UpperLower.Fibration
+✔ [901/991] Built Mathlib.Data.Set.Functor
+✔ [902/991] Built Mathlib.Data.Set.BoolIndicator
+✔ [903/991] Built Mathlib.Order.SuccPred.Relation
+✔ [904/991] Built Mathlib.Order.UpperLower.CompleteLattice
+✔ [905/991] Built Mathlib.Tactic.FunProp.FunctionData
+✔ [906/991] Built Mathlib.Tactic.FunProp.Types
+✔ [907/991] Built Mathlib.Order.Filter.Basic
+✔ [908/991] Built Mathlib.Lean.Meta.RefinedDiscrTree.Encode
+✔ [909/991] Built Mathlib.Data.Set.Subset
+✔ [910/991] Built Mathlib.Order.UpperLower.Principal
+✔ [911/991] Built Mathlib.Lean.Meta.RefinedDiscrTree
+✔ [912/991] Built Mathlib.Lean.Meta.RefinedDiscrTree.Lookup
+✔ [913/991] Built Mathlib.Order.Atoms
+✔ [914/991] Built Mathlib.Order.Filter.Map
+✔ [915/991] Built Mathlib.Order.Filter.AtTopBot.Defs
+✔ [916/991] Built Mathlib.Order.Filter.Finite
+✔ [917/991] Built Mathlib.Tactic.FunProp.Theorems
+✔ [918/991] Built Mathlib.Order.UpperLower.Closure
+✔ [919/991] Built Mathlib.Order.ZornAtoms
+✔ [920/991] Built Mathlib.Order.Filter.AtTopBot.Disjoint
+✔ [921/991] Built Mathlib.Order.Filter.Ker
+✔ [922/991] Built Mathlib.Order.Filter.Tendsto
+✔ [923/991] Built Mathlib.Order.Filter.Bases.Basic
+✔ [924/991] Built Mathlib.Tactic.FunProp.Attr
+✔ [925/991] Built Mathlib.Tactic.FunProp.Core
+✔ [926/991] Built Mathlib.Order.Filter.Ultrafilter.Defs
+✔ [927/991] Built Mathlib.Order.Filter.AtTopBot.Tendsto
+✔ [928/991] Built Mathlib.Order.Filter.Prod
+✔ [929/991] Built Mathlib.Order.Filter.Bases.Finite
+✔ [930/991] Built Mathlib.Tactic.FunProp.Elab
+✔ [931/991] Built Mathlib.Tactic.FunProp
+✔ [932/991] Built Mathlib.Order.Filter.AtTopBot.Basic
+✔ [933/991] Built Mathlib.Order.Filter.Curry
+✔ [934/991] Built Mathlib.Order.Filter.Lift
+✔ [935/991] Built Mathlib.Order.Filter.CountablyGenerated
+✔ [936/991] Built Mathlib.Order.Filter.Pi
+✔ [937/991] Built Mathlib.Topology.Defs.Basic
+✔ [938/991] Built Mathlib.Topology.ContinuousMap.Defs
+✔ [939/991] Built Mathlib.Order.Filter.SmallSets
+✔ [940/991] Built Mathlib.Order.Filter.AtTopBot.Prod
+✔ [941/991] Built Mathlib.Order.Filter.AtTopBot.Finite
+✔ [942/991] Built Mathlib.Order.Filter.Cofinite
+✔ [943/991] Built Mathlib.Order.Filter.CountableInter
+✔ [944/991] Built Mathlib.Topology.Defs.Filter
+✔ [945/991] Built Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+✔ [946/991] Built Mathlib.Topology.Bornology.Basic
+✔ [947/991] Built Mathlib.Order.Filter.Ultrafilter.Basic
+✔ [948/991] Built Mathlib.Topology.Defs.Ultrafilter
+✔ [949/991] Built Mathlib.Topology.Basic
+✔ [950/991] Built FiniteBridge
+✔ [951/991] Built Mathlib.Topology.Defs.Induced
+✔ [952/991] Built Mathlib.Topology.Closure
+✔ [953/991] Built Mathlib.Topology.Neighborhoods
+✔ [954/991] Built Mathlib.Topology.NhdsSet
+✔ [955/991] Built Mathlib.Topology.ClusterPt
+✔ [956/991] Built Mathlib.Topology.Continuous
+✔ [957/991] Built Mathlib.Topology.Ultrafilter
+✔ [958/991] Built Mathlib.Topology.Separation.SeparatedNhds
+✔ [959/991] Built Mathlib.Topology.Order
+✔ [960/991] Built Mathlib.Topology.Maps.Basic
+✔ [961/991] Built Mathlib.Topology.Maps.OpenQuotient
+✔ [962/991] Built Mathlib.Topology.Homeomorph.Defs
+✔ [963/991] Built Mathlib.Topology.Constructions.SumProd
+✔ [964/991] Built Mathlib.Topology.Constructions
+✔ [965/991] Built Mathlib.Topology.ContinuousOn
+✔ [966/991] Built Mathlib.Topology.Compactness.Compact
+✔ [967/991] Built Mathlib.Topology.LocallyFinite
+✔ [968/991] Built Mathlib.Topology.Irreducible
+✔ [969/991] Built Mathlib.Topology.Inseparable
+✔ [970/991] Built Mathlib.Topology.Piecewise
+✔ [971/991] Built Mathlib.Topology.Clopen
+✔ [972/991] Built Mathlib.Topology.Bases
+✔ [973/991] Built Mathlib.Topology.Compactness.LocallyFinite
+✔ [974/991] Built Mathlib.Topology.Compactness.LocallyCompact
+✔ [975/991] Built Mathlib.Topology.Connected.Basic
+✔ [976/991] Built Mathlib.Topology.Connected.Clopen
+✔ [977/991] Built Mathlib.Topology.Compactness.SigmaCompact
+✔ [978/991] Built Mathlib.Topology.Separation.Basic
+✔ [979/991] Built Mathlib.Topology.Connected.TotallyDisconnected
+✔ [980/991] Built Mathlib.Topology.Separation.Hausdorff
+✔ [981/991] Built Mathlib.Topology.Compactness.Lindelof
+✔ [982/991] Built Mathlib.Topology.Separation.Regular
+✔ [983/991] Built Mathlib.Topology.Algebra.Semigroup
+✔ [984/991] Built Mathlib.Topology.DenseEmbedding
+✔ [985/991] Built Mathlib.Topology.StoneCech
+✔ [986/991] Built Mathlib.Combinatorics.Hindman
+✔ [987/991] Built PositiveIdempotent
+✔ [988/991] Built TrianglePatterns
+✔ [989/991] Built Main
+ℹ [990/991] Built Audit
+info: .\.\.\.\Audit.lean:3:0: 'GottL746.positive_idempotent_le_cofinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:4:0: 'GottL746.eventually_gt_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:5:0: 'GottL746.exists_positive_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:6:0: 'GottL746.eventually_add_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:7:0: 'GottL746.eventually_add_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:8:0: 'GottL746.eventually_pair_not' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:9:0: 'GottL746.not_eventually_direct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:10:0: 'GottL746.not_eventually_left_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:11:0: 'GottL746.not_eventually_right_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:12:0: 'GottL746.independent_sums_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:13:0: 'GottL746.boundedPullback_cliqueFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:14:0: 'GottL746.ultrafilterGraph_cliqueFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:15:0: 'GottL746.finiteSchur_of_boundedPullback' depends on axioms: [propext, Quot.sound]
+info: .\.\.\.\Audit.lean:16:0: 'GottL746.eventual_finite_schur_of_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:17:0: 'GottL746.eventual_finite_schur_explicit_of_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:18:0: 'GottL746.positive_relation_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:19:0: 'GottL746.positive_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:20:0: 'GottL746.integer_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: .\.\.\.\Audit.lean:21:0: 'GottL746.erdos_895' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.

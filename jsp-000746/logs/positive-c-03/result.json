@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-09-20T12:04:03.369773+00:00",
+  "command": [
+    "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lean.exe",
+    "--root=D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+    "-s",
+    "32768",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-DwarningAsError=true",
+    "-DmaxRecDepth=4096",
+    "-DmaxHeartbeats=3000000",
+    "-o",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\build\\lib\\lean\\PositiveIdempotent.olean",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\PositiveIdempotent.lean"
+  ],
+  "cwd": "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+  "lean_path": [
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\dependencies\\olean",
+    "D:\\codex\\justin_sun_prize_20260917\\research-e922-finite-port\\olean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean"
+  ],
+  "source": "PositiveIdempotent.lean",
+  "source_sha256": "50ba0677486033726c85197720a11bf02b1878a7487ee191e2fbff304e7b1d64",
+  "source_unchanged": true,
+  "exit_code": 0,
+  "elapsed_seconds": 8.172000000020489,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

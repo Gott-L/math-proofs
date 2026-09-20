@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-09-20T12:09:34.216783+00:00",
+  "command": [
+    "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lean.exe",
+    "--root=D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+    "-s",
+    "32768",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-DwarningAsError=true",
+    "-DmaxRecDepth=4096",
+    "-DmaxHeartbeats=3000000",
+    "-o",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\build\\lib\\lean\\Main.olean",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\Main.lean"
+  ],
+  "cwd": "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+  "lean_path": [
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\dependencies\\olean",
+    "D:\\codex\\justin_sun_prize_20260917\\research-e922-finite-port\\olean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean"
+  ],
+  "source": "Main.lean",
+  "source_sha256": "9cb9ec2d74ed017ac2a247c23c8141f97fb6186e284de8641aca787119102e19",
+  "source_unchanged": true,
+  "exit_code": 0,
+  "elapsed_seconds": 8.5,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

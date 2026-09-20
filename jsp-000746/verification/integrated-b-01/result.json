@@ -1,0 +1,242 @@
+{
+  "source_and_config": {
+    "Audit.lean": {
+      "bytes": 915,
+      "sha256": "5be4cfbf3f54a1e4dc0cfc5fba2d80c31e2e4c5f744d77c6dd8d7955377af80f"
+    },
+    "FiniteBridge.lean": {
+      "bytes": 5759,
+      "sha256": "e375533ae4d20a936ab454d0b939ebb16d3e03ae95f38f95345e26fec71189c8"
+    },
+    "Main.lean": {
+      "bytes": 3049,
+      "sha256": "9cb9ec2d74ed017ac2a247c23c8141f97fb6186e284de8641aca787119102e19"
+    },
+    "PositiveIdempotent.lean": {
+      "bytes": 2073,
+      "sha256": "50ba0677486033726c85197720a11bf02b1878a7487ee191e2fbff304e7b1d64"
+    },
+    "TrianglePatterns.lean": {
+      "bytes": 4250,
+      "sha256": "8e2cf6f394ca8312b96b82b00970f73e555ee16d2e51f7095fc6771599bdeba7"
+    },
+    "lakefile.toml": {
+      "bytes": 437,
+      "sha256": "03d04a80c45ba3992bef2271c8a058888e3a049f8c004a7f00e23c40a2199847"
+    },
+    "lake-manifest.json": {
+      "bytes": 3640,
+      "sha256": "4a52edbaa50563f5c202b4869926a6a162195a0b53e8ee8428ee63e67b801b00"
+    },
+    "lean-toolchain": {
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    }
+  },
+  "source_and_config_unchanged": true,
+  "lake_version": "Lake version 5.0.0-6caaee8 (Lean version 4.19.0)",
+  "dependencies": [
+    {
+      "name": "plausible",
+      "revision": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "importGraph",
+      "revision": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "c4919189477c3221e6a204008998b0d724f49904",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "aesop",
+      "revision": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "Qq",
+      "revision": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "batteries",
+      "revision": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "Cli",
+      "revision": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "mathlib",
+      "revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "tracked_source_clean": true
+    }
+  ],
+  "records": [
+    {
+      "name": "build",
+      "started_utc": "2026-09-20T12:16:12.401964+00:00",
+      "command": [
+        "D:/codex/p_vs_np_investigation/toolchain/lean-4.19.0-windows/bin/lake.exe",
+        "build"
+      ],
+      "cwd": "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+      "exit_code": 0,
+      "elapsed_seconds": 308.48399999999674,
+      "stdout_bytes": 7849,
+      "stderr_bytes": 0,
+      "stdout_sha256": "f3b7b5a36692eb3b3e8ba66cbabbca017e7f86c34a9b066605277c9d1c51fc7f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "axioms",
+      "started_utc": "2026-09-20T12:21:20.888895+00:00",
+      "command": [
+        "D:/codex/p_vs_np_investigation/toolchain/lean-4.19.0-windows/bin/lake.exe",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "Audit.lean"
+      ],
+      "cwd": "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+      "exit_code": 0,
+      "elapsed_seconds": 11.062000000034459,
+      "stdout_bytes": 1777,
+      "stderr_bytes": 0,
+      "stdout_sha256": "05806f28e7db075a346e3106f193be78dd532270964bcf987cae117322a37e68",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "axiom_audit": {
+    "expected_declarations": [
+      "GottL746.positive_idempotent_le_cofinite",
+      "GottL746.eventually_gt_nat",
+      "GottL746.exists_positive_idempotent",
+      "GottL746.eventually_add_first",
+      "GottL746.eventually_add_second",
+      "GottL746.eventually_pair_not",
+      "GottL746.not_eventually_direct",
+      "GottL746.not_eventually_left_sum",
+      "GottL746.not_eventually_right_sum",
+      "GottL746.independent_sums_eventually",
+      "GottL746.boundedPullback_cliqueFree",
+      "GottL746.ultrafilterGraph_cliqueFree",
+      "GottL746.finiteSchur_of_boundedPullback",
+      "GottL746.eventual_finite_schur_of_infinite",
+      "GottL746.eventual_finite_schur_explicit_of_infinite",
+      "GottL746.positive_relation_schur",
+      "GottL746.positive_schur",
+      "GottL746.integer_schur",
+      "GottL746.erdos_895"
+    ],
+    "reported_axioms": {
+      "GottL746.positive_idempotent_le_cofinite": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.eventually_gt_nat": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.exists_positive_idempotent": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.eventually_add_first": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.eventually_add_second": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.eventually_pair_not": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.not_eventually_direct": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.not_eventually_left_sum": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.not_eventually_right_sum": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.independent_sums_eventually": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.boundedPullback_cliqueFree": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.ultrafilterGraph_cliqueFree": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.finiteSchur_of_boundedPullback": [
+        "propext",
+        "Quot.sound"
+      ],
+      "GottL746.eventual_finite_schur_of_infinite": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.eventual_finite_schur_explicit_of_infinite": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.positive_relation_schur": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.positive_schur": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.integer_schur": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "GottL746.erdos_895": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "declaration_names_match": true,
+    "standard_axioms_only": true
+  },
+  "dependency_trust": "Pinned cached dependency artifacts reused; missing or stale dependencies rebuilt by Lake. Not a clean rebuild or independent verification of Lean/Mathlib."
+}

@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-09-20T12:10:22.024735+00:00",
+  "command": [
+    "D:\\codex\\p_vs_np_investigation\\toolchain\\lean-4.19.0-windows\\bin\\lean.exe",
+    "--root=D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+    "-s",
+    "32768",
+    "-t",
+    "0",
+    "-j",
+    "1",
+    "-DwarningAsError=true",
+    "-DmaxRecDepth=4096",
+    "-DmaxHeartbeats=3000000",
+    "-o",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\build\\lib\\lean\\Audit.olean",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\Audit.lean"
+  ],
+  "cwd": "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920",
+  "lean_path": [
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\dependencies\\olean",
+    "D:\\codex\\justin_sun_prize_20260917\\research-e922-finite-port\\olean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+    "D:\\codex\\justin_sun_prize_20260917\\e1063\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean"
+  ],
+  "source": "Audit.lean",
+  "source_sha256": "5be4cfbf3f54a1e4dc0cfc5fba2d80c31e2e4c5f744d77c6dd8d7955377af80f",
+  "source_unchanged": true,
+  "exit_code": 0,
+  "elapsed_seconds": 8.828000000037719,
+  "stdout_sha256": "05806f28e7db075a346e3106f193be78dd532270964bcf987cae117322a37e68",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

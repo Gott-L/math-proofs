@@ -1,0 +1,13 @@
+name = "independent_schur"
+version = "0.1.0"
+defaultTargets = ["IndependentSchur"]
+moreLeanArgs = ["-DwarningAsError=true", "-DmaxRecDepth=4096", "-DmaxHeartbeats=3000000"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+
+[[lean_lib]]
+name = "IndependentSchur"
+roots = ["PositiveIdempotent", "TrianglePatterns", "FiniteBridge", "Main", "Audit"]

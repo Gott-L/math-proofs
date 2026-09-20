@@ -1,0 +1,168 @@
+{
+  "recorded_utc": "2026-09-20T12:15:55.329635+00:00",
+  "packages": [
+    {
+      "name": "plausible",
+      "revision": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\plausible",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\plausible",
+        "77e08eddc486491d7b9e470926b3dbe50319451a"
+      ],
+      "cached_files_copied": 56,
+      "cached_bytes_copied": 5450111,
+      "stdout_sha256": "5fa0f39b1b0c3d0249173e5fecc5e6690458c33a1ff7a2e7a7f9bd3442d2195b",
+      "stderr_sha256": "67efd3ea4cc8ca7cba1b9d8a857cdcb2cf38194baa872f1956ecac5ae1541872"
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\LeanSearchClient",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\LeanSearchClient",
+        "25078369972d295301f5a1e53c3e5850cf6d9d4c"
+      ],
+      "cached_files_copied": 28,
+      "cached_bytes_copied": 3634343,
+      "stdout_sha256": "03207e6e4b53120300fa82bee079a1ab2cb37ae50b3893bf5a6bfcf4e746966b",
+      "stderr_sha256": "010ca43097e1642b0bfdce720e2c5afd2abd113a68ebd6894c56c2c67563b72b"
+    },
+    {
+      "name": "importGraph",
+      "revision": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\importGraph",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\importGraph",
+        "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b"
+      ],
+      "cached_files_copied": 14,
+      "cached_bytes_copied": 1978662,
+      "stdout_sha256": "7c86ed07f77a6e53063cbd203fe5d1c8ca3deb396b9a1b1bd6cda6a141ec6904",
+      "stderr_sha256": "bd185af56eb090b763770b535471dd000c7faf2f200c3643cfde0c4e13ea9209"
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "c4919189477c3221e6a204008998b0d724f49904",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\proofwidgets",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\proofwidgets",
+        "c4919189477c3221e6a204008998b0d724f49904"
+      ],
+      "cached_files_copied": 275,
+      "cached_bytes_copied": 55267379,
+      "stdout_sha256": "25596f0bbd79270f63b92a895664fa2f28b00e2286a3ac41a6e33fc74b234762",
+      "stderr_sha256": "f6ffb06a2e865110c26f595dff0e52c936dbce5aa2033089da103edfd5d9282e"
+    },
+    {
+      "name": "aesop",
+      "revision": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\aesop",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\aesop",
+        "5d50b08dedd7d69b3d9b3176e0d58a23af228884"
+      ],
+      "cached_files_copied": 910,
+      "cached_bytes_copied": 97747026,
+      "stdout_sha256": "8531675184cc5f469000d592fcddadfa9dca3fb444d9da98146ad65e39a9ddec",
+      "stderr_sha256": "5466dfe6634a49355c4b4c6962d3506892d62bd69c3f1717defd97bba671d400"
+    },
+    {
+      "name": "Qq",
+      "revision": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\Qq",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\Qq",
+        "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02"
+      ],
+      "cached_files_copied": 84,
+      "cached_bytes_copied": 14304213,
+      "stdout_sha256": "6046eac9d9accf0a52b66eb628757a8a8411229b5e42318b51703a8a75292ad4",
+      "stderr_sha256": "c476b17b778645f1ae7dcaa71b0e9be2ae2754ab8d3d2e9c6ec305ac931b18bc"
+    },
+    {
+      "name": "batteries",
+      "revision": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\batteries",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\batteries",
+        "f5d04a9c4973d401c8c92500711518f7c656f034"
+      ],
+      "cached_files_copied": 497,
+      "cached_bytes_copied": 40759425,
+      "stdout_sha256": "0cb5353c5c5a1152997c6776fb28b38132655e9b45c5c423c032a27d0930192b",
+      "stderr_sha256": "3f9b985d33246cfb5d66862de96d53763988cf2b7aa93c32b37b7d5600db10ae"
+    },
+    {
+      "name": "Cli",
+      "revision": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\Cli",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\Cli",
+        "02dbd02bc00ec4916e99b04b2245b30200e200d0"
+      ],
+      "cached_files_copied": 0,
+      "cached_bytes_copied": 0,
+      "stdout_sha256": "874d827ab6d28d4afc2f2269c9db26b4a0e0beb2514de2d643d2d2be456a9070",
+      "stderr_sha256": "1ddcd360198a3065794ed4427071294d63e078cdb3b313c928371a1f6401b96b"
+    },
+    {
+      "name": "mathlib",
+      "revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+      "command": [
+        "git",
+        "-C",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp897-independent-20260920\\.lake\\packages\\mathlib",
+        "worktree",
+        "add",
+        "--detach",
+        "D:\\codex\\justin_sun_prize_20260917\\jsp746-ultrafilter-20260920\\.lake\\packages\\mathlib",
+        "c44e0c8ee63ca166450922a373c7409c5d26b00b"
+      ],
+      "cached_files_copied": 11516,
+      "cached_bytes_copied": 1378527447,
+      "stdout_sha256": "4fdc895a80c7bec7919f5da35cd930e4ca39278d0712f95bf40a2226b7472db9",
+      "stderr_sha256": "46c59081e7180495821f72d65a7488b8bfa316e4c088edc5db0a5b68607bb7df"
+    }
+  ],
+  "trust": "Existing pinned dependency artifacts copied, not independently rebuilt or certified."
+}
